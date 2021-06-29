@@ -52,13 +52,13 @@ f.write(json.dumps(emu_json_out))
 f.close()
 
 
-#######
+# ######
 # # Uncomment section below to also:
 # # Output fixed EMu-XML
-#
+# 
 # with open("emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
 #     ET.canonicalize(xml_data=treestring, out=out_file)
-#
-# tree.write("emu_xml.xml")
 # 
-#######
+# tree.write(config('OUTPUT_PATH') + "emu_xml.xml")
+# 
+# ######
