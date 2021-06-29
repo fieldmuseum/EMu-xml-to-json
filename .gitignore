@@ -6,3 +6,4 @@ venv/
 
 emu*.xml
 xml*
+!*.xml

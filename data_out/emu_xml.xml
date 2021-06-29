@@ -1,0 +1,243 @@
+<table name="ecatalogue">
+
+  
+  <tuple>
+    <test1>1111</test1>
+    <test2>Single</test2>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColSiteLocationRef>
+        <SummaryData />
+        <PolContinent />
+        <PolPD1 />
+        <PolPD3 />
+        <PolPopn />
+        <PolLocality />
+    </ColSiteLocationRef>
+    <CatObjectCount />
+    <CatItemsCat />
+    <CatItemsInv />
+    <CatItemsSub />
+    <CatLegalStatus />
+    <CatAnthroCatalogNumber />
+    <CatSubNumbers />
+  </tuple>
+
+  
+  <tuple>
+    <test1>1122</test1>
+    <test2>Single</test2>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColSiteLocationRef>
+        <SummaryData />
+        <PolContinent />
+        <PolPD1 />
+        <PolPD3 />
+        <PolPopn />
+        <PolLocality />
+    </ColSiteLocationRef>
+    <CatObjectCount />
+    <CatItemsCat />
+    <CatItemsInv />
+    <CatItemsSub />
+    <CatLegalStatus />
+    <CatAnthroCatalogNumber />
+    <CatSubNumbers />
+  </tuple>
+
+  
+  <tuple>
+    <test1>1222</test1>
+    <test2>Child</test2>
+    <DesKDescription0>
+      
+        <DesKDescription>object name</DesKDescription>
+      
+    </DesKDescription0>
+    <DesSubjectCode>1234: Country: cultural subject</DesSubjectCode>
+    <DesEthnicGroupSubgroup_tab>
+      
+        <DesEthnicGroupSubgroup>Name</DesEthnicGroupSubgroup>
+      
+    </DesEthnicGroupSubgroup_tab>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <DesMaterials_tab>
+      
+        <DesMaterials>metal</DesMaterials>
+      
+    </DesMaterials_tab>
+    <ColSiteLocationRef>
+      <SummaryData>Continent-name</SummaryData>
+      <PolContinent>Continent-name</PolContinent>
+      <PolPD1>Country-name</PolPD1>
+      <PolPD3 />
+      <PolPopn />
+      <PolLocality />
+    </ColSiteLocationRef>
+    <ColContinentLocal_tab>
+      
+        <ColContinentLocal>Continent-name</ColContinentLocal>
+      
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      
+        <ColCountryLocal>Country-name</ColCountryLocal>
+      
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      
+        <ColProvinceStateTerritoryLocal />
+      
+    </ColProvinceStateTerritoryLocal_tab>
+    <CatObjectCount />
+    <CatItemsCat />
+    <CatItemsInv>1</CatItemsInv>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>2345</CatAnthroCatalogNumber>
+    <CatSubNumbers>.2</CatSubNumbers>
+  </tuple>
+
+  
+  <tuple>
+    <test1>1234</test1>
+    <test2>Child</test2>
+    <DesKDescription0>
+      
+        <DesKDescription>hat</DesKDescription>
+      
+    </DesKDescription0>
+    <DesSubjectCode>1234: Country: clothing</DesSubjectCode>
+    <DesEthnicGroupSubgroup_tab>
+      
+        <DesEthnicGroupSubgroup>Name</DesEthnicGroupSubgroup>
+      
+    </DesEthnicGroupSubgroup_tab>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <DesMaterials_tab>
+      
+        <DesMaterials>wool</DesMaterials>
+      
+    </DesMaterials_tab>
+    <ColSiteLocationRef>
+      <SummaryData>Continent-name</SummaryData>
+      <PolContinent>Continent-name</PolContinent>
+      <PolPD1>Country-name</PolPD1>
+      <PolPD3 />
+      <PolPopn />
+      <PolLocality />
+    </ColSiteLocationRef>
+    <ColContinentLocal_tab>
+      
+        <ColContinentLocal>Continent-name</ColContinentLocal>
+      
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      
+        <ColCountryLocal>Country-name</ColCountryLocal>
+      
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      
+        <ColProvinceStateTerritoryLocal />
+      
+    </ColProvinceStateTerritoryLocal_tab>
+    <CatObjectCount />
+    <CatItemsCat />
+    <CatItemsInv>2</CatItemsInv>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>2345</CatAnthroCatalogNumber>
+    <CatSubNumbers>.1{2}</CatSubNumbers>
+  </tuple>
+
+  
+    <tuple>
+    <test1>3456</test1>
+    <CatOtherNumbersType_tab>
+      
+        <CatOtherNumbersType>Collector number</CatOtherNumbersType>
+      
+      
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+      
+      
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+      
+      
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+      
+      
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+      
+      
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+      
+    </CatOtherNumbersType_tab>
+    <test2>Child</test2>
+    <DesKDescription0>
+      
+        <DesKDescription>An object name</DesKDescription>
+      
+      
+        <DesKDescription>A short description</DesKDescription>
+      
+      
+        <DesKDescription>A longer alternative description</DesKDescription>
+      
+    </DesKDescription0>
+    <DesSubjectCode>4321: Location: carvings, castings: metal</DesSubjectCode>
+    <DesEthnicGroupSubgroup_tab>
+      
+        <DesEthnicGroupSubgroup>A group name</DesEthnicGroupSubgroup>
+      
+    </DesEthnicGroupSubgroup_tab>
+    <DesPeriod>Period-name</DesPeriod>
+    <DesTechnicalDescription />
+    <DesMaterials_tab>
+      
+        <DesMaterials>metal</DesMaterials>
+      
+    </DesMaterials_tab>
+    <ColSiteLocationRef>
+      <SummaryData>Continent, Country, City</SummaryData>
+      <PolContinent>Continent</PolContinent>
+      <PolPD1>Country</PolPD1>
+      <PolPD3 />
+      <PolPopn>City</PolPopn>
+      <PolLocality>City</PolLocality>
+    </ColSiteLocationRef>
+    <ColContinentLocal_tab>
+      
+        <ColContinentLocal>Continent</ColContinentLocal>
+      
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      
+        <ColCountryLocal>Country</ColCountryLocal>
+      
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      
+        <ColProvinceStateTerritoryLocal>City</ColProvinceStateTerritoryLocal>
+      
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      
+        <ColTownshipLocal>City</ColTownshipLocal>
+      
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>34567</CatAnthroCatalogNumber>
+    <CatSubNumbers>.3</CatSubNumbers>
+  </tuple>
+</table>
