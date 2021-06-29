@@ -1,0 +1,188 @@
+{
+    "table": {
+        "@name": "ecatalogue",
+        "tuple": [
+            {
+                "test1": "1111",
+                "test2": "Single",
+                "DesSubjectCode": null,
+                "DesPeriod": null,
+                "DesTechnicalDescription": null,
+                "ColSiteLocationRef": {
+                    "SummaryData": null,
+                    "PolContinent": null,
+                    "PolPD1": null,
+                    "PolPD3": null,
+                    "PolPopn": null,
+                    "PolLocality": null
+                },
+                "CatObjectCount": null,
+                "CatItemsCat": null,
+                "CatItemsInv": null,
+                "CatItemsSub": null,
+                "CatLegalStatus": null,
+                "CatAnthroCatalogNumber": null,
+                "CatSubNumbers": null
+            },
+            {
+                "test1": "1122",
+                "test2": "Single",
+                "DesSubjectCode": null,
+                "DesPeriod": null,
+                "DesTechnicalDescription": null,
+                "ColSiteLocationRef": {
+                    "SummaryData": null,
+                    "PolContinent": null,
+                    "PolPD1": null,
+                    "PolPD3": null,
+                    "PolPopn": null,
+                    "PolLocality": null
+                },
+                "CatObjectCount": null,
+                "CatItemsCat": null,
+                "CatItemsInv": null,
+                "CatItemsSub": null,
+                "CatLegalStatus": null,
+                "CatAnthroCatalogNumber": null,
+                "CatSubNumbers": null
+            },
+            {
+                "test1": "1222",
+                "test2": "Child",
+                "DesKDescription0": {
+                    "DesKDescription": "bowl"
+                },
+                "DesSubjectCode": "1234: Country: hunting: knives",
+                "DesEthnicGroupSubgroup_tab": {
+                    "DesEthnicGroupSubgroup": "Name"
+                },
+                "DesPeriod": null,
+                "DesTechnicalDescription": null,
+                "DesMaterials_tab": {
+                    "DesMaterials": "metal"
+                },
+                "ColSiteLocationRef": {
+                    "SummaryData": "Continent-name",
+                    "PolContinent": "Continent-name",
+                    "PolPD1": "Country-name",
+                    "PolPD3": null,
+                    "PolPopn": null,
+                    "PolLocality": null
+                },
+                "ColContinentLocal_tab": {
+                    "ColContinentLocal": "Continent-name"
+                },
+                "ColCountryLocal_tab": {
+                    "ColCountryLocal": "Country-name"
+                },
+                "ColProvinceStateTerritoryLocal_tab": {
+                    "ColProvinceStateTerritoryLocal": null
+                },
+                "CatObjectCount": null,
+                "CatItemsCat": null,
+                "CatItemsInv": "1",
+                "CatItemsSub": "1",
+                "CatLegalStatus": "Permanent Collection",
+                "CatAnthroCatalogNumber": "2345",
+                "CatSubNumbers": ".2"
+            },
+            {
+                "test1": "1234",
+                "test2": "Child",
+                "DesKDescription0": {
+                    "DesKDescription": "hat"
+                },
+                "DesSubjectCode": "1234: Country: clothing",
+                "DesEthnicGroupSubgroup_tab": {
+                    "DesEthnicGroupSubgroup": "Name"
+                },
+                "DesPeriod": null,
+                "DesTechnicalDescription": null,
+                "DesMaterials_tab": {
+                    "DesMaterials": "wool"
+                },
+                "ColSiteLocationRef": {
+                    "SummaryData": "Continent-name",
+                    "PolContinent": "Continent-name",
+                    "PolPD1": "Country-name",
+                    "PolPD3": null,
+                    "PolPopn": null,
+                    "PolLocality": null
+                },
+                "ColContinentLocal_tab": {
+                    "ColContinentLocal": "Continent-name"
+                },
+                "ColCountryLocal_tab": {
+                    "ColCountryLocal": "Country-name"
+                },
+                "ColProvinceStateTerritoryLocal_tab": {
+                    "ColProvinceStateTerritoryLocal": null
+                },
+                "CatObjectCount": null,
+                "CatItemsCat": null,
+                "CatItemsInv": "2",
+                "CatItemsSub": "1",
+                "CatLegalStatus": "Permanent Collection",
+                "CatAnthroCatalogNumber": "2345",
+                "CatSubNumbers": ".1{2}"
+            },
+            {
+                "test1": "3456",
+                "CatOtherNumbersType_tab": {
+                    "CatOtherNumbersType": [
+                        "Collector number",
+                        "Publication number",
+                        "Publication number",
+                        "Image number",
+                        "Image number",
+                        "Image number"
+                    ]
+                },
+                "test2": "Child",
+                "DesKDescription0": {
+                    "DesKDescription": [
+                        "An object name",
+                        "A short description",
+                        "A longer alternative description"
+                    ]
+                },
+                "DesSubjectCode": "4321: Location: carvings, castings: metal",
+                "DesEthnicGroupSubgroup_tab": {
+                    "DesEthnicGroupSubgroup": "A group name"
+                },
+                "DesPeriod": "Period-name",
+                "DesTechnicalDescription": null,
+                "DesMaterials_tab": {
+                    "DesMaterials": "metal"
+                },
+                "ColSiteLocationRef": {
+                    "SummaryData": "Continent, Country, City",
+                    "PolContinent": "Continent",
+                    "PolPD1": "Country",
+                    "PolPD3": null,
+                    "PolPopn": "City",
+                    "PolLocality": "City"
+                },
+                "ColContinentLocal_tab": {
+                    "ColContinentLocal": "Continent"
+                },
+                "ColCountryLocal_tab": {
+                    "ColCountryLocal": "Country"
+                },
+                "ColProvinceStateTerritoryLocal_tab": {
+                    "ColProvinceStateTerritoryLocal": "City"
+                },
+                "ColTownshipLocal_tab": {
+                    "ColTownshipLocal": "City"
+                },
+                "CatObjectCount": "1",
+                "CatItemsCat": "1",
+                "CatItemsInv": "1",
+                "CatItemsSub": "1",
+                "CatLegalStatus": "Permanent Collection",
+                "CatAnthroCatalogNumber": "34567",
+                "CatSubNumbers": ".3"
+            }
+        ]
+    }
+}

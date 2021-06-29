@@ -3,6 +3,6 @@
 data_in/*/
 venv/
 
-*.json
+
 emu*.xml
 xml*
