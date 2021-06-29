@@ -47,7 +47,7 @@ emu_json_out = xmltodict.parse(ET.canonicalize(treestring))
 
 
 # Output EMu-json
-f = open('emu_to_json.json', 'w')
+f = open(config('OUTPUT_PATH') + 'emu_to_json.json', 'w')
 f.write(json.dumps(emu_json_out))
 f.close()
 

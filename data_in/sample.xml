@@ -127,10 +127,10 @@
     <atom name="CatRecordType">Child</atom>
     <table name="DesKDescription0">
       <tuple>
-        <atom name="DesKDescription">bowl</atom>
+        <atom name="DesKDescription">object name</atom>
       </tuple>
     </table>
-    <atom name="DesSubjectCode">1234: Country: hunting: knives</atom>
+    <atom name="DesSubjectCode">1234: Country: cultural subject</atom>
     <table name="DesEthnicGroupSubgroup_tab">
       <tuple>
         <atom name="DesEthnicGroupSubgroup">Name</atom>
