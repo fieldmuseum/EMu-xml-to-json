@@ -39,4 +39,4 @@
 
 ## Output
 - [`emu_to_json.json`](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_out/emu_to_json.json) = Records as JSON objects, with EMu-fields/data as key/value pairs.
-- `emu_xml.xml` (optional) = XML with EMu column-names as xml-tags instead of xml-attributes
+- [`emu_xml.xml`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/emu_xml.xml) (optional) = XML with EMu column-names as xml-tags instead of xml-attributes
