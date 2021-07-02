@@ -16,27 +16,29 @@ from decouple import config
 tree = ET.parse(config('INPUT_PATH') + config('INPUT_XML'))
 root = tree.getroot()
 
-# Read in EMu-ABCDEFGHHI field mapping
-emu_map = pd.read_csv(config('INPUT_PATH') + 'abcd_emu.csv', squeeze=True, index_col=0).to_dict()
+# Read in EMu-abcd-h2i field mapping
+emu_map = pd.read_csv(config('INPUT_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
 
+# Replace "table" "tag with table-name
+root.tag = root.get('name')
+root.attrib = {}
 
-# Turn EMu col-names into XML-tags instead of attributes:
-
-# Add placeholder-attrib "name" = "tuple" for <tuple> nodes
-# (maybe not necessary)
+# Replace top-level "tuple" with "data" 
 for thing in root:
 
     if thing.get('name') is None:
+        if thing.tag == "tuple":
+            thing.tag = "data"
         thing.set('name', thing.tag)
 
 
-# Simplify EMu xml-tags to EMu column-names
+# Turn EMu col-names into XML-tags instead of attributes:
 for child in root.findall('.//*'):
 
     child.tag = child.get('name')
     child.attrib = {}
 
-    # Use EMu-ABCDEFGHHI field-map here:
+    # Use EMu-abcd-h2i field-map here:
     if child.tag in emu_map.keys():
         child.tag = emu_map[child.tag]
 
