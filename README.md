@@ -5,7 +5,7 @@
 ### In EMu:
 1. Export a set of records as XML.  (See [TODO.md](https://github.com/magpiedin/EMu-xml-to-json/blob/main/TODO.md) for xml-validation tips)
 
-2. Setup a CSV named "abcd_h2i_emu.csv" with EMu-column-names in the 1st column, and corresponding standard-term names in the 2nd column.  [Example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/abcd_emu.csv)
+2. Setup a CSV named "abcd_h2i_emu.csv" with EMu-column-names in the 1st column, and corresponding standard-term names in the 2nd column.  [See example in 'Input' section](#-input)
 
 
 ### Not in EMu:
@@ -34,7 +34,7 @@
 ## Input
 - EMu XML Export - An XML file containing records exported from EMu as XML
     - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/sample.xml)
-- `abcd_emu.csv` EMu/Standards mapping doc - A 2-column CSV listing EMu column-names in the 1st column and corresponding standard terms in the 2nd column.
+- `abcd_h2i_emu.csv` EMu/Standards mapping doc - A 2-column CSV listing EMu column-names in the 1st column and corresponding standard terms in the 2nd column.
     - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/abcd_h2i_emu.csv)
 
 ## Output
