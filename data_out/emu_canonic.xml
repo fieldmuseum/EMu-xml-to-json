@@ -4,48 +4,48 @@
   <data>
     <h2i_irn>1111</h2i_irn>
     <h2i_type>Single</h2i_type>
-    <DesSubjectCode />
-    <DesPeriod />
-    <DesTechnicalDescription />
+    <DesSubjectCode></DesSubjectCode>
+    <DesPeriod></DesPeriod>
+    <DesTechnicalDescription></DesTechnicalDescription>
     <ColSiteLocationRef>
-        <SummaryData />
-        <PolContinent />
-        <PolPD1 />
-        <PolPD3 />
-        <PolPopn />
-        <PolLocality />
+        <SummaryData></SummaryData>
+        <PolContinent></PolContinent>
+        <PolPD1></PolPD1>
+        <PolPD3></PolPD3>
+        <PolPopn></PolPopn>
+        <PolLocality></PolLocality>
     </ColSiteLocationRef>
-    <CatObjectCount />
-    <CatItemsCat />
-    <CatItemsInv />
-    <CatItemsSub />
-    <CatLegalStatus />
-    <CatAnthroCatalogNumber />
-    <CatSubNumbers />
+    <CatObjectCount></CatObjectCount>
+    <CatItemsCat></CatItemsCat>
+    <CatItemsInv></CatItemsInv>
+    <CatItemsSub></CatItemsSub>
+    <CatLegalStatus></CatLegalStatus>
+    <CatAnthroCatalogNumber></CatAnthroCatalogNumber>
+    <CatSubNumbers></CatSubNumbers>
   </data>
 
   
   <data>
     <h2i_irn>1122</h2i_irn>
     <h2i_type>Single</h2i_type>
-    <DesSubjectCode />
-    <DesPeriod />
-    <DesTechnicalDescription />
+    <DesSubjectCode></DesSubjectCode>
+    <DesPeriod></DesPeriod>
+    <DesTechnicalDescription></DesTechnicalDescription>
     <ColSiteLocationRef>
-        <SummaryData />
-        <PolContinent />
-        <PolPD1 />
-        <PolPD3 />
-        <PolPopn />
-        <PolLocality />
+        <SummaryData></SummaryData>
+        <PolContinent></PolContinent>
+        <PolPD1></PolPD1>
+        <PolPD3></PolPD3>
+        <PolPopn></PolPopn>
+        <PolLocality></PolLocality>
     </ColSiteLocationRef>
-    <CatObjectCount />
-    <CatItemsCat />
-    <CatItemsInv />
-    <CatItemsSub />
-    <CatLegalStatus />
-    <CatAnthroCatalogNumber />
-    <CatSubNumbers />
+    <CatObjectCount></CatObjectCount>
+    <CatItemsCat></CatItemsCat>
+    <CatItemsInv></CatItemsInv>
+    <CatItemsSub></CatItemsSub>
+    <CatLegalStatus></CatLegalStatus>
+    <CatAnthroCatalogNumber></CatAnthroCatalogNumber>
+    <CatSubNumbers></CatSubNumbers>
   </data>
 
   
@@ -63,8 +63,8 @@
         <DesEthnicGroupSubgroup>Name</DesEthnicGroupSubgroup>
       
     </DesEthnicGroupSubgroup_tab>
-    <DesPeriod />
-    <DesTechnicalDescription />
+    <DesPeriod></DesPeriod>
+    <DesTechnicalDescription></DesTechnicalDescription>
     <DesMaterials_tab>
       
         <DesMaterials>metal</DesMaterials>
@@ -74,9 +74,9 @@
       <SummaryData>Continent-name</SummaryData>
       <PolContinent>Continent-name</PolContinent>
       <PolPD1>Country-name</PolPD1>
-      <PolPD3 />
-      <PolPopn />
-      <PolLocality />
+      <PolPD3></PolPD3>
+      <PolPopn></PolPopn>
+      <PolLocality></PolLocality>
     </ColSiteLocationRef>
     <ColContinentLocal_tab>
       
@@ -90,11 +90,11 @@
     </ColCountryLocal_tab>
     <ColProvinceStateTerritoryLocal_tab>
       
-        <ColProvinceStateTerritoryLocal />
+        <ColProvinceStateTerritoryLocal></ColProvinceStateTerritoryLocal>
       
     </ColProvinceStateTerritoryLocal_tab>
-    <CatObjectCount />
-    <CatItemsCat />
+    <CatObjectCount></CatObjectCount>
+    <CatItemsCat></CatItemsCat>
     <CatItemsInv>1</CatItemsInv>
     <CatItemsSub>1</CatItemsSub>
     <CatLegalStatus>Permanent Collection</CatLegalStatus>
@@ -117,8 +117,8 @@
         <DesEthnicGroupSubgroup>Name</DesEthnicGroupSubgroup>
       
     </DesEthnicGroupSubgroup_tab>
-    <DesPeriod />
-    <DesTechnicalDescription />
+    <DesPeriod></DesPeriod>
+    <DesTechnicalDescription></DesTechnicalDescription>
     <DesMaterials_tab>
       
         <DesMaterials>wool</DesMaterials>
@@ -128,9 +128,9 @@
       <SummaryData>Continent-name</SummaryData>
       <PolContinent>Continent-name</PolContinent>
       <PolPD1>Country-name</PolPD1>
-      <PolPD3 />
-      <PolPopn />
-      <PolLocality />
+      <PolPD3></PolPD3>
+      <PolPopn></PolPopn>
+      <PolLocality></PolLocality>
     </ColSiteLocationRef>
     <ColContinentLocal_tab>
       
@@ -144,11 +144,11 @@
     </ColCountryLocal_tab>
     <ColProvinceStateTerritoryLocal_tab>
       
-        <ColProvinceStateTerritoryLocal />
+        <ColProvinceStateTerritoryLocal></ColProvinceStateTerritoryLocal>
       
     </ColProvinceStateTerritoryLocal_tab>
-    <CatObjectCount />
-    <CatItemsCat />
+    <CatObjectCount></CatObjectCount>
+    <CatItemsCat></CatItemsCat>
     <CatItemsInv>2</CatItemsInv>
     <CatItemsSub>1</CatItemsSub>
     <CatLegalStatus>Permanent Collection</CatLegalStatus>
@@ -198,7 +198,7 @@
       
     </DesEthnicGroupSubgroup_tab>
     <DesPeriod>Period-name</DesPeriod>
-    <DesTechnicalDescription />
+    <DesTechnicalDescription></DesTechnicalDescription>
     <DesMaterials_tab>
       
         <DesMaterials>metal</DesMaterials>
@@ -208,7 +208,7 @@
       <SummaryData>Continent, Country, City</SummaryData>
       <PolContinent>Continent</PolContinent>
       <PolPD1>Country</PolPD1>
-      <PolPD3 />
+      <PolPD3></PolPD3>
       <PolPopn>City</PolPopn>
       <PolLocality>City</PolLocality>
     </ColSiteLocationRef>
