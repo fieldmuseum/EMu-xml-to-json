@@ -35,7 +35,7 @@
 - EMu XML Export - An XML file containing records exported from EMu as XML
     - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/sample.xml)
 - `abcd_emu.csv` EMu/Standards mapping doc - A 2-column CSV listing EMu column-names in the 1st column and corresponding standard terms in the 2nd column.
-    - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/abcd_emu.csv)
+    - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/abcd_h2i_emu.csv)
 
 ## Output
 - [`emu_to_json.json`](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_out/emu_to_json.json) = Records as JSON objects, with EMu-fields/data as key/value pairs.
