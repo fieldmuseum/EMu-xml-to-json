@@ -31,6 +31,8 @@
 
     `python3 emu_xml_to_json.py`
 
+6. See JSON output in `emu_to_json.json`, or error log in `xml_log_YYYYMMDD.txt`
+
 ## Input
 - EMu XML Export - An XML file containing records exported from EMu as XML
     - [example here](https://github.com/magpiedin/EMu-xml-to-json/blob/main/data_in/sample.xml)
