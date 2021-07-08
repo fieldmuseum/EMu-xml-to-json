@@ -10,11 +10,9 @@ from xml.sax.handler import ContentHandler
 from xml.sax import make_parser
 from glob import glob
 import sys
-from charset_normalizer import normalize
 from datetime import date, datetime
 from decouple import config
 import re
-# import unicodedata
 
 
 # Check XML encoding for mangled characters

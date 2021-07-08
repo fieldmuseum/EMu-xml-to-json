@@ -9,12 +9,11 @@ import xml.etree.ElementTree as ET
 from glob import glob
 import json, xmltodict
 import pandas as pd
-from lxml.etree import fromstring, tostring
 from decouple import config
 import sys
 
 
-def xml_to_json(xml_in, fix_xml =False):
+def xml_to_json(xml_in, fix_xml=False):
     tree = ET.parse(xml_in) # config('INPUT_PATH') + config('INPUT_XML'))
     root = tree.getroot()
 
