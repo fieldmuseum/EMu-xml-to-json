@@ -1,0 +1,7 @@
+charset-normalizer
+json
+lxml
+pandas
+python-decouple
+xml
+xmltodict
