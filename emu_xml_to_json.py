@@ -1,66 +1,25 @@
-# Parse EMu XML to JSON
-# 2021-Jun; FMNH
-# based on:
-#  https://docs.python.org/3/library/xml.etree.elementtree.html
-#  https://stackoverflow.com/a/10231610 
+# Convert EMu XML to JSON
 
-
-import xml.etree.ElementTree as ET
-import json, xmltodict
-import pandas as pd
-from lxml.etree import fromstring, tostring
+import check_xml as chx
+import convert_xml as cvx
 from decouple import config
+from datetime import date, datetime
 
+# If xml_check is ok, Read in XML file
+# try test.find("is well-formed") > -1:
+xml_in = config('INPUT_PATH') + config('INPUT_XML')
 
-# Read in XML file
-tree = ET.parse(config('INPUT_PATH') + config('INPUT_XML'))
-root = tree.getroot()
+try:
+    cvx.xml_to_json(xml_in)
 
-# Read in EMu-abcd-h2i field mapping
-emu_map = pd.read_csv(config('INPUT_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
+except Exception as e:
+    # log_encode = 'error - cannot perform charset normalization: ' + str(e)
+    logs = open(config('OUTPUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
+    logs.write(str(datetime.now()) + ' - File Input: ' + xml_in + ' : Error : ' + str(e) + '\n')
+    logs.close()
 
-# Replace "table" "tag with table-name
-root.tag = root.get('name')
-root.attrib = {}
-
-# Replace top-level "tuple" with "data" 
-for thing in root:
-
-    if thing.get('name') is None:
-        if thing.tag == "tuple":
-            thing.tag = "data"
-        thing.set('name', thing.tag)
-
-
-# Turn EMu col-names into XML-tags instead of attributes:
-for child in root.findall('.//*'):
-
-    child.tag = child.get('name')
-    child.attrib = {}
-
-    # Use EMu-abcd-h2i field-map here:
-    if child.tag in emu_map.keys():
-        child.tag = emu_map[child.tag]
-
-
-# Convert fixed EMu-XML to JSON
-treestring = ET.tostring(root)
-emu_json_out = xmltodict.parse(ET.canonicalize(treestring))
-
-
-# Output EMu-json
-f = open(config('OUTPUT_PATH') + 'emu_to_json.json', 'w')
-f.write(json.dumps(emu_json_out))
-f.close()
-
-
-# ######
-# # Uncomment section below to also:
-# # Output fixed EMu-XML
-# 
-# with open(config('OUTPUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
-#     ET.canonicalize(xml_data=treestring, out=out_file)
-# 
-# tree.write(config('OUTPUT_PATH') + "emu_xml.xml")
-# 
-# ######
+    # Supposed to output 'fixed' xml.  Not working.
+    chx.fix_xml_encode(xml_in)
+    # cx.check_xml_encode(xml_in)
+    # cx.check_xml_form(xml_in)
+    
