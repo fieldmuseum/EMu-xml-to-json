@@ -25,7 +25,7 @@
 
 4. Install these python packages (with `pip` or `pip3`):
 
-    `pip3 install json lxml pandas python-decouple xml xmltodict`
+    `pip3 install charset-normalizer json lxml pandas python-decouple xml xmltodict`
 
 5. Run the script:
 
