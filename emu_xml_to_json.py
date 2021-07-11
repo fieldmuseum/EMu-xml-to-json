@@ -4,8 +4,13 @@ import check_xml as chx
 import convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
+import os
 
-xml_in = config('INPUT_PATH') + config('INPUT_XML')
+# Get latest XML export
+all_subdirs = [d for d in os.listdir(config('INPUT_PATH')) if os.path.isdir(d)]
+latest_sub = max(all_subdirs, key=os.path.getmtime)
+xml_in = os.path.join(latest_subdir, os.listdir(latest_sub)[0])
+# xml_in = config('INPUT_PATH') + config('INPUT_XML')
 
 # If xml_check is ok, Read in XML file:
 # Else output error/exception-log
