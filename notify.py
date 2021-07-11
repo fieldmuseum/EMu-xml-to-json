@@ -26,7 +26,7 @@ def send_output():
     p = MIMEBase('application', 'octet-stream')
 
     if os.path.isfile(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt'):
-        body = 'EMu error-log from emu_xml_to_json for ' + str(date.today())
+        body = 'EMu Error-log from emu_xml_to_json for ' + str(date.today())
         filename1 = config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt'
         attachment1 = open(filename1, "rb")
 
@@ -36,13 +36,13 @@ def send_output():
         # encode into base64
         encoders.encode_base64(p)
         
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+        p.add_header('Content-Disposition', "attachment; filename= %s" % filename1)
         
         # attach the instance 'p' to instance 'msg'
         msg.attach(p)
 
     if os.path.isfile(config('OUT_PATH') + 'emu_to_json.json'):
-        body = 'EMu json-output from emu_xml_to_json for ' + str(date.today())
+        body = 'EMu JSON-output from emu_xml_to_json for ' + str(date.today())
         filename2 = config('OUT_PATH') + 'emu_to_json.json'
         attachment2 = open(filename2, "rb")
         # To change the payload into encoded form
@@ -51,7 +51,7 @@ def send_output():
         # encode into base64
         encoders.encode_base64(p)
         
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+        p.add_header('Content-Disposition', "attachment; filename= %s" % filename2)
         
         # attach the instance 'p' to instance 'msg'
         msg.attach(p)
