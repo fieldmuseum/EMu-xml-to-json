@@ -12,8 +12,8 @@ import os.path
 # from https://www.geeksforgeeks.org/send-mail-attachment-gmail-account-using-python/
 def send_output():
 
-    fromaddr = "emu-fmnh@fieldmuseum.org"
-    toaddr = "emu-fmnh@fieldmuseum.org"
+    fromaddr = config('FROM_ADD')
+    toaddr = config('TO_ADD1')
 
     msg = MIMEMultipart()
 
