@@ -16,6 +16,8 @@
     ```
     IN_PATH='/path/to/xml-export'
     OUT_PATH='/path/to/json-output'
+
+    FROM_PW='sender's email pw'
     ```
 
     (More [info here](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5) if needed.)

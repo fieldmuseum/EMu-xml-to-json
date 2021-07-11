@@ -5,6 +5,7 @@ import convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
 import os, glob
+import notify
 
 # If xml_check is ok, convert XML to JSON:
 # Else output error/exception-log
@@ -30,3 +31,6 @@ except Exception as e:
     chx.fix_xml_encode(xml_in)
     # cx.check_xml_encode(xml_in)
     # cx.check_xml_form(xml_in)
+
+
+notify.send_output()
