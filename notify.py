@@ -78,6 +78,4 @@ def send_output():
 
 
 if __name__ == '__main__':
-    for arg in sys.argv[1:]:
-        for filename in glob(arg):
-            notify()
+    send_output()
