@@ -15,7 +15,6 @@
 2. Set local environment variables by adding a text file named `.env` in the root of the repo. Open it and add the following:
     ```
     IN_PATH='/path/to/xml-export'
-    IN_XML='filename.xml'
     OUT_PATH='/path/to/json-output'
     ```
 
