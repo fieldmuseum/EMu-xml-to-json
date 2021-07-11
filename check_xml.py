@@ -17,7 +17,7 @@ import re
 
 # Check XML encoding for mangled characters
 def check_xml_encode(filename):
-    logs = open(config('OUTPUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
+    logs = open(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
 
     try:
         ET.parse(filename) # config('INPUT_PATH') + config('INPUT_XML'))
@@ -58,7 +58,7 @@ def parsefile(file):
     parser.parse(file)
 
 def check_xml_form(filename):
-    logs = open(config('OUTPUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
+    logs = open(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
     try:
         parsefile(filename)
         # log_form = (filename + " is well-formed")

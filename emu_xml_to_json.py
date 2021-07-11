@@ -4,21 +4,25 @@ import check_xml as chx
 import convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
-import os
+import os, glob
 
-# Get latest XML export
-all_subdirs = [d for d in os.listdir(config('INPUT_PATH')) if os.path.isdir(d)]
-latest_sub = max(all_subdirs, key=os.path.getmtime)
-xml_in = os.path.join(latest_subdir, os.listdir(latest_sub)[0])
-# xml_in = config('INPUT_PATH') + config('INPUT_XML')
-
-# If xml_check is ok, Read in XML file:
+# If xml_check is ok, convert XML to JSON:
 # Else output error/exception-log
 try:
+
+    # Get latest XML export (if any available)
+    # # from https://stackoverflow.com/a/32093754
+    if len(glob.glob(os.path.join(config('IN_PATH'), '*/'))) > 0:
+        latest_sub = max(glob.glob(os.path.join(config('IN_PATH'), '*/')), key=os.path.getmtime)
+        xml_in = latest_sub + os.listdir(latest_sub)[0]
+
+    else: 
+        xml_in = "no xml input in " + config('IN_PATH')
+
     cvx.xml_to_json(xml_in)
 
 except Exception as e:
-    logs = open(config('OUTPUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
+    logs = open(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
     logs.write(str(datetime.now()) + ' - File Input: ' + xml_in + ' : Error : ' + str(e) + '\n')
     logs.close()
 

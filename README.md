@@ -14,9 +14,9 @@
 
 2. Set local environment variables by adding a text file named `.env` in the root of the repo. Open it and add the following:
     ```
-    INPUT_PATH='/path/to/xml-export'
-    INPUT_XML='filename.xml'
-    OUTPUT_PATH='/path/to/json-output'
+    IN_PATH='/path/to/xml-export'
+    IN_XML='filename.xml'
+    OUT_PATH='/path/to/json-output'
     ```
 
     (More [info here](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5) if needed.)

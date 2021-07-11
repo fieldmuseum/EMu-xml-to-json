@@ -18,7 +18,7 @@ def xml_to_json(xml_in, fix_xml=False):
     root = tree.getroot()
 
     # Read in EMu-abcd-h2i field mapping
-    emu_map = pd.read_csv(config('INPUT_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
+    emu_map = pd.read_csv(config('IN_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
 
     # Replace "table" "tag with table-name
     root.tag = root.get('name')
@@ -50,7 +50,7 @@ def xml_to_json(xml_in, fix_xml=False):
 
 
     # Output EMu-json
-    f = open(config('OUTPUT_PATH') + 'emu_to_json.json', 'w')
+    f = open(config('OUT_PATH') + 'emu_to_json.json', 'w')
     f.write(json.dumps(emu_json_out))
     f.close()
 
@@ -61,10 +61,10 @@ def xml_to_json(xml_in, fix_xml=False):
     
     if fix_xml == True:
 
-        with open(config('OUTPUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
+        with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
             ET.canonicalize(xml_data=treestring, out=out_file)
         
-        tree.write(config('OUTPUT_PATH') + "emu_xml.xml")
+        tree.write(config('OUT_PATH') + "emu_xml.xml")
     
     ######
 
