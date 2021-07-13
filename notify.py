@@ -56,7 +56,7 @@ def send_output():
         # attach the instance 'p' to instance 'msg'
         msg.attach(p)
     
-    msg.attach(MimeText(body, 'plain'))
+    msg.attach(MIMEText(body, 'plain'))
     
     # creates SMTP session
     s = smtplib.SMTP('smtp.gmail.com', 587)
