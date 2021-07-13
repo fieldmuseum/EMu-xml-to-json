@@ -36,7 +36,7 @@ def check_xml_encode(filename):
 # Fix or normalize XML to handle mangled characters
 def fix_xml_encode(filename):
         orig = open(filename, "r")
-        fixed = open('fixed_' + filename, "w")
+        fixed = open(filename + '_fixed', "w")
 
         for line in orig.readlines():
             # line = line.encode("utf-8", 'ignore').decode("utf-8")  # still broken
