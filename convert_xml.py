@@ -51,7 +51,7 @@ def xml_to_json(xml_in, fix_xml=False):
 
     # Output EMu-json
     f = open(config('OUT_PATH') + 'emu_to_json.json', 'w')
-    f.write(json.dumps(emu_json_out))
+    f.write(json.dumps(emu_json_out, indent=True))
     f.close()
 
 
