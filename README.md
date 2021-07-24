@@ -24,16 +24,18 @@
 
 5. Run the script:
 
-    `python3 emu_xml_to_json.py`
+    `python3 emu_xml_to_json.py [input_xml_file.xml]`
 
 6. See JSON output in `emu_to_json.json`, or error log in `xml_log_YYYYMMDD.txt`
 
 ## Input
 - EMu XML Export - An XML file containing records exported from EMu as XML
     - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/sample.xml)
+    - example of input with badly-encoded character [here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/sample_bad.xml)
 - `abcd_h2i_emu.csv` EMu/Standards mapping doc - A 2-column CSV listing EMu column-names in the 1st column and corresponding standard terms in the 2nd column.
     - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/abcd_h2i_emu.csv)
 
 ## Output
 - [`emu_to_json.json`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/emu_to_json.json) = Records as JSON objects, with EMu-fields/data as key/value pairs.
 - [`emu_xml.xml`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/emu_xml.xml) (optional) = XML with EMu column-names as xml-tags instead of xml-attributes
+- [xml_log_YYYY-MM-DD.txt](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/xml_log_YYYY-MM-DD.txt) = log file
