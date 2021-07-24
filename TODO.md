@@ -19,3 +19,7 @@ In meantime, check XML outside of script -- e.g.:
     - ['Scholarly XML' VSCode add-on](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml)
     - [Online XML validator](https://www.w3schools.com/xml/xml_validator.asp)
 Warning -  avoid online-validators for sensitive data.
+
+5. Figure out notification/email -- consider:
+    - https://realpython.com/python-send-email/ 
+    - #4 in https://stackoverflow.com/questions/50695188/what-is-the-proper-way-to-actually-send-mail-from-python-code 
