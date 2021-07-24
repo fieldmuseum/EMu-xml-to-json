@@ -1,80 +1,65 @@
-# Send recap notification
+# send notification
+# based on https://realpython.com/python-send-email/#option-2-setting-up-a-local-smtp-server
 
-import smtplib
+
+import email, smtplib, ssl
+
+from email import encoders
+from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-from datetime import date
+
 from decouple import config
-import os.path
+from datetime import date, datetime
 
-# from https://www.geeksforgeeks.org/send-mail-attachment-gmail-account-using-python/
-def send_output():
 
-    fromaddr = config('FROM_ADD')
-    toaddr = config('TO_ADD1')
+def send_output(send_date=str(date.today()), send_time=str(datetime.now()), send_msg=""):
 
-    msg = MIMEMultipart()
+    subject = "EMu xml-to-json results - " + send_date + " - " + send_time
+    body = "Output from EMu-xml-to-json -- log: \n" + send_msg
+    sender_email = config('FROM_ADD')
+    receiver_email = config('TO_ADD1')
+    # password = ""
 
-    msg['From'] = fromaddr
-    msg['To'] = toaddr
+    # Create a multipart message and set headers
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = receiver_email
+    message["Subject"] = subject
 
-    msg['Subject'] = 'EMu: Output from emu_xml_to_json'
+    # Add body to email
+    message.attach(MIMEText(body, "plain"))
 
-    # instance of MIMEBase and named as p
-    p = MIMEBase('application', 'octet-stream')
+    filename = "data_out/emu_to_json.json"  # In same directory as script
 
-    if os.path.isfile(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt'):
-        body = 'EMu Error-log from emu_xml_to_json for ' + str(date.today())
-        filename1 = config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt'
-        attachment1 = open(filename1, "rb")
+    # Open attachment-file in binary mode
+    with open(filename, "rb") as attachment:
+        # Add file as application/octet-stream
+        # Email client can usually download this automatically as attachment
+        part = MIMEBase("application", "octet-stream")
+        part.set_payload(attachment.read())
 
-        # To change the payload into encoded form
-        p.set_payload((attachment1).read())
+    # Encode file in ASCII characters to send by email    
+    encoders.encode_base64(part)
 
-        # encode into base64
-        encoders.encode_base64(p)
-        
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename1)
-        
-        # attach the instance 'p' to instance 'msg'
-        msg.attach(p)
+    # Add header as key/value pair to attachment part
+    part.add_header(
+        "Content-Disposition",
+        f"attachment; filename= {filename}",
+    )
 
-    if os.path.isfile(config('OUT_PATH') + 'emu_to_json.json'):
-        body = 'EMu JSON-output from emu_xml_to_json for ' + str(date.today())
-        filename2 = config('OUT_PATH') + 'emu_to_json.json'
-        attachment2 = open(filename2, "rb")
-        # To change the payload into encoded form
-        p.set_payload((attachment2).read())
+    # Add attachment to message and convert message to string
+    message.attach(part)
+    text = message.as_string()
 
-        # encode into base64
-        encoders.encode_base64(p)
-        
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename2)
-        
-        # attach the instance 'p' to instance 'msg'
-        msg.attach(p)
-    
-    msg.attach(MIMEText(body, 'plain'))
-    
-    # creates SMTP session
-    s = smtplib.SMTP('smtp.gmail.com', 587)
-    
-    # start TLS for security
-    s.starttls()
-    
-    # Authentication
-    s.login(fromaddr, config('FROM_PW'))
-    
-    # Converts the Multipart msg into a string
-    text = msg.as_string()
-    
-    # sending the mail
-    s.sendmail(fromaddr, toaddr, text)
-    
-    # terminating the session
-    s.quit()
+    # Log in to server using secure context and send email
+    context = ssl.create_default_context()
+    with smtplib.SMTP("aspmx.l.google.com:25") as server:
+    # with smtplib.SMTP_SSL("aspmx.l.google.com", 25, context=context) as server:
+    # with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+        # server.login(sender_email, password)
+        # server.sendmail(sender_email, receiver_email, text)
+        server.send_message(message)
 
 
 if __name__ == '__main__':
