@@ -7,6 +7,12 @@ from datetime import date, datetime
 import os, glob
 import notify
 
+log_date = str(date.today())
+log_start = str(datetime.now())
+
+logs = open(config('OUT_PATH') + 'xml_log_' + log_date + '.txt', 'a')
+logs.write("\nStart time: " + log_start + "\n")
+
 # If xml_check is ok, convert XML to JSON:
 # Else output error/exception-log
 try:
@@ -21,16 +27,25 @@ try:
         xml_in = "no xml input in " + config('IN_PATH')
 
     cvx.xml_to_json(xml_in)
+    
+    # Update logs
+    log_time = str(datetime.now())
+    log_msg = "Run-time: " + log_start + " to " + log_time + " - JSON output OK \n"
 
 except Exception as e:
-    logs = open(config('OUT_PATH') + 'xml_log_' + str(date.today()) + '.txt', 'a')
-    logs.write(str(datetime.now()) + ' - File Input: ' + xml_in + ' : Error : ' + str(e) + '\n')
-    logs.close()
+
+    # Update logs
+    log_time = str(datetime.now())
+    log_msg = "Run-time: " + log_start + " to " + log_time + ' - File Input Error: ' + xml_in + ' : ' + str(e) + '\n'
 
     # Supposed to output 'fixed' xml.  Not working.
     chx.fix_xml_encode(xml_in)
     # cx.check_xml_encode(xml_in)
     # cx.check_xml_form(xml_in)
 
+logs.write(log_msg)
+logs.close()
 
-notify.send_output()
+# Send notification
+notify.send_output(log_date, log_time, log_msg)
+
