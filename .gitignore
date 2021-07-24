@@ -2,9 +2,8 @@
 
 __pycache__
 
-data_in/*/
+data_in_testing/
 venv/
-
 
 emu*.xml
 xml*
