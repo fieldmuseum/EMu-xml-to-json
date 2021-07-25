@@ -3,8 +3,8 @@
 __pycache__
 
 data_in_testing/
+data_out_testing/
 venv/
 
 emu*.xml
-xml*
 !*.xml
