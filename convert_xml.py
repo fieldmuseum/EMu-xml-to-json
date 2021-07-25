@@ -13,8 +13,8 @@ from decouple import config
 import sys
 
 
-def xml_to_json(xml_in, fix_xml=False):
-    tree = ET.parse(xml_in) # config('INPUT_PATH') + config('INPUT_XML'))
+def xml_to_json(xml_input, fix_xml=False):
+    tree = ET.parse(xml_input) # config('INPUT_PATH') + config('INPUT_XML'))
     root = tree.getroot()
 
     # Read in EMu-abcd-h2i field mapping
