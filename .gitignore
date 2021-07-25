@@ -2,8 +2,7 @@
 
 __pycache__
 
-data_in_testing/
-data_out_testing/
+testing/
 venv/
 
 emu*.xml
