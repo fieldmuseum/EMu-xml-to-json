@@ -13,7 +13,7 @@ from decouple import config
 from datetime import date, datetime
 
 
-def send_output(send_date=str(date.today()), send_time=str(datetime.now()), send_msg=""):
+def send_output(send_date=str(date.today()), send_time=str(datetime.now()), send_msg="", filename=""):
 
     subject = "EMu xml-to-json results - " + send_date + " - " + send_time
     body = "Output from EMu-xml-to-json -- log: \n" + send_msg
@@ -30,27 +30,28 @@ def send_output(send_date=str(date.today()), send_time=str(datetime.now()), send
     # Add body to email
     message.attach(MIMEText(body, "plain"))
 
-    filename = "data_out/emu_to_json.json"  # In same directory as script
+    if len(filename) > 0:
+        # filename = "data_out/emu_to_json.json"  # In same directory as script
 
-    # Open attachment-file in binary mode
-    with open(filename, "rb") as attachment:
-        # Add file as application/octet-stream
-        # Email client can usually download this automatically as attachment
-        part = MIMEBase("application", "octet-stream")
-        part.set_payload(attachment.read())
+        # Open attachment-file in binary mode
+        with open(filename, "rb") as attachment:
+            # Add file as application/octet-stream
+            # Email client can usually download this automatically as attachment
+            part = MIMEBase("application", "octet-stream")
+            part.set_payload(attachment.read())
 
-    # Encode file in ASCII characters to send by email    
-    encoders.encode_base64(part)
+        # Encode file in ASCII characters to send by email    
+        encoders.encode_base64(part)
 
-    # Add header as key/value pair to attachment part
-    part.add_header(
-        "Content-Disposition",
-        f"attachment; filename= {filename}",
-    )
+        # Add header as key/value pair to attachment part
+        part.add_header(
+            "Content-Disposition",
+            f"attachment; filename= {filename}",
+        )
 
-    # Add attachment to message and convert message to string
-    message.attach(part)
-    text = message.as_string()
+        # Add attachment to message and convert message to string
+        message.attach(part)
+        text = message.as_string()
 
     # Log in to server using secure context and send email
     context = ssl.create_default_context()
