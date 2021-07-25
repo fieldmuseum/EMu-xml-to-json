@@ -1,5 +1,5 @@
 Start time: 2021-07-24 18:31:00.516390
-Finished at 2021-07-24 18:31:00.517517 - File Input Error: ./data_in_testing/AnthroJSONexport/edit_xml50704-195636.000000 : no element found: line 1, column 0
+Finished at 2021-07-24 18:31:00.517517 - File Input Error: ./data_in/2021-05-05/sample_bad.xml : not well-formed (invalid token): line 136, column 80
 
 Start time: 2021-07-24 18:43:32.292727
 Finished at 2021-07-24 18:43:32.307484 - JSON output OK 
