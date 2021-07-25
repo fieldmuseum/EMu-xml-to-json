@@ -15,8 +15,8 @@ from datetime import date, datetime
 
 def send_output(send_date=str(date.today()), send_time=str(datetime.now()), send_msg="", filename=""):
 
-    subject = "EMu xml-to-json results - " + send_date + " - " + send_time
-    body = "Output from EMu-xml-to-json -- log: \n" + send_msg
+    subject = "EMu xml-to-json results - " + send_date
+    body = "Output from EMu-xml-to-json - " + send_time + " - log: \n" + send_msg
     sender_email = config('FROM_ADD')
     receiver_email = config('TO_ADD1')
     # password = ""
