@@ -169,7 +169,7 @@
     <atom name="CatObjectCount"></atom>
     <atom name="CatItemsCat"></atom>
     <atom name="CatItemsInv">1</atom>
-    <atom name="CatItemsSub">1</atom>
+    <atom name="CatItemsSub">2</atom>
     <atom name="CatLegalStatus">Permanent Collection</atom>
     <atom name="CatAnthroCatalogNumber">2345</atom>
     <atom name="CatSubNumbers">.2</atom>
@@ -181,7 +181,7 @@
     <atom name="CatRecordType">Child</atom>
     <table name="DesKDescription0">
       <tuple>
-        <atom name="DesKDescription">hat</atom>
+        <atom name="DesKDescription">test</atom>
       </tuple>
     </table>
     <atom name="DesSubjectCode">1234: Country: clothing</atom>
