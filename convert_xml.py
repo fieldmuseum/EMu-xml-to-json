@@ -20,6 +20,9 @@ def xml_to_json(xml_input, fix_xml=False):
     # Read in EMu-abcd-h2i field mapping
     emu_map = pd.read_csv(config('IN_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
 
+    # Read in EMu-abcd-h2i conditional mapping
+    map_condition = pd.read_csv(config('IN_PATH') + 'abcd_h2i_conditions.csv', squeeze=True).to_dict()
+
     # Replace "table" "tag with table-name
     root.tag = root.get('name')
     root.attrib = {}
@@ -32,17 +35,22 @@ def xml_to_json(xml_input, fix_xml=False):
                 thing.tag = "data"
             thing.set('name', thing.tag)
 
-
     # Turn EMu col-names into XML-tags instead of attributes:
     for child in root.findall('.//*'):
 
         child.tag = child.get('name')
         child.attrib = {}
 
+        # # # PLACEHOLDER / needs work # # #
+        # Use condition-map here to add conditional terms:
+        if child.tag in map_condition.keys():
+            if child == map_condition['if_value1']:
+                child[map_condition['mapped_field']] = child[child.tag == map_condition['then_value']]
+        # # # PLACEHOLDER / needs work # # #
+
         # Use EMu-abcd-h2i field-map here:
         if child.tag in emu_map.keys():
             child.tag = emu_map[child.tag]
-
 
     # Convert fixed EMu-XML to JSON
     treestring = ET.tostring(root)
@@ -61,9 +69,11 @@ def xml_to_json(xml_input, fix_xml=False):
     
     if fix_xml == True:
 
+        # Output 'canonic' xml -- e.g. <tag></tag>
         with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
             ET.canonicalize(xml_data=treestring, out=out_file)
         
+        # Also output slightly-more-compact xml -- e.g. <tag />
         tree.write(config('OUT_PATH') + "emu_xml.xml")
     
     ######

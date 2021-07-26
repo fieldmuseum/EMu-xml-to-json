@@ -125,9 +125,14 @@
   <tuple>
     <atom name="irn">1222</atom>
     <atom name="CatRecordType">Child</atom>
-    <table name="DesKDescription0">
+    <table name="Descriptions">
       <tuple>
         <atom name="DesKDescription">object name</atom>
+        <atom name="DesKType">name</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">object uses</atom>
+        <atom name="DesKType">use</atom>
       </tuple>
     </table>
     <atom name="DesSubjectCode">1234: Country: cultural subject</atom>
