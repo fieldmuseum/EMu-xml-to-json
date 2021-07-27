@@ -1,3 +1,4 @@
 emu,abcd_h2i
 irn,h2i_irn
 CatRecordType,h2i_type
+CatAccessionYearLocal,cd_temporalCoverageStartDate
