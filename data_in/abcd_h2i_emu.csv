@@ -22,3 +22,9 @@ objectID,,cd:identifierType(2)
 ,ColCollectionEventRef.ColSiteRef.PolPD3,dwc:county
 ,ColCollectionEventRef.ColSiteRef.PolPopn,cd:municipality
 ,DarLocality,dwc:locality
+,CatItemsCat,cd:measurementValue(1)
+anthropology original inventory count,,cd:measurementType(1)
+FMNH Metric,,cd:measurementMethod(1)
+,CatItemsInv,cd:measurementValue(2)
+anthropology current inventory count,,cd:measurementType(2)
+FMNH Metric,,cd:measurementMethod(2)
