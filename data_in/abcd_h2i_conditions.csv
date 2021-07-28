@@ -4,5 +4,5 @@ PriAccessionNumberRef.AccAccessionNo,NOT NULL,,cd_identifierType(1),accession nu
 DarCatalogNumber,NOT NULL,,cd_identifierType(2),objectID
 CatItemsCat,NOT NULL,,cd_measurementType(1),anthropology original inventory count
 CatItemsCat,NOT NULL,,cd_measurementMethod(1),FMNH Metric
-CatItemsInv,NOT NULL,,cd_measurementMethod(1),anthropology current inventory count
-CatItemsInv,NOT NULL,,cd_measurementMethod(1),FMNH Metric
+CatItemsInv,NOT NULL,,cd_measurementMethod(2),anthropology current inventory count
+CatItemsInv,NOT NULL,,cd_measurementMethod(2),FMNH Metric
