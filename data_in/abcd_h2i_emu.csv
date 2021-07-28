@@ -1,38 +1,27 @@
-static_value, emu,abcd_h2i
-,irn,dwc_recordNumber
-,DarGlobalUniqueIdentifier,dwc_occurrenceID
-,CatAccessionYearLocal,cd_temporalCoverageStartDate
-accession year,,cd_temporalCoverageType
-,DarCatalogNumberNumeric,dwc_catalogNumber
-,PriAccessionNumberRef.AccAccessionNo,cd_identifier(1)
-accession number,,cd_identifierType(1)
-,DarCatalogNumber,cd_identifier(2)
-objectID,,cd_identifierType(2)
-,CatOtherNumbersValue_tab(1),cd_identifier(3)
-,CatOtherNumbersType_tab(1),cd_identifierType(3)
-,DesKDescription0(1), h2i_culturalArtefactDescription(1)
-,DesKType_tab(1),fmnh_culturalArtefactDescriptionType(1)
-,DesUseClassification_tab(1),h2i_culturalArtefactFunction(1)
-,EcbPartsUsed_tab(1),h2i_culturalArtefactParts(1)
-,DesEthnicGroupSubgroup_tab(1),cd_culturalAffliation(1)
-,AttPeriod_tab(1),cd_period(1)
-,DesMaterials_tab(1),cd_materials(1)
-,ColCollectionEventRef.ColSiteRef.PolContinent,dwc_continent
-,ColCollectionEventRef.ColSiteRef.PolPD1,dwc_country
-,ColCollectionEventRef.ColSiteRef.PolPD2,dwc_stateProvince
-,ColCollectionEventRef.ColSiteRef.PolPD3,dwc_county
-,ColCollectionEventRef.ColSiteRef.PolPopn,cd_municipality
-,DarLocality,dwc_locality
-,CatItemsCat,cd_measurementValue(1)
-anthropology original inventory count,,cd_measurementType(1)
-FMNH Metric,,cd_measurementMethod(1)
-,CatItemsInv,cd_measurementValue(2)
-anthropology current inventory count,,cd_measurementType(2)
-FMNH Metric,,cd_measurementMethod(2)
-,DesObjectName_tab(1),h2i_culteralArtefactSimpleName(1)
-,DesObjectType_tab,fmnh_culteralArtefactSimpleNameType(1)
-,DarCollector,dwc_recordedBy
-
-
-
-
+emu,abcd_h2i
+irn,dwc_recordNumber
+DarGlobalUniqueIdentifier,dwc_occurrenceID
+CatAccessionYearLocal,cd_temporalCoverageStartDate
+DarCatalogNumberNumeric,dwc_catalogNumber
+PriAccessionNumberRef.AccAccessionNo,cd_identifier(1)
+DarCatalogNumber,cd_identifier(2)
+CatOtherNumbersValue_tab(1),cd_identifier(3)
+CatOtherNumbersType_tab(1),cd_identifierType(3)
+DesKDescription0(1), h2i_culturalArtefactDescription(1)
+DesKType_tab(1),fmnh_culturalArtefactDescriptionType(1)
+DesUseClassification_tab(1),h2i_culturalArtefactFunction(1)
+EcbPartsUsed_tab(1),h2i_culturalArtefactParts(1)
+DesEthnicGroupSubgroup_tab(1),cd_culturalAffliation(1)
+AttPeriod_tab(1),cd_period(1)
+DesMaterials_tab(1),cd_materials(1)
+ColCollectionEventRef.ColSiteRef.PolContinent,dwc_continent
+ColCollectionEventRef.ColSiteRef.PolPD1,dwc_country
+ColCollectionEventRef.ColSiteRef.PolPD2,dwc_stateProvince
+ColCollectionEventRef.ColSiteRef.PolPD3,dwc_county
+ColCollectionEventRef.ColSiteRef.PolPopn,cd_municipality
+DarLocality,dwc_locality
+CatItemsCat,cd_measurementValue(1)
+CatItemsInv,cd_measurementValue(2)
+DesObjectName_tab(1),h2i_culteralArtefactSimpleName(1)
+DesObjectType_tab,fmnh_culteralArtefactSimpleNameType(1)
+DarCollector,dwc_recordedBy
