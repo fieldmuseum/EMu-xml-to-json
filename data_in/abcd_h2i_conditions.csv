@@ -1,3 +1,3 @@
-if_field1,if_value1,then_value,mapped_field,'static_value
+if_field1,if_value1,then_value,mapped_field,static_value
 DesKType,use,DesKDescription,h2i_Use
 CatAccessionYearLocal,NOT NULL,,cd:temporalCoverageType,accession year
