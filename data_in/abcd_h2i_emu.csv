@@ -2,3 +2,6 @@ static_value, emu,abcd_h2i
 ,irn,h2i_irn
 ,CatAccessionYearLocal,cd_temporalCoverageStartDate
 accession,,cd:temporalCoverageType
+,DarCatalogNumberNumeric,dwc:catalogNumber
+,PriAccessionNumberRef.AccAccessionNo,cd:identifier(1)
+accession number,,cd:identifierType(1)
