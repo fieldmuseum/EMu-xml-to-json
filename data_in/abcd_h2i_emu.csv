@@ -23,5 +23,5 @@ DarLocality,dwc_locality
 CatItemsCat,cd_measurementValue(1)
 CatItemsInv,cd_measurementValue(2)
 DesObjectName_tab(1),h2i_culturalArtefactSimpleName(1)
-DesObjectType_tab,fmnh_culturalArtefactSimpleNameType(1)
+DesObjectType_tab(1),fmnh_culturalArtefactSimpleNameType(1)
 DarCollector,dwc_recordedBy
