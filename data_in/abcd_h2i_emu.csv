@@ -1,5 +1,6 @@
 static_value, emu,abcd_h2i
-,irn,h2i_irn
+,irn,dwc:recordNumber
+,DarGlobalUniqueIdentifier,dwc:occurrenceID
 ,CatAccessionYearLocal,cd_temporalCoverageStartDate
 accession year,,cd:temporalCoverageType
 ,DarCatalogNumberNumeric,dwc:catalogNumber
@@ -28,3 +29,10 @@ FMNH Metric,,cd:measurementMethod(1)
 ,CatItemsInv,cd:measurementValue(2)
 anthropology current inventory count,,cd:measurementType(2)
 FMNH Metric,,cd:measurementMethod(2)
+,DesObjectName_tab(1),hhi:culteralArtefactSimpleName(1)
+,DesObjectType_tab,fmnh:culteralArtefactSimpleNameType(1)
+,DarCollector,dwc:recordedBy
+
+
+
+
