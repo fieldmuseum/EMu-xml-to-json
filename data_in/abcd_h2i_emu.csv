@@ -5,3 +5,7 @@ accession year,,cd:temporalCoverageType
 ,DarCatalogNumberNumeric,dwc:catalogNumber
 ,PriAccessionNumberRef.AccAccessionNo,cd:identifier(1)
 accession number,,cd:identifierType(1)
+,DarCatalogNumber,cd:identifier(2)
+objectID,,cd:identifierType(2)
+,CatOtherNumbersValue_tab(1),cd:identifier(3)
+,CatOtherNumbersType_tab(1),cd:identifierType(3)
