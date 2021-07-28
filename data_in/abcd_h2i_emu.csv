@@ -22,6 +22,6 @@ ColCollectionEventRef.ColSiteRef.PolPopn,cd_municipality
 DarLocality,dwc_locality
 CatItemsCat,cd_measurementValue(1)
 CatItemsInv,cd_measurementValue(2)
-DesObjectName_tab(1),h2i_culteralArtefactSimpleName(1)
-DesObjectType_tab,fmnh_culteralArtefactSimpleNameType(1)
+DesObjectName_tab(1),h2i_culturalArtefactSimpleName(1)
+DesObjectType_tab,fmnh_culturalArtefactSimpleNameType(1)
 DarCollector,dwc_recordedBy
