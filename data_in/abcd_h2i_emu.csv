@@ -9,3 +9,16 @@ accession number,,cd:identifierType(1)
 objectID,,cd:identifierType(2)
 ,CatOtherNumbersValue_tab(1),cd:identifier(3)
 ,CatOtherNumbersType_tab(1),cd:identifierType(3)
+,DesKDescription0(1), hhi:culturalArtefactDescription(1)
+,DesKType_tab(1),FMNH:culturalArtefactDescriptionType(1)
+,DesUseClassification_tab(1),hhi:culturalArtefactFunction(1)
+,EcbPartsUsed_tab(1),hhi:culturalArtefactParts(1)
+,DesEthnicGroupSubgroup_tab(1),cd:culturalAffliation(1)
+,AttPeriod_tab,cd:period(1)
+,DesMaterials_tab,cd:materials(1)
+,ColCollectionEventRef.ColSiteRef.PolContinent,dwc:continent
+,ColCollectionEventRef.ColSiteRef.PolPD1,dwc:country
+,ColCollectionEventRef.ColSiteRef.PolPD2,dwc:stateProvince
+,ColCollectionEventRef.ColSiteRef.PolPD3,dwc:county
+,ColCollectionEventRef.ColSiteRef.PolPopn,cd:municipality
+,DarLocality,dwc:locality
