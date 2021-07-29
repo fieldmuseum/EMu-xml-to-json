@@ -6,6 +6,7 @@
 
 
 import xml.etree.ElementTree as ET
+import lxml.etree as LET
 from glob import glob
 import json, xmltodict
 import pandas as pd
@@ -71,7 +72,7 @@ def xml_to_json(xml_input, fix_xml=False):
 
         # Output 'canonic' xml -- e.g. <tag></tag>
         with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
-            ET.canonicalize(xml_data=treestring, out=out_file)
+            LET.canonicalize(xml_data=treestring, out=out_file)
         
         # Also output slightly-more-compact xml -- e.g. <tag />
         tree.write(config('OUT_PATH') + "emu_xml.xml")
