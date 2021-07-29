@@ -66,7 +66,10 @@ def emu_to_json(xml_in):
         zip_output = ""
 
     # Send notification
-    notify.send_output(log_date, log_time, log_msg, zip_output)
+    subject = "EMu xml-to-json results - " + log_date
+    message = "Output from EMu-xml-to-json - " + log_time + " - log: \n" + log_msg
+    notify.send_output(message, subject, zip_output, config('TO_ADD'))
+    # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
 
 # Run directly with:
 #   python3 emu_xml_to_json.py file1 file2 etc
