@@ -55,7 +55,8 @@ def xml_to_json(xml_input, fix_xml=False):
 
     # Convert fixed EMu-XML to JSON
     treestring = ET.tostring(root)
-    emu_json_out = xmltodict.parse(LET.canonicalize(treestring))
+    # emu_json_out = xmltodict.parse(ET.canonicalize(treestring))
+    emu_json_out = xmltodict.parse(treestring)
 
 
     # Output EMu-json
