@@ -18,10 +18,10 @@ def xml_to_json(xml_input, fix_xml=False):
     root = tree.getroot()
 
     # Read in EMu-abcd-h2i field mapping
-    emu_map = pd.read_csv(config('IN_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
+    emu_map = pd.read_csv(config('MAP_PATH') + 'abcd_h2i_emu.csv', squeeze=True, index_col=0).to_dict()
 
     # Read in EMu-abcd-h2i conditional mapping
-    map_condition = pd.read_csv(config('IN_PATH') + 'abcd_h2i_conditions.csv', squeeze=True).to_dict()
+    map_condition = pd.read_csv(config('MAP_PATH') + 'abcd_h2i_conditions.csv', squeeze=True).to_dict()
 
     # Replace "table" "tag with table-name
     root.tag = root.get('name')
