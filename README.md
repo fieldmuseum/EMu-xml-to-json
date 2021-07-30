@@ -7,8 +7,8 @@
 
 2. When possible, check that the XML output is well-formed.
     - ['Scholarly XML' VSCode add-on](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml)
-    - [xmllint](http://xmlsoft.org/xmllint.html#diagnostics) on Mac/Unix/Linux, try this in terminal/shell: `xmllint --noout file.xml && echo $?`
-        - [xsltproc](https://community.chocolatey.org/packages/xsltproc#individual)) on Windows includes xmllint
+    - [xmllint](http://xmlsoft.org/xmllint.html#diagnostics) on Mac/Unix/Linux or [xsltproc](https://community.chocolatey.org/packages/xsltproc#individual) on Windows -- Try this in terminal/shell: 
+        - `xmllint --noout file.xml && echo $?`
     - [Online XML validator](https://www.w3schools.com/xml/xml_validator.asp)
         Warning -  avoid online-validators for sensitive data.
 
