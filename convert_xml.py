@@ -6,7 +6,6 @@
 
 
 import xml.etree.ElementTree as ET
-import lxml.etree as LET
 from glob import glob
 import json, xmltodict
 import pandas as pd
@@ -15,7 +14,7 @@ import sys
 
 
 def xml_to_json(xml_input, fix_xml=False):
-    tree = ET.parse(xml_input) # config('INPUT_PATH') + config('INPUT_XML'))
+    tree = ET.parse(xml_input)
     root = tree.getroot()
 
     # Read in EMu-abcd-h2i field mapping
@@ -42,21 +41,20 @@ def xml_to_json(xml_input, fix_xml=False):
         child.tag = child.get('name')
         child.attrib = {}
 
-        # # # PLACEHOLDER / needs work # # #
-        # Use condition-map here to add conditional terms:
-        if child.tag in map_condition.keys():
-            if child == map_condition['if_value1']:
-                child[map_condition['mapped_field']] = child[child.tag == map_condition['then_value']]
-        # # # PLACEHOLDER / needs work # # #
+        # # # # PLACEHOLDER / needs work # # #
+        # # Use condition-map here to add conditional terms:
+        # if child.tag in map_condition.keys():
+        #     if child == map_condition['if_value1']:
+        #         child[map_condition['mapped_field']] = child[child.tag == map_condition['then_value']]
+        # # # # PLACEHOLDER / needs work # # #
 
         # Use EMu-abcd-h2i field-map here:
         if child.tag in emu_map.keys():
             child.tag = emu_map[child.tag]
 
     # Convert fixed EMu-XML to JSON
-    treestring = ET.tostring(root)
-    # emu_json_out = xmltodict.parse(ET.canonicalize(treestring))
-    emu_json_out = xmltodict.parse(treestring)
+    treestring = ET.tostring(root, encoding='utf-8', method='xml')
+    emu_json_out = xmltodict.parse(ET.canonicalize(treestring))
 
 
     # Output EMu-json
@@ -73,7 +71,7 @@ def xml_to_json(xml_input, fix_xml=False):
 
         # Output 'canonic' xml -- e.g. <tag></tag>
         with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
-            LET.canonicalize(xml_data=treestring, out=out_file)
+            ET.canonicalize(xml_data=treestring, out=out_file)
         
         # Also output slightly-more-compact xml -- e.g. <tag />
         tree.write(config('OUT_PATH') + "emu_xml.xml")
