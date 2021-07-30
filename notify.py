@@ -10,7 +10,7 @@ def send_output(message, subject, filename, to):
     else:
         notify = 'echo "' + message + '" | mutt -s "' + subject + '" ' + to
 
-    print(notify)
+    # print(notify)
 
     os.system(notify)
 

@@ -70,9 +70,10 @@ def xml_to_json(xml_input, fix_xml=False):
     
     if fix_xml == True:
 
-        # Output 'canonic' xml -- e.g. <tag></tag>
-        with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
-            ET.canonicalize(xml_data=treestring, out=out_file)
+        # # ET.canonicalize throws errors; skip for now [2021-jul-30]
+        # # Output 'canonic' xml -- e.g. <tag></tag>
+        # with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
+        #     ET.canonicalize(xml_data=treestring, out=out_file)
         
         # Also output slightly-more-compact xml -- e.g. <tag />
         tree.write(config('OUT_PATH') + "emu_xml.xml")
