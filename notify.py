@@ -5,10 +5,12 @@ import os
 
 def send_output(message, subject, filename, to):
     if len(filename) > 0:
-        notify = 'echo "' + message + '" | mutt -s "' + subject + '" -a ' + filename + ' ' + to 
+        notify = 'echo "' + message + '" | mutt -s "' + subject + '" -a ' + filename + ' -- ' + to 
     
     else:
         notify = 'echo "' + message + '" | mutt -s "' + subject + '" ' + to
+
+    print(notify)
 
     os.system(notify)
 
