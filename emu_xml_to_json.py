@@ -86,8 +86,18 @@ if __name__ == '__main__':
 
         # If input is undefined, default to most recent EMu-export
         if len(glob.glob(os.path.join(config('IN_PATH'), '*/'))) > 0:
-            latest_sub = max(glob.glob(os.path.join(config('IN_PATH'), '*/')), key=os.path.getmtime)
-        
+            # latest_sub = max(glob.glob(os.path.join(config('IN_PATH'), '*/'))) # , key=os.path.getmtime)
+
+            subs_a = os.listdir(config('IN_PATH'))
+            subs = [folder for folder in subs_a if folder[0].isdigit()]
+
+            # get most recent folder by its date-name
+            subs_conv = subs
+            for idx, folder in enumerate(subs):
+                subs_conv[idx] = datetime.strptime(folder, '%Y-%m-%d')
+
+            latest_sub = config('IN_PATH') + str(datetime.strftime(max(subs_conv), '%Y-%-m-%-d')) + "/"
+
             print(latest_sub)
 
             if len(os.listdir(latest_sub)) > 0:
