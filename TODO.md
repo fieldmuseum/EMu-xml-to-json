@@ -1,8 +1,14 @@
 # EMu XML-to-JSON converter
 
-## To do
+## TO DO
+1. Figure out more complex EMu/H2I mapping
+    - many:1 repeatable nested-table fields
+    - conditional logic
+    - static values
 
-1. Tie in EMu exports
+
+## DONE
+1. Tie in EMu exports 
     - Setup daily/weekly cron to run script; 
         - (if Export folder is not empty, get most recent export)
     - Or listen for notification email (sent after export runs)
@@ -11,15 +17,14 @@
     - paths to input & output files
     - OR allow input from cli (better for cron?)
 
-3. Install Python on Boojum 
+3. Installed Python on Boojum 
 
-4. Include step for XML-validation/checks.
-    - Partly done - check_xml.py logs error (with xml-error-line in 'out_path/xml_log_YYYYMMDD.txt') if XML is badly-formed or if other exceptions occur.
-In meantime, check XML outside of script -- e.g.:
-    - ['Scholarly XML' VSCode add-on](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml)
-    - [Online XML validator](https://www.w3schools.com/xml/xml_validator.asp)
-Warning -  avoid online-validators for sensitive data.
+4. Included step for XML-checks.
+    - check_xml.py logs errors (with xml-error-line in 'out_path/xml_log_YYYYMMDD.txt') if XML is badly-formed or if other exceptions occur.
 
-5. Figure out notification/email -- consider:
+5. Figured out notification/email with postfix/mail/mutt (+ appropriate smtp ports for local testing)
+    Considered:
     - https://realpython.com/python-send-email/ 
     - #4 in https://stackoverflow.com/questions/50695188/what-is-the-proper-way-to-actually-send-mail-from-python-code 
+
+6. Tested basic EMu/H2I mapping for 1:1 fields
