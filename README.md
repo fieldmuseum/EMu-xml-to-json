@@ -30,17 +30,17 @@
 
 ## Input
 - EMu XML Export - An XML file containing records exported from EMu as XML
-    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/sample.xml)
-    - example of input with badly-encoded character [here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/sample_bad.xml)
+    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/2021-08-09/sample.xml)
+    - example of input with badly-encoded character [here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/2021-08-08/sample_bad.xml)
 - `abcd_h2i_emu.csv` EMu/Standards mapping doc - A 2-column CSV listing EMu column-names in the 1st column and corresponding standard terms in the 2nd column.
-    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/abcd_h2i_emu.csv)
+    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/mappings/abcd_h2i_emu.csv)
 - [DRAFT] `abcd_h2i_conditions.csv` - Conditional logic doc - A 4-column CSV to document conditional mapping logic for multi-value-tables where rows are conditionally parsed to separate standard terms.
-    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/abcd_h2i_conditions.csv)
+    - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/mappings/abcd_h2i_conditions.csv)
 
 ## Output
-- [`emu_to_json.json`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/emu_to_json.json) = Records as JSON objects, with EMu-fields/data as key/value pairs.
-- [`emu_xml.xml`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_out/emu_xml.xml) (optional) = XML with EMu column-names as xml-tags instead of xml-attributes
+- [`emu_to_json.json`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/sample_data_out/emu_to_json.json) = Records as JSON objects, with EMu-fields/data as key/value pairs.
+- [`emu_xml.xml`](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/sample_data_out/emu_xml.xml) (optional) = XML with EMu column-names as xml-tags instead of xml-attributes
 - [xml_log_YYYY-MM-DD.txt](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/log/xml_log_2021-07-24.txt) = Log of successful or failed output. 
-- email notifications (currently gmail only)
+- email notifications (currently requires mutt to send email, or gmail-only recipients)
     - Log-messages comprise the email-body
     - Output files are zipped and attached
