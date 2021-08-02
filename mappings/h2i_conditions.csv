@@ -6,4 +6,4 @@ CatItemsCat,NOT NULL,,cd_measurementType(1),anthropology original inventory coun
 CatItemsCat,NOT NULL,,cd_measurementMethod(1),FMNH Metric
 CatItemsInv,NOT NULL,,cd_measurementType(2),anthropology current inventory count
 CatItemsInv,NOT NULL,,cd_measurementMethod(2),FMNH Metric
-DesKType,use,DesKDescription,h2i:Use
+DesKType,use,DesKDescription,h2i:Use,
