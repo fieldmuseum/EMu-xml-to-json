@@ -133,14 +133,14 @@
     <atom name="DesSubjectCode">1234: Country: cultural subject</atom>
     <table name="DesEthnicGroupSubgroup_tab">
       <tuple>
-        <atom name="DesEthnicGroupSubgroup">Name (with badly-encoded character: )</atom>
+        <atom name="DesEthnicGroupSubgroup">Name</atom>
       </tuple>
     </table>
     <atom name="DesPeriod"></atom>
     <atom name="DesTechnicalDescription"></atom>
     <table name="DesMaterials_tab">
       <tuple>
-        <atom name="DesMaterials">metal</atom>
+        <atom name="DesMaterials">metal (with badly-encoded character: )</atom>
       </tuple>
     </table>
     <tuple name="ColSiteLocationRef">
