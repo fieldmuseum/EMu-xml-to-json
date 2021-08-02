@@ -1,4 +1,4 @@
-emu,abcd_h2i,repeatable,emu_xslt_search
+emu,h2i_field,repeatable,emu_xslt_search
 irn,dwc:recordNumber,no,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,no,
 CatAccessionYearLocal,cd:temporalCoverageStartDate,,
