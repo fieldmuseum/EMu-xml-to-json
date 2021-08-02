@@ -16,7 +16,7 @@ AttPeriod_tab,cd:period,,
 DesMaterials_tab,cd:materials,,
 PolContinent,dwc:continent,,
 PolPD1,dwc:country,,esites
-PolPD2,dwc:stateProvince,,./ecatalogue_RefFName/ecollectionevents_fieldname/PolPD2
+PolPD2,dwc:stateProvince,,./ColCollectionEventRef/ColSiteRef/PolPD2
 PolPD3,dwc:county,,esites
 PolPopn,cd:municipality,,esites
 DarLocality,dwc:locality,,
