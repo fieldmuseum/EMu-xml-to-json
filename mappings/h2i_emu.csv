@@ -15,7 +15,7 @@ DesEthnicGroupSubgroup_tab_1,cd:culturalAffliation_1,,
 AttPeriod_tab_1,cd:period_1,,
 DesMaterials_tab_1,cd:materials_1,,
 PolContinent,dwc:continent,,
-PolPD1,dwc:country,,esites,
+PolPD1,dwc:country,,esites
 PolPD2,dwc:stateProvince,,esites
 PolPD3,dwc:county,,esites
 PolPopn,cd:municipality,,esites
