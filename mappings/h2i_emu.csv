@@ -1,4 +1,4 @@
-emu,abcd_h2i,repeatable,emu_module
+emu,abcd_h2i,repeatable,emu_xslt_search
 irn,dwc:recordNumber,no,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,no,
 CatAccessionYearLocal,cd:temporalCoverageStartDate,,
@@ -16,7 +16,7 @@ AttPeriod_tab_1,cd:period_1,,
 DesMaterials_tab_1,cd:materials_1,,
 PolContinent,dwc:continent,,
 PolPD1,dwc:country,,esites
-PolPD2,dwc:stateProvince,,esites
+PolPD2,dwc:stateProvince,,./ecatalogue_RefFName/ecollectionevents_fieldname/PolPD2
 PolPD3,dwc:county,,esites
 PolPopn,cd:municipality,,esites
 DarLocality,dwc:locality,,
