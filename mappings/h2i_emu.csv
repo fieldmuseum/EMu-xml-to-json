@@ -20,8 +20,8 @@ PolPD2,dwc:stateProvince,,./ColCollectionEventRef/ColSiteRef/PolPD2
 PolPD3,dwc:county,,./ColCollectionEventRef/ColSiteRef/PolPD3
 PolPopn,cd:municipality,,./ColCollectionEventRef/ColSiteRef/PolPopn
 DarLocality,dwc:locality,,
-CatItemsCat,cd:measurementValue,,
-CatItemsInv,cd:measurementValue,,
+CatItemsCat,cd:measurementValue,yes,
+CatItemsInv,cd:measurementValue,yes,
 DesObjectName_tab,h2i:culturalArtefactSimpleName,yes,
 DesObjectType_tab,fmnh:culturalArtefactSimpleNameType,yes,
 DarCollector,dwc:recordedBy,,
