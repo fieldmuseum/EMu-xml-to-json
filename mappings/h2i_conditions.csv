@@ -1,9 +1,8 @@
 if_field1,if_value1,then_field,h2i_field,static_value
 CatAccessionYearLocal,NOT NULL,,cd:temporalCoverageType,accession year
-PriAccessionNumberRef.AccAccessionNo,NOT NULL,,cd:identifierType(1),accession number
-DarCatalogNumber,NOT NULL,,cd:identifierType(2),objectID
-CatItemsCat,NOT NULL,,cd:measurementType(1),anthropology original inventory count
-CatItemsCat,NOT NULL,,cd:measurementMethod(1),FMNH Metric
-CatItemsInv,NOT NULL,,cd:measurementType(2),anthropology current inventory count
-CatItemsInv,NOT NULL,,cd:measurementMethod(2),FMNH Metric
-DesKType,use,DesKDescription,h2i:Use,
+PriAccessionNumberRef.AccAccessionNo,NOT NULL,,cd:identifierType,accession number
+DarCatalogNumber,NOT NULL,,cd:identifierType,objectID
+CatItemsCat,NOT NULL,,cd:measurementType,anthropology original inventory count
+CatItemsCat,NOT NULL,,cd:measurementMethod,FMNH Metric
+CatItemsInv,NOT NULL,,cd:measurementType,anthropology current inventory count
+CatItemsInv,NOT NULL,,cd:measurementMethod,FMNH Metric
