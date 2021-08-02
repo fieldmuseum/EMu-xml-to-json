@@ -15,10 +15,10 @@ DesEthnicGroupSubgroup_tab,cd:culturalAffliation,,
 AttPeriod_tab,cd:period,,
 DesMaterials_tab,cd:materials,,
 PolContinent,dwc:continent,,
-PolPD1,dwc:country,,esites
+PolPD1,dwc:country,,./ColCollectionEventRef/ColSiteRef/PolPD1
 PolPD2,dwc:stateProvince,,./ColCollectionEventRef/ColSiteRef/PolPD2
-PolPD3,dwc:county,,esites
-PolPopn,cd:municipality,,esites
+PolPD3,dwc:county,,./ColCollectionEventRef/ColSiteRef/PolPD3
+PolPopn,cd:municipality,,./ColCollectionEventRef/ColSiteRef/PolPopn
 DarLocality,dwc:locality,,
 CatItemsCat,cd:measurementValue,,
 CatItemsInv,cd:measurementValue,,
