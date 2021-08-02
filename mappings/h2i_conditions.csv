@@ -1,4 +1,4 @@
-if_field1,if_value1,then_value,mapped_field,static_value
+if_field1,if_value1,then_field,h2i_field,static_value
 CatAccessionYearLocal,NOT NULL,,cd_temporalCoverageType,accession year
 PriAccessionNumberRef.AccAccessionNo,NOT NULL,,cd_identifierType(1),accession number
 DarCatalogNumber,NOT NULL,,cd_identifierType(2),objectID
