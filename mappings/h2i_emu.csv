@@ -14,7 +14,7 @@ EcbPartsUsed_tab,h2i:culturalArtefactParts,,
 DesEthnicGroupSubgroup_tab,cd:culturalAffliation,,
 AttPeriod_tab,cd:period,,
 DesMaterials_tab,cd:materials,,
-PolContinent,dwc:continent,,
+PolContinent,dwc:continent,,ColCollectionEventRef/ColSiteRef/PolContinent
 PolPD1,dwc:country,,./ColCollectionEventRef/ColSiteRef/PolPD1
 PolPD2,dwc:stateProvince,,./ColCollectionEventRef/ColSiteRef/PolPD2
 PolPD3,dwc:county,,./ColCollectionEventRef/ColSiteRef/PolPD3
