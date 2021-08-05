@@ -3,17 +3,17 @@ irn,dwc:recordNumber,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,
 CatAccessionYearLocal,cd:temporalCoverageStartDate,,
 DarCatalogNumberNumeric,dwc:catalogNumber,,
-PriAccessionNumberRef.AccAccessionNo,cd:identifier,yes,
+AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo
 DarCatalogNumber,cd:identifier,yes,
 CatOtherNumbersValue_tab,cd:identifier,yes,
 CatOtherNumbersType_tab,cd:identifierType,yes,
-DesKDescription0, h2i:culturalArtefactDescription,yes,
-DesKType_tab,fmnh:culturalArtefactDescriptionType,yes,
+DesKDescription, h2i:culturalArtefactDescription,yes,./Description/DesKDescription
+DesKType,fmnh:culturalArtefactDescriptionType,yes,./Description/DesKType
 DesUseClassification_tab,h2i:culturalArtefactFunction,yes,
 EcbPartsUsed_tab,h2i:culturalArtefactParts,yes,
-DesEthnicGroupSubgroup_tab,cd:culturalAffliation,yes,
+DesEthnicGroupSubgroup,cd:culturalAffliation,yes,./DesEthnicGroupSubgroup_tab/DesEthnicGroupSubgroup
 AttPeriod_tab,cd:period,yes,
-DesMaterials_tab,cd:materials,yes,
+DesMaterials,cd:materials,yes,./DesMaterials_tab/DesMaterials
 PolContinent,dwc:continent,,./ColCollectionEventRef/ColSiteRef/PolContinent
 PolPD1,dwc:country,,./ColCollectionEventRef/ColSiteRef/PolPD1
 PolPD2,dwc:stateProvince,,./ColCollectionEventRef/ColSiteRef/PolPD2
