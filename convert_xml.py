@@ -25,13 +25,15 @@ def xml_to_json(xml_input):
     # Prep h2i fields  
     atomic = emu_map.query('repeatable != "yes"')
     h2i_atomic = atomic['h2i_field'].values
-    atom_temp = dict.fromkeys(tuple(h2i_atomic))  # ""
-
+    atom_temp = dict.fromkeys(tuple(h2i_atomic))
 
     repeatable = emu_map.query('repeatable == "yes"')
     h2i_rep = repeatable['h2i_field'].values
-    rep_dict = dict.fromkeys(tuple(h2i_rep), [])  # {} 
+    rep_dict = dict.fromkeys(tuple(h2i_rep), [])
 
+    h2i_con_fields = map_condition['h2i_field'].values
+    con_dict = dict.fromkeys(tuple(h2i_con_fields), [])
+    # print(con_dict)
 
     # Setup xml
     tree = ET.parse(xml_input)
@@ -112,7 +114,7 @@ def xml_to_json(xml_input):
         # Get repeatable h2i fields  
         rep_temp = rep_dict
 
-        for h2i_rep_field_a in h2i_rep:  #  repeatable['emu'].values[2:-2]:  # str(emu_map['repeatable'].values) == 'yes':
+        for h2i_rep_field_a in h2i_rep:
             
             tup_fields = tuple1.findall('.//*')  
 
@@ -134,6 +136,36 @@ def xml_to_json(xml_input):
 
         h2i_records.update(rep_temp)
         # print('h2i_recs =  ' + str(h2i_records))  # OK
+
+        # # # # # # # # # # # # # #
+
+        # # Get conditional h2i fields  
+        # con_temp = con_dict
+
+        # for h2i_con_field_a in h2i_con_fields:
+            
+        #     # tup_fields = tuple1.findall('.//*')  
+
+        #     h2i_con_field = str(h2i_con_field_a)
+
+        #     emu_con_fields = map_condition.query('h2i_field == @h2i_con_field')['emu'].values
+
+        #     temp_dict_con = []  
+
+
+        #     for tup_field in tup_fields:
+
+        #         if tup_field.text is not None and tup_field.tag in emu_con_fields:
+
+        #             # ADD CONDITIONAL THINGS HERE
+                                    
+        #             temp_dict_con.append(tup_field.text) 
+                
+        #         con_temp[h2i_con_field] = temp_dict_con
+        #         # print('rep_temp-sub:  ' + str(rep_temp[h2i_rep_field]))
+
+        # h2i_records.update(con_temp)
+        # # print('h2i_recs =  ' + str(h2i_records))  # OK
 
         # all_records.append({"data": h2i_records.copy()})
         all_records.append(h2i_records.copy())
