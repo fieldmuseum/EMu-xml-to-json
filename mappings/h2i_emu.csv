@@ -13,7 +13,7 @@ DesUseClassification_tab,h2i:culturalArtefactFunction,yes,,
 EcbPartsUsed_tab,h2i:culturalArtefactParts,yes,,
 DesEthnicGroupSubgroup,cd:culturalAffliation,yes,./DesEthnicGroupSubgroup_tab/DesEthnicGroupSubgroup,
 AttPeriod_tab,cd:period,yes,,
-DesMaterials,cd:materials,yes,./DesMaterials_tab/DesMaterials,,
+DesMaterials,cd:materials,yes,./DesMaterials_tab/DesMaterials,
 site irn,,,,esites
 site_guid,,,,esites
 PolContinent,dwc:continent,,./ColCollectionEventRef/ColSiteRef/PolContinent,
