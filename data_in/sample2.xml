@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           ecatalogue
+    integer         irn
+    text short      DarGlobalUniqueIdentifier
+    integer         CatAccessionYearLocal
+    integer         DarCatalogNumberNumeric
+    tuple           PriAccessionNumberRef
+      text short      AccAccessionNo
+    end
+    text short      DarCatalogNumber
+    table           OtherNums
+      text short      CatOtherNumbersType
+      text long       CatOtherNumbersValue
+    end
+    table           Description
+      text long       DesKDescription
+      text short      DesKType
+    end
+    table           DesUseClassification_tab
+      text short      DesUseClassification
+    end
+    table           EcbPartsUsed_tab
+      text short      EcbPartsUsed
+    end
+    table           DesEthnicGroupSubgroup_tab
+      text short      DesEthnicGroupSubgroup
+    end
+    table           AttPeriod_tab
+      text short      AttPeriod
+    end
+    table           DesMaterials_tab
+      text short      DesMaterials
+    end
+    tuple           ColCollectionEventRef
+      tuple           ColSiteRef
+        text short      PolContinent
+        text short      PolPD1
+        text short      PolPD2
+        text short      PolPD3
+        text short      PolPopn
+      end
+    end
+    text long       DarLocality
+    integer         CatItemsCat
+    integer         CatItemsInv
+    table           DesObjectName_tab
+      text short      DesObjectName
+    end
+    table           DesObjectType_tab
+      text short      DesObjectType
+    end
+    text short      DarCollector
+    text short      CatRecordType
+    text short      DesSubjectCode
+    text short      DesPeriod
+    text long       DesTechnicalDescription
+    table           ColContinentLocal_tab
+      text short      ColContinentLocal
+    end
+    table           ColCountryLocal_tab
+      text short      ColCountryLocal
+    end
+    table           ColProvinceStateTerritoryLocal_tab
+      text short      ColProvinceStateTerritoryLocal
+    end
+    table           ColDistrictCountyShireLocal_tab
+      text short      ColDistrictCountyShireLocal
+    end
+    table           ColTownshipLocal_tab
+      text short      ColTownshipLocal
+    end
+    integer         CatObjectCount
+    integer         CatItemsSub
+    text short      CatLegalStatus
+    integer         CatAnthroCatalogNumber
+    text long       CatSubNumbers
+  end
+?>
+<!-- Data -->
+<table name="ecatalogue">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">12345</atom>
+    <atom name="DarGlobalUniqueIdentifier">98765-cba-def-12345</atom>
+    <atom name="CatAccessionYearLocal">2000</atom>
+    <atom name="DarCatalogNumberNumeric">98765</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">99999</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">98765</atom>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="PolContinent">Continent</atom>
+        <atom name="PolPD1">Country</atom>
+        <atom name="PolPD2">PD2 area</atom>
+        <atom name="PolPD3">PD3 area</atom>
+        <atom name="PolPopn">City</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Locality Name</atom>
+    <atom name="CatItemsCat">2</atom>
+    <atom name="CatItemsInv">4</atom>
+    <atom name="DarCollector">Person</atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode">Subjects</atom>
+    <atom name="DesPeriod">Time period</atom>
+    <atom name="DesTechnicalDescription">Tech description</atom>
+    <atom name="CatObjectCount">4</atom>
+    <atom name="CatItemsSub">2</atom>
+    <atom name="CatLegalStatus">Legal status</atom>
+    <atom name="CatAnthroCatalogNumber">98765</atom>
+    <atom name="CatSubNumbers">1,2</atom>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="irn">23456</atom>
+    <atom name="DarGlobalUniqueIdentifier">00224466-abc-4567-987654</atom>
+    <atom name="CatAccessionYearLocal">1900</atom>
+    <atom name="DarCatalogNumberNumeric">87654</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4444</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">76543</atom>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="PolContinent">continent</atom>
+        <atom name="PolPD1">country</atom>
+        <atom name="PolPD2">PD2 name</atom>
+        <atom name="PolPD3">PD3 name</atom>
+        <atom name="PolPopn">Pop name</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Loc name</atom>
+    <atom name="CatItemsCat">5</atom>
+    <atom name="CatItemsInv">5</atom>
+    <atom name="DarCollector">Collector name</atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode">code</atom>
+    <atom name="DesPeriod">period</atom>
+    <atom name="DesTechnicalDescription">description</atom>
+    <atom name="CatObjectCount">5</atom>
+    <atom name="CatItemsSub">3</atom>
+    <atom name="CatLegalStatus">status</atom>
+    <atom name="CatAnthroCatalogNumber">87654</atom>
+    <atom name="CatSubNumbers">1,2,3</atom>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="irn">888888</atom>
+    <atom name="DarGlobalUniqueIdentifier">cde123fgh-1234-4567-bcde-123456</atom>
+    <atom name="CatAccessionYearLocal"></atom>
+    <atom name="DarCatalogNumberNumeric">23456</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">1111</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">23456.7</atom>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">description text</atom>
+        <atom name="DesKType">Basic Description</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Group name</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">materials</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+        <atom name="PolContinent"></atom>
+        <atom name="PolPD1">PD1 area name</atom>
+        <atom name="PolPD2">PD2 area name</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat"></atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode">2345: codes</atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">continent</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">country</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Name</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount"></atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">23456</atom>
+    <atom name="CatSubNumbers">.2</atom>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="irn">543210</atom>
+    <atom name="DarGlobalUniqueIdentifier">0a1b2c3d4e-5678-4321-bcde</atom>
+    <atom name="CatAccessionYearLocal"></atom>
+    <atom name="DarCatalogNumberNumeric">890123</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">1234</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">890123.4{5}</atom>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">description text</atom>
+        <atom name="DesKType">Basic Description</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Name</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">material</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+        <atom name="PolContinent">continent</atom>
+        <atom name="PolPD1">country</atom>
+        <atom name="PolPD2">province</atom>
+        <atom name="PolPD3">county</atom>
+        <atom name="PolPopn">city</atom>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat"></atom>
+    <atom name="CatItemsInv">2</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode">3210: code</atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">Continent</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">area</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">area</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount"></atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">890123</atom>
+    <atom name="CatSubNumbers">.4{5}</atom>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="irn">456789</atom>
+    <atom name="DarGlobalUniqueIdentifier">efgefgefg-5678-4321-8765-765abc432def</atom>
+    <atom name="CatAccessionYearLocal"></atom>
+    <atom name="DarCatalogNumberNumeric">54321</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">8765</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">54321.1[0]</atom>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">description</atom>
+        <atom name="DesKType">Basic Description</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">name</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">material</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+        <atom name="PolContinent">Continent</atom>
+        <atom name="PolPD1"></atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">0</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode">2345: code</atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">Continent</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">country</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">state</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">0</atom>
+    <atom name="CatItemsSub">0</atom>
+    <atom name="CatLegalStatus">status</atom>
+    <atom name="CatAnthroCatalogNumber">54321</atom>
+    <atom name="CatSubNumbers">nosub[0]</atom>
+  </tuple>
+</table>
