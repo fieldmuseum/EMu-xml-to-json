@@ -36,10 +36,8 @@ def xml_to_json(xml_input):
     rep_dict = dict.fromkeys(tuple(h2i_rep), [])
 
     h2i_con_fields = map_condition['h2i_field'].values
-    # h2i_con_fields_1 = pd.DataFrame(h2i_con_fields) # h2i_con_fields[pd.notnull(h2i_con_fields)]
-    # h2i_con_fields_2 = h2i_con_fields_1.ix['h2i_field' != "NULL"]
-    # h2i_con_fields_2 = h2i_con_fields[pd.notnull(h2i_con_fields)]
     h2i_con_fields_2 = map_condition.query('h2i_field != "NULL"')['h2i_field'].values
+    h2i_null_fields = map_condition.query('h2i_field == "NULL"')['h2i_field'].values
     con_dict = dict.fromkeys(tuple(h2i_con_fields_2), [])
 
 
@@ -64,6 +62,8 @@ def xml_to_json(xml_input):
     # Turn EMu col-names into XML-tags instead of attributes:
     for child in root1.findall('.//*'):
 
+        if child.tag == "tuple" and child.get('name') is None:
+            child.set('name', 'tuple')
         child.tag = child.get('name')
         child.attrib = {}
 
@@ -76,77 +76,63 @@ def xml_to_json(xml_input):
 
     # 2 - Find/Prep values with lxml.etree.xpath()
 
-    get_cols = etree.XPath('.//data')
+    get_cols = etree.XPath('.//*')
     # Turn EMu col-names into XML-tags instead of attributes:
     for column in get_cols(tree_prep): # .XPath('.//*'):
 
         if column.tag is not None:
-            print(column.tag)
-            # column.tag = column.get('name')
-            # column.attrib = {}
+            # print('col tag:  ' + str(column.tag))
 
 
             # # # # # # # # # # 
             # Clear redacted values
-            for h2i_con_field_a in h2i_con_fields:
+            for h2i_null_field1 in h2i_null_fields:
                     
                 # tup_fields = tuple1.findall('.//*')  
 
-                h2i_con_field = str(h2i_con_field_a)
-                # print('h2i con field:  ' + str(h2i_con_field))
+                h2i_null_field = str(h2i_null_field1)
 
-                emu_if_field = map_condition.query('h2i_field == @h2i_con_field')['if_field1'].values
-                emu_if_value = map_condition.query('h2i_field == @h2i_con_field')['if_value1'].values
-                emu_then_field = map_condition.query('h2i_field == @h2i_con_field')['then_field'].values
-                h2i_con_value = map_condition.query('h2i_field == @h2i_con_field')['static_value'].values
-                
-                print("h2i field:  " + str(h2i_con_field))
+                emu_if_field = map_condition.query('h2i_field == @h2i_null_field')['if_field1'].values
+                emu_if_value = map_condition.query('h2i_field == @h2i_null_field')['if_value1'].values
+                emu_then_field = map_condition.query('h2i_field == @h2i_null_field')['then_field'].values
+                h2i_con_value = map_condition.query('h2i_field == @h2i_null_field')['static_value'].values
 
-                if h2i_con_field == "NULL":
-                    print(h2i_con_field)
+                if str(column.tag) == str(emu_if_field)[2:-2]: # and column.text == str(emu_if_value): # "NULL":
 
-                    # 'NOT NULL' condition covered with 'if tup_field.text is not None'
-                    emu_xpath = etree.XPath('./' + str(column.tag) + '[.="' + str(emu_if_value)[2:-2] + '"]/preceding-sibling::' + str(emu_then_field)[2:-2])
-                    # emu_xpath_1 = './' + str(column.tag) + '[.="' + str(emu_if_value)[2:-2] + '"]/preceding-sibling::' + str(emu_then_field)[2:-2]
-                    # print(emu_xpath_1)
+                    emu_xpath_string = './/tuple/' + str(emu_if_field)[2:-2] + '[.="' + str(emu_if_value)[2:-2] + '"]/preceding-sibling::' + str(emu_then_field)[2:-2]
+                    # print('xpath_str:  '  + str(emu_xpath_string))
+                    emu_xpath = etree.XPath(emu_xpath_string)
 
-                    print(str(type(emu_xpath(tree_prep))))  # .xpath(emu_xpath_1))))
-
-                    # emu_xpath_2 = './/preceding-sibling::' + str(emu_then_field)[2:-2] + '["' + str(emu_then_field)[2:-2] + '"]'
-                    # print("tup_find:  " + str(tuple1.findall(emu_xpath_1)))
-                    print("tup xslt:  " + './' + str(emu_then_field)[2:-2])
+                    # print("tup xslt:  " + './' + str(emu_then_field)[2:-2])
                     emu_then_update = emu_xpath(tree_prep) 
-                    print('emu_then_up:  ' + str(type(emu_then_update)))
+                    
+                    # print('emu_then result --- ' + str(emu_then_update))
+                    
                     if emu_then_update != []:
+                        # print('emu_then_up 1:  ' + str(emu_then_update[0].tag) + ' -- ' + str(emu_then_update[0].text) )
                         emu_then_update[0].text = ""
+                        # print('emu_then_up 2:  ' + str(emu_then_update[0].tag) + ' -- ' + str(emu_then_update[0].text) )
                     
                     # if the emu_if-field should also be updated, update it too:
-                    column.text = ""
-                    # tup_field[emu_then_field].text = ""
-                    # print("tup_field_txt:  " + str(tup_field.findall(str(emu_then_field))))
-                    # print(tup_field.tag + " -- " + tup_field.text)
-                    # temp_dict_con.append(str(tup_field.text))
+                    if str(column.text) == str(emu_if_value)[2:-2]:
+                        column.text = ""
 
+                    # TO DO -- replace abov with 'just remove the tuple'
 
-    # output updated xml to check
-    et = ET.ElementTree(tree_prep)
-    et.write(config('OUT_PATH') + 'check_prep.xml')  #, pretty_print=True)
+    # # output updated xml to check
+    # et = ET.ElementTree(tree_prep)
+    # et.write(config('OUT_PATH') + 'check_prep.xml')  #, pretty_print=True)
 
     # Return updated xml as string
-
     prep_tree_string = etree.tostring(tree_prep).decode('utf-8')
-    
 
-    print("tree_prep type" + str(type(prep_tree_string)))
 
-    # prep_tree = prep_xml(xml_input)
-
-    # 3 - convert to xml ElementTree
-
+    # 3 - convert back to xml ElementTree
     doc = ET.fromstring(prep_tree_string)  # ET.parse(prep_tree_string)   # 
     tree = ET.ElementTree(doc)
-    # tree = ET.parse(xml_input)
-    # root = tree.getroot()
+    
+    # # check input-xml again
+    # tree.write(config('OUT_PATH') + "check_input_prep.xml")
 
     # Setup separate empty dict of h2i terms
 
@@ -175,12 +161,12 @@ def xml_to_json(xml_input):
             emu_if_value = map_condition.query('h2i_field == @h2i_con_field')['if_value1'].values
             emu_then_field = map_condition.query('h2i_field == @h2i_con_field')['then_field'].values
             h2i_con_value = map_condition.query('h2i_field == @h2i_con_field')['static_value'].values
-            # print("emu if:  " + str(emu_if_field))
 
             temp_dict_con = []  
 
 
             for tup_field in tup_fields:
+                print("tup_field -- " + str(tup_field))
 
                 # print("test:  " +  str(pd.isnull(h2i_con_field)))
                 if tup_field.text is not None and tup_field.tag in emu_if_field:
@@ -188,10 +174,11 @@ def xml_to_json(xml_input):
                     # # # # # # # # # # 
                     # Add static values
                     tup_field_tag = str(tup_field.tag)
+                    print(tup_field_tag)
 
                     if str(emu_if_value) == "NOT NULL" and tup_field.tag is not None:
 
-                        # print(str(emu_if_value))
+                        print(str(emu_if_value))
                         temp_dict_con.append(str(h2i_con_value))
                         # temp_dict_con.append(str(tup_field.text))
                     
@@ -203,12 +190,11 @@ def xml_to_json(xml_input):
                     # if str(emu_if_value) == "NOT NULL": 
                                     
                     #     temp_dict_con.append(tup_field.text)
-
                     
-                if str(h2i_con_field_a) not in ["nan", "NaN", ""]:  # and h2i_con_field is not None:
-                    if h2i_con_value in h2i_con_fields_2:
-                        con_temp[h2i_con_field_a] = temp_dict_con  # h2i_con_value
-                        # print('h2i_con_field:  ' + str(temp_dict_con))
+                if str(h2i_con_field_a) not in ["nan", "NaN", "NULL", ""]:  # and h2i_con_field is not None:
+                    # if h2i_con_value in h2i_con_fields_2:
+                    con_temp[h2i_con_field_a] = temp_dict_con  # h2i_con_value
+                    # print('h2i_con_field:  ' + str(temp_dict_con))
         
         h2i_records = con_temp
         # h2i_records.update(con_temp)
