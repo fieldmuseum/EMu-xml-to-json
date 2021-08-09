@@ -7,8 +7,8 @@ AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo,identifi
 DarCatalogNumber,cd:identifier,yes,,identifiers
 CatOtherNumbersValue_tab,cd:identifier,yes,,identifiers
 CatOtherNumbersType_tab,cd:identifierType,yes,,identifiers
-DesKDescription,h2i:culturalArtefactDescription,yes,./Description/DesKDescription,
-DesKType,fmnh:culturalArtefactDescriptionType,yes,./Description/DesKType,
+DesKDescription,h2i:culturalArtefactDescription,yes,./Description/DesKDescription,descriptions
+DesKType,fmnh:culturalArtefactDescriptionType,yes,./Description/DesKType,descriptions
 DesUseClassification_tab,h2i:culturalArtefactFunction,yes,,
 EcbPartsUsed_tab,h2i:culturalArtefactParts,yes,,
 DesEthnicGroupSubgroup,cd:culturalAffliation,yes,./DesEthnicGroupSubgroup_tab/DesEthnicGroupSubgroup,
@@ -23,6 +23,6 @@ PolPopn,cd:municipality,,./ColCollectionEventRef/ColSiteRef/PolPopn,
 DarLocality,dwc:locality,,,
 CatItemsCat,cd:measurementValue,yes,,measurements
 CatItemsInv,cd:measurementValue,yes,,measurements
-DesObjectName_tab,h2i:culturalArtefactSimpleName,yes,,
-DesObjectType_tab,fmnh:culturalArtefactSimpleNameType,yes,,
+DesObjectName_tab,h2i:culturalArtefactSimpleName,yes,,simplenames
+DesObjectType_tab,fmnh:culturalArtefactSimpleNameType,yes,,simplenames
 DarCollector,dwc:recordedBy,,,
