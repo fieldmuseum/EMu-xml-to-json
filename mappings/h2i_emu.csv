@@ -1,6 +1,6 @@
 emu,h2i_field,repeatable,emu_xslt_search,h2i_container
 irn,dwc:recordNumber,,,identifier
-DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
+DarGlobalUniqueIdentifier,dwc:occurrenceID,,,identifier
 CatAccessionYearLocal,cd:temporalCoverageStartDate,,,
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
 AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo,
