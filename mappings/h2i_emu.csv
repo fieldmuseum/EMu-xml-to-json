@@ -6,7 +6,7 @@ DarCatalogNumberNumeric,dwc:catalogNumber,,,
 AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo,identifiers
 DarCatalogNumber,cd:identifier,yes,,identifiers
 CatOtherNumbersValue_tab,cd:identifier,yes,,identifiers
-CatOtherNumbersType_tab,cd:identifierType,yes,,
+CatOtherNumbersType_tab,cd:identifierType,yes,,identifiers
 DesKDescription,h2i:culturalArtefactDescription,yes,./Description/DesKDescription,
 DesKType,fmnh:culturalArtefactDescriptionType,yes,./Description/DesKType,
 DesUseClassification_tab,h2i:culturalArtefactFunction,yes,,
