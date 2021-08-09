@@ -3,9 +3,9 @@ irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
 CatAccessionYearLocal,cd:temporalCoverageStartDate,,,
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
-AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo,identifier
-DarCatalogNumber,cd:identifier,yes,,identifier
-CatOtherNumbersValue_tab,cd:identifier,yes,,identifier
+AccAccessionNo,cd:identifier,yes,./PriAccessionNumberRef/AccAccessionNo,identifiers
+DarCatalogNumber,cd:identifier,yes,,identifiers
+CatOtherNumbersValue_tab,cd:identifier,yes,,identifiers
 CatOtherNumbersType_tab,cd:identifierType,yes,,
 DesKDescription,h2i:culturalArtefactDescription,yes,./Description/DesKDescription,
 DesKType,fmnh:culturalArtefactDescriptionType,yes,./Description/DesKType,
