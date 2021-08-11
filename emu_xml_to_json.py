@@ -8,7 +8,7 @@ import os, glob, re, sys
 import notify, out_zip
 
 
-def emu_to_json(xml_in):
+def emu_to_json(xml_in, email=True):
     log_date = str(date.today())
     log_start = str(datetime.now())
 
@@ -19,7 +19,7 @@ def emu_to_json(xml_in):
     # Else output error/exception-log
     try:
 
-        cvx.xml_to_json(xml_in) # , fix_xml=True)
+        cvx.xml_to_json(xml_in)
         
         # Update logs
         log_time = str(datetime.now())
@@ -65,11 +65,14 @@ def emu_to_json(xml_in):
     else:
         zip_output = ""
 
+
     # Send notification
-    subject = "EMu xml-to-json results - " + log_date
-    message = "Output from EMu-xml-to-json - " + log_time + " - log: \n" + log_msg
-    notify.send_output(message, subject, zip_output, config('TO_ADD1'))
-    # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
+    if email == True:
+        subject = "EMu xml-to-json results - " + log_date
+        message = "Output from EMu-xml-to-json - " + log_time + " - log: \n" + log_msg
+        notify.send_output(message, subject, zip_output, config('TO_ADD1'))
+        # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
+
 
 # Run directly with:
 #   python3 emu_xml_to_json.py file1 file2 etc
