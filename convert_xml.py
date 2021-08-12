@@ -120,7 +120,7 @@ def xml_to_json(xml_input):
     get_cols = etree.XPath('.//*')
     # Turn EMu col-names into XML-tags instead of attributes:
 
-    print("num_of_treePrepCols:  " + str(len(get_cols(tree_prep))))
+    # print("num_of_treePrepCols:  " + str(len(get_cols(tree_prep))))
 
     for column in get_cols(tree_prep): # .XPath('.//*'):
 
@@ -244,7 +244,7 @@ def xml_to_json(xml_input):
             
             if tup_field.tag != "tuple" and tup_field.tag in emu_no_group: # in emu_map['emu']:
 
-                print(str(tup_field.tag) + " -- " + str(t_emu_group) + ' -- ' + str(len(t_emu_group)))
+                # print(str(tup_field.tag) + " -- " + str(t_emu_group) + ' -- ' + str(len(t_emu_group)))
 
                 # print(str(t_h2i_field)[2:-2])
                 # print(single_dict.keys())
