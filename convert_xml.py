@@ -253,7 +253,7 @@ def xml_to_json(xml_input):
                 # if len(tuple_group) > 1 or "tuple" in tuple_group:
                 for tup_group_field in tuple_group:
                         
-                    if tup_group_field.tag != "tuple":
+                    if tup_group_field.tag in t_emu_field:  # not in ["tuple", None]:  # != "tuple": and tup_group_field.text != "":
                         print ("FIRST tuple_group:  " + str(tuple_group))
 
                         e_h2i_field = emu_map.query('emu == @tup_group_field.tag')['h2i_field'].values
@@ -266,23 +266,12 @@ def xml_to_json(xml_input):
                         e_h2i_con_value = map_condition.query('if_field1 == @tup_group_field.tag')['static_value'].values
                         e_h2i_con_group = map_condition.query('if_field1 == @tup_group_field.tag')['h2i_container'].values
 
-                        
-                        # print("Parent TUP GROUP TAG  - - - " + str(tup_field.tag))
-                        # print("Current TUP GROUP FIELD TAG -- -- -- " + str(tup_group_field.tag))
-                        # print('h2ifield = = = ' + str(e_h2i_field))
-                        # print('emu IF field = = = ' + str(e_emu_if_field))
-
                         group_temp_dict = {}
-
-                        # FIX e_group_field BROKEN REFS below:
 
                         if len(e_h2i_group) > 0:
                             str_h2i_group = str(e_h2i_group[0])
                         if len(e_h2i_con_group) > 0:
                             str_h2i_con_group = str(e_h2i_con_group[0])
-
-                        print('H2I CONTAINER field = = = ' + str(e_h2i_con_group) + ' - len: ' + str(len(e_h2i_con_group)))
-                        print('String-ified as this - - - ' + str_h2i_con_group + ' == ' + str(tup_group_field.text))
 
 
                         # # # # # # # - # e.g. DesUseClassification_tab.DesUseClassification --> h2i:culturalArtefactFunction
@@ -292,8 +281,14 @@ def xml_to_json(xml_input):
                             # e_group_xslt = etree.XPath()
                             # e_group_value = e_group_xslt()
 
-                            group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
-                            print(str(tup_group_field.tag) + ' == added to group: ' + str(group_all[str(e_h2i_field)[2:-2]]))
+                            if e_h2i_group is None:
+
+                                group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
+                                print(str(tup_group_field.tag) + ' == added to group: ' + str(group_all[str(e_h2i_field)[2:-2]]))
+
+                            else:
+
+                                group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
 
                             # if child's h2i_group is None, can just set h2i_field = child.text
                             # else [if child goes to an h2i_group, add it to that]
@@ -305,12 +300,12 @@ def xml_to_json(xml_input):
                         # # # # # # #  -  # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
                         # ref/table-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
                         # Might need to revert to:  elif "NOT NULL" in e_emu_if_value and str_h2i_group is not None: 
-                        elif e_emu_if_value is not None and e_h2i_con_field != "NULL":  # and str_h2i_group is not None: 
+                        elif e_emu_if_value == "NOT NULL":
 
                             # group_fields = map_condition.query('if_field1 == @tup_group_field.tag')['h2i_field'].values
                             # group_values = map_condition.query('if_field1 == @tup_group_field.tag')['static_value'].values
 
-                            group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_field.text)
+                            group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
 
                             print("EMU ref-field w/ condition added to THIS GROUP:  ")
 
@@ -334,7 +329,7 @@ def xml_to_json(xml_input):
                         
                         group_temp_dict.clear()
 
- 
+
         all_records.append(group_all.copy())
 
         group_all.clear()
