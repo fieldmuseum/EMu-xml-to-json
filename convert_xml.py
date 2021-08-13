@@ -277,55 +277,33 @@ def xml_to_json(xml_input):
                         # # # # # # # - # e.g. DesUseClassification_tab.DesUseClassification --> h2i:culturalArtefactFunction
                         # ref/table-to-1 -- withOUT conditional mapping
                         if tup_group_field.tag not in e_emu_if_field: # and tup_group_field.tag in single_dict.keys()
-                            
-                            # e_group_xslt = etree.XPath()
-                            # e_group_value = e_group_xslt()
 
-                            if e_h2i_group is None:
+                            print("H2I CONTAINER == === == " + str(e_h2i_group))
 
-                                group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
-                                print(str(tup_group_field.tag) + ' == added to group: ' + str(group_all[str(e_h2i_field)[2:-2]]))
+                            # if e_h2i_group is None:
 
-                            else:
+                            group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
 
-                                group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
+                            # else:
 
-                            # if child's h2i_group is None, can just set h2i_field = child.text
-                            # else [if child goes to an h2i_group, add it to that]
+                            #     group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
 
+                                # for key, val in zip(e_h2i_con_field, e_h2i_con_value): # t_h2i_con_field1 in t_h2i_con_field:
+                                #     group_temp_dict[str(key)] = str(val)
 
-                    # For EMu-nodes NOT nested inside 'tuple' nodes:
-                    # elif len(tuple_group) == 1:
-                    # ...or try without splitting out
+                                # group_all[str_h2i_con_group].append(group_temp_dict.copy())  # = t_h2i_con_value
+
                         # # # # # # #  -  # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
                         # ref/table-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
-                        # Might need to revert to:  elif "NOT NULL" in e_emu_if_value and str_h2i_group is not None: 
-                        elif e_emu_if_value == "NOT NULL":
-
-                            # group_fields = map_condition.query('if_field1 == @tup_group_field.tag')['h2i_field'].values
-                            # group_values = map_condition.query('if_field1 == @tup_group_field.tag')['static_value'].values
+                        # Conditions besides 'not null' + h2i-container would currently need separate 'elif' statements
+                        elif e_emu_if_value == "NOT NULL":  # and str_h2i_con_group is not None:
 
                             group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
 
-                            print("EMU ref-field w/ condition added to THIS GROUP:  ")
-
-                            print(group_temp_dict[str(e_h2i_field)[2:-2]])
-
-                            # if str_h2i_con_group is not None:                                
                             for key, val in zip(e_h2i_con_field, e_h2i_con_value): # t_h2i_con_field1 in t_h2i_con_field:
-                                # for val in group_values:
                                 group_temp_dict[str(key)] = str(val)
 
-
-                            print("DONE LOOPING ALL OVER")
-                            print(group_temp_dict)
-                        
                             group_all[str_h2i_con_group].append(group_temp_dict.copy())  # = t_h2i_con_value
-
-                            print("GROUP ALL:  ")
-                            print(group_all)
-                            # else:
-                            #     group_all[]
                         
                         group_temp_dict.clear()
 
@@ -337,7 +315,6 @@ def xml_to_json(xml_input):
     # Output EMu-json
     f = open(config('OUT_PATH') + 'emu_to_json.json', 'w')
     f.write(json.dumps(all_records, indent=True))
-    # f.write(json.dumps(all_records_json, indent=True))
     f.close()
 
 
@@ -352,7 +329,7 @@ def xml_to_json(xml_input):
         # with open(config('OUT_PATH') + "emu_canonic.xml", mode='w', encoding='utf-8') as out_file:
         #     ET.canonicalize(xml_data=treestring, out=out_file)
         
-        # Also output slightly-more-compact xml -- e.g. <tag />
+    # Output slightly-more-compact xml -- e.g. <tag />
     tree.write(config('OUT_PATH') + "emu_xml.xml")
     
 
