@@ -32,6 +32,7 @@ def xml_to_json(xml_input):
     atomic = emu_map.query('repeatable != "yes"')
     h2i_atomic = atomic['h2i_field'].values
     emu_no_group = emu_map[emu_map['emu_group'].isnull()]['emu'].values
+    emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
     atom_dict = dict.fromkeys(tuple(h2i_atomic))
 
     # Multi/repeatable 
@@ -185,6 +186,14 @@ def xml_to_json(xml_input):
             t_h2i_con_value = map_condition.query('if_field1 == @tup_field.tag')['static_value'].values
             t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
 
+            get_tuples = etree.XPath("./" + str(tup_field.tag) + "//*")
+            tuple_group = get_tuples(tuple1)
+
+            # # This might need to move to separate if/for loop
+            # if "tuple" in tuple_group:
+            #     get_sub_tuples = etree.XPath("./" + str(tuple_group) + "//*")
+            #     tuple_group = [get_sub_tuples(tup_field)]
+
             # 1 - check if field is in emu_map & filter out emu_groups
             # if tup_field.tag is not None and tup_field.tag in t_emu_field: # in emu_map['emu']:
 
@@ -202,7 +211,7 @@ def xml_to_json(xml_input):
 
 
                 # # # # # # #
-                # 1-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
+                # 1-to-Group -- WITH conditional mapping [all currently to multi-value h2i field]
                 elif "NOT NULL" in t_emu_if_value and t_h2i_group is not None:
                         
                     # Setup dict of conditional grouped values for values with no 'emu_group'
@@ -232,21 +241,21 @@ def xml_to_json(xml_input):
 
                 str_emu_group = str(m_emu_group)
 
-                print("EMu / h2i FIELDS")
-                print(t_emu_field)
-                print(t_h2i_field)
+                # print("EMu / h2i FIELDS")
+                # print(t_emu_field)
+                # print(t_h2i_field)
 
 
-                get_tuples = etree.XPath("./" + str(tup_field.tag) + "//*")
-                tuple_group = get_tuples(tuple1)
+                # get_tuples = etree.XPath("./" + str(tup_field.tag) + "//*")
+                # tuple_group = get_tuples(tuple1)
 
                 # This might need to move to separate if/for loop
                 if "tuple" in tuple_group:
                     get_sub_tuples = etree.XPath("./" + str(tuple_group) + "//*")
                     tuple_group = [get_sub_tuples(tup_field)]
 
-                print("TUPLE GROUP: --- --- -- length == ==  " + str(len(tuple_group)))
-                print(tuple_group)
+                # print("TUPLE GROUP: --- --- -- length == ==  " + str(len(tuple_group)))
+                # print(tuple_group)
 
                 # For EMu-nodes nested inside 'tuple' nodes:
                 # iterate through fields within an emu-group (is iterparse better?)
@@ -278,20 +287,56 @@ def xml_to_json(xml_input):
                         # ref/table-to-1 -- withOUT conditional mapping
                         if tup_group_field.tag not in e_emu_if_field: # and tup_group_field.tag in single_dict.keys()
 
-                            print("H2I CONTAINER == === == " + str(e_h2i_group))
+                            # print("H2I CONTAINER + len =  " + str(len(e_h2i_group))  +  " == === == ")
+                            # print(emu_h2i_groups)
+                            # print(e_h2i_group not in emu_h2i_groups)
+                            # print(tuple_group)
 
-                            # if e_h2i_group is None:
+                            if e_h2i_group not in emu_h2i_groups:
 
-                            group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
+                                group_all[str(e_h2i_field)[2:-2]] = tup_group_field.text  # # # # use += instead?
 
-                            # else:
+                            # # # # # # # - # e.g. DesUseClassification_tab.DesUseClassification --> h2i:culturalArtefactFunction
+                            # ref/table-to-Group -- withOUT conditional mapping
+                                
+                            elif tup_group_field.text != "":  #  if "tuple" in tuple_group.tag == "tuple"  # if e_h2i_group in emu_h2i_groups:
 
-                            #     group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
+                                # print("tup_group_field stuff --- " + str(tup_group_field.tag) + " (" + str(tup_group_field.text + ")"))
 
-                                # for key, val in zip(e_h2i_con_field, e_h2i_con_value): # t_h2i_con_field1 in t_h2i_con_field:
-                                #     group_temp_dict[str(key)] = str(val)
+                                group_temp_dict[str(e_h2i_field)[2:-2]] = str(tup_group_field.text)
 
-                                # group_all[str_h2i_con_group].append(group_temp_dict.copy())  # = t_h2i_con_value
+                                print("BEFORE -- GROUP TEMP DICT: : : : : : : : : ")
+                                print(group_temp_dict)
+
+                                sib_e_fields = emu_map.query('h2i_container == @e_h2i_group[0]')['emu'].values
+                                sib_h_fields = emu_map.query('h2i_container == @e_h2i_group[0]')['h2i_field'].values
+
+                                # for sib_field in sib_fields:
+                                sib_val_xslt = etree.XPath("//" + tup_group_field.tag + '[.="' + tup_group_field.text + '"]/../*')
+                                sib_val = sib_val_xslt(tup_field)
+
+                                print(len(sib_val))
+
+                                # Line up EMu-tuple-siblings with h2i-group-fields
+
+                                for sib_key in sib_val:
+                                    print(sib_key.text)
+                                    sib_vals = []
+                                    sib_vals.append(str(sib_key.text))
+                                    sib_keys = []
+                                    sib_keys.append(str(emu_map.query('emu == @sib_key.tag')['h2i_field'].values)[2:-2])
+
+                                print(sib_vals)
+                                print(sib_keys)
+
+                                for key, val in zip(sib_keys, sib_vals): # zip(e_h2i_field, e_h2i_con_value):
+                                    group_temp_dict[key] = val
+
+                                print("AFTER -- GROUP TEMP DICT : : : : : : : : : ")
+
+                                print(group_temp_dict)
+
+                                group_all[str_h2i_group].append(group_temp_dict.copy())  # = t_h2i_con_value
 
                         # # # # # # #  -  # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
                         # ref/table-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
