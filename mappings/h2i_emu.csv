@@ -5,8 +5,8 @@ CatAccessionYearLocal,cd:temporalCoverageStartDate,,,timey_wimeys
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
 AccAccessionNo,cd:identifier,yes,PriAccessionNumberRef,identifiers
 DarCatalogNumber,cd:identifier,yes,,identifiers
-CatOtherNumbersValue_tab,cd:identifier,yes,OtherNums,identifiers
-CatOtherNumbersType_tab,cd:identifierType,yes,OtherNums,identifiers
+CatOtherNumbersValue,cd:identifier,yes,OtherNums,identifiers
+CatOtherNumbersType,cd:identifierType,yes,OtherNums,identifiers
 DesKDescription,h2i:culturalArtefactDescription,yes,Description,descriptions
 DesKType,fmnh:culturalArtefactDescriptionType,yes,Description,descriptions
 DesUseClassification,h2i:culturalArtefactFunction,yes,DesUseClassification_tab,
@@ -23,6 +23,6 @@ PolPopn,cd:municipality,,ColCollectionEventRef,
 DarLocality,dwc:locality,,,
 CatItemsCat,cd:measurementValue,yes,,measurements
 CatItemsInv,cd:measurementValue,yes,,measurements
-DesObjectName_tab,h2i:culturalArtefactSimpleName,yes,DesObj,simplenames
-DesObjectType_tab,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
+DesObjectName,h2i:culturalArtefactSimpleName,yes,DesObj,simplenames
+DesObjectType,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
 DarCollector,dwc:recordedBy,,,
