@@ -11,7 +11,7 @@ DesKDescription,h2i:culturalArtefactDescription,yes,Description,descriptions
 DesKType,fmnh:culturalArtefactDescriptionType,yes,Description,descriptions
 DesUseClassification,h2i:culturalArtefactFunction,yes,DesUseClassification_tab,
 EcbPartsUsed,h2i:culturalArtefactParts,yes,EcbPartsUsed_tab,
-DesEthnicGroupSubgroup,cd:culturalAffliation,yes,DesEthnicGroupSubgroup_tab,
+DesEthnicGroupSubgroup,cd:culturalAffiliation,yes,DesEthnicGroupSubgroup_tab,
 AttPeriod,cd:period,yes,AttPeriod_tab,
 DesMaterials,cd:materials,yes,DesMaterials_tab,
 esites_irn,dwc:locationID,,ColCollectionEventRef,
