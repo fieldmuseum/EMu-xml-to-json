@@ -2,12 +2,13 @@
 # 2021-Aug; FMNH
 
 import xml.etree.ElementTree as ET
+import pandas as pd
 from lxml import etree
 from glob import glob
-import json
-import pandas as pd
 from decouple import config
-import sys, prep_input as pi
+import json, sys
+import prep_input as pi, prep_output as po
+import redact_input as ri
 
 
 def xml_to_json(xml_input):
@@ -21,65 +22,24 @@ def xml_to_json(xml_input):
     emu_no_group = emu_map[emu_map['emu_group'].isnull()]['emu'].values
     emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
 
-    # Redacted fields
-    h2i_null_fields = map_condition.query('h2i_field == "NULL"')['h2i_field'].values
+    # # Redacted fields
+    # h2i_null_fields = map_condition.query('h2i_field == "NULL"')['h2i_field'].values
 
 
     # # # # # # # # # # # #
     # Prep input-XML  # # # 
+    
 
     # Turn EMu col-names into XML-tags:
     tree1_string = pi.xml_prep(xml_in = xml_input)
     tree_prep = etree.XML(tree1_string)
-    get_cols = etree.XPath('.//*')
 
 
-    for column in get_cols(tree_prep):
-
-        if column.tag is not None:
-
-
-            # # # # # # # # # # # #
-            # Clear redacted values
-            for h2i_null_field1 in h2i_null_fields:
-
-                h2i_null_field = str(h2i_null_field1)
-
-                emu_if_field = map_condition.query('h2i_field == @h2i_null_field')['if_field1'].values
-                emu_if_value = map_condition.query('h2i_field == @h2i_null_field')['if_value1'].values
-                emu_then_field = map_condition.query('h2i_field == @h2i_null_field')['then_field'].values
-                h2i_con_value = map_condition.query('h2i_field == @h2i_null_field')['static_value'].values
-
-                if str(column.tag) == str(emu_if_field)[2:-2]: # and column.text == str(emu_if_value): # "NULL":
-
-                    emu_xpath_string = './/tuple/' + str(emu_if_field)[2:-2] + '[.="' + str(emu_if_value)[2:-2] + '"]/preceding-sibling::' + str(emu_then_field)[2:-2]
-                    emu_xpath = etree.XPath(emu_xpath_string)
-                    emu_then_update = emu_xpath(tree_prep) 
-                                        
-                    if emu_then_update != []:
-
-                        emu_then_update[0].text = ""
+    # Remove redacted values
+    tree_prep = ri.redact_input(tree_prep, map_condition)
 
 
-                    # Also check for 'following-siblings'
-                    emu_xpath2_string = './/tuple/' + str(emu_if_field)[2:-2] + '[.="' + str(emu_if_value)[2:-2] + '"]/following-sibling::' + str(emu_then_field)[2:-2]
-                    emu_xpath2 = etree.XPath(emu_xpath2_string)
-                    emu_then_update2 = emu_xpath2(tree_prep) 
-
-                    if emu_then_update2 != []:
-
-                        emu_then_update2[0].text = ""
-                    
-                    # if the emu_if-field should also be updated, update it too:
-                    if str(column.text) == str(emu_if_value)[2:-2]:
-                        column.text = ""
-
-                    # TO DO
-                    #  -- replace above with 'just remove the tuple'
-                    #  -- check that it works on atomic fields [not just table]
-
-
-    # Return updated xml as string
+    # Return updated xml as string to switch to lxml.etree
     prep_tree_string = etree.tostring(tree_prep).decode('utf-8')
 
     # 3 - convert back to xml ElementTree
@@ -93,43 +53,14 @@ def xml_to_json(xml_input):
     tuples = get_tuples(tree_prep)
 
 
-    # # # # # # #
+    # # # # # # # # # # #
+    # Convert XML to JSON
     for tuple1 in tuples:
 
         # # # # # # # # # # #
         # Prep dictionaries
 
-        # Single (Un-grouped) h2i fields
-        # Try filtering/appending fields into groups at end. Otherwise, include in each field-type loop [slow?]
-        # TO DO: differentiate between data-types for repeatable [] and non-repeatable "" in schema; currently all repeatable []
-        h2i_single_emu = emu_map[emu_map['h2i_container'].isnull()]['h2i_field'].values
-        h2i_single_map = map_condition[map_condition['h2i_container'].isnull()]['h2i_field'].values
-
-        single_dict = dict()
-        for single_emu in h2i_single_emu:
-            single_dict[single_emu] = []
-
-        for single_map in h2i_single_map:
-            single_dict[single_map] = []
-
-        # Grouped h2i fields
-        h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
-        # h2i_con_groups = map_condition['h2i_container'].values  # Safe to assume all container-values show in emu_map?
-
-        for group_key in h2i_groups:
-            h2i_group_emu = emu_map.query('h2i_container == @group_key')['h2i_field'].values
-            h2i_group_maps = map_condition.query('h2i_container == @group_key')['h2i_field'].values
-            temp_group = dict()
-
-            single_dict[group_key] = {}
-            for group1_emu in h2i_group_emu:
-                temp_group[str(group1_emu)] = None
-
-            for group1_map in h2i_group_maps:
-                temp_group[str(group1_map)] = None
-            
-            single_dict[group_key] = [temp_group]
-
+        single_dict = po.prep_output_dict(emu_map, map_condition)
 
         group_all = single_dict
 
@@ -260,17 +191,17 @@ def xml_to_json(xml_input):
                                 str_h2i_con_group = str(e_h2i_con_group[0])
 
 
-                            # # # # # # # -- e.g. ColCollectionEventRef.ColSiteRef.PolPD1 --> dwc:country
-                            # ref/table-to-1 -- withOUT conditional mapping
+                            # # # # # # # REF/TABLE-to-1 -- withOUT conditional mapping
+                            # e.g. ColCollectionEventRef.ColSiteRef.PolPD1 --> dwc:country
                             if group_field.tag not in e_emu_if_field: # and group_field.tag in single_dict.keys()
 
                                 if e_h2i_group not in emu_h2i_groups:
 
                                     group_all[str(e_h2i_field)[2:-2]] = group_field.text  # # # # use += instead?                             
 
-                            # # # # # # #  -- e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
-                            # ref/table-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
-                            # Conditions besides 'not null' + h2i-container would currently need separate 'elif' statements
+                            # # # # # # # REF/TABLE-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
+                            # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
+                            # Conditions besides 'NOT NULL' + h2i-container would currently need separate 'elif' statements
                             elif e_emu_if_value == "NOT NULL":  # and str_h2i_con_group is not None:
 
                                 group_temp_dict[str(e_h2i_field)[2:-2]] = str(group_field.text)
@@ -287,18 +218,19 @@ def xml_to_json(xml_input):
 
         group_all.clear()
 
-    # Output EMu-json
+
+    # # # # # # # # #
+    # Output 
+
+    # H2I-json
     f = open(config('OUT_PATH') + 'emu_to_json.json', 'w')
     f.write(json.dumps(all_records, indent=True))
     f.close()
 
 
-    ######
-    # Optional section below to also:
-    # Output fixed EMu-XML
+    # Fixed EMu-XML
 
-    # # ET.canonicalize throws errors; skip for now [2021-jul-30]
-    # # Output 'canonic' xml -- e.g. <tag></tag>
+    # Output 'canonic' xml -- e.g. <tag></tag>
     with open(config('OUT_PATH') + "emu_raw_canonic.xml", mode='w', encoding='utf-8') as out_file:
         ET.canonicalize(xml_data=tree1_string, out=out_file)
         
