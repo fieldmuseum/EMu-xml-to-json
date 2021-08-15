@@ -31,16 +31,8 @@ def prep_output_dict(emu_mapping, map_conditions):
     for group_key in h2i_groups:
         h2i_group_emu = emu_mapping.query('h2i_container == @group_key')['h2i_field'].values
         h2i_group_maps = map_conditions.query('h2i_container == @group_key')['h2i_field'].values
-        temp_group = dict()
 
-        single_dict[group_key] = {}
-        for group1_emu in h2i_group_emu:
-            temp_group[str(group1_emu)] = None
-
-        for group1_map in h2i_group_maps:
-            temp_group[str(group1_map)] = None
-        
-        single_dict[group_key] = [temp_group]
+        single_dict[group_key] = []
 
     return single_dict
 
