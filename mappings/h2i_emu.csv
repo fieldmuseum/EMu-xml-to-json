@@ -1,7 +1,7 @@
 emu,h2i_field,repeatable,emu_group,h2i_container
 irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
-CatAccessionYearLocal,cd:temporalCoverageStartDate,,,timey_wimeys
+CatAccessionYearLocal,cd:temporalCoverageStartDate,,,dates
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
 AccAccessionNo,cd:identifier,yes,PriAccessionNumberRef,identifiers
 DarCatalogNumber,cd:identifier,yes,,identifiers
