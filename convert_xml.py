@@ -64,7 +64,7 @@ def xml_to_json(xml_input):
 
         group_all = single_dict
 
-        get_tup_fields = etree.XPath('.//*')
+        get_tup_fields = etree.XPath('./*')
         tup_fields = get_tup_fields(tuple1) 
 
         for tup_field in tup_fields:
