@@ -150,8 +150,8 @@ def xml_to_json(xml_input):
 
                                 if len(e_h2i_group) > 0:
                                     str_h2i_group = str(e_h2i_group[0])
-                                if len(e_h2i_con_group) > 0:
-                                    str_h2i_con_group = str(e_h2i_con_group[0])
+                                # if len(e_h2i_con_group) > 0:
+                                #     str_h2i_con_group = str(e_h2i_con_group[0])
 
                                 for sib_key in tup_group_field:
                                     if sib_key.text != "" and sib_key.text is not None:
@@ -229,10 +229,10 @@ def xml_to_json(xml_input):
 
 
     # Fixed EMu-XML
-
-    # Output 'canonic' xml -- e.g. <tag></tag>
-    with open(config('OUT_PATH') + "emu_raw_canonic.xml", mode='w', encoding='utf-8') as out_file:
-        ET.canonicalize(xml_data=tree1_string, out=out_file)
+    # # Commented out until can fix with Ubuntu
+    # # Output 'canonic' xml -- e.g. <tag></tag>
+    # with open(config('OUT_PATH') + "emu_raw_canonic.xml", mode='w', encoding='utf-8') as out_file:
+    #     ET.canonicalize(xml_data=tree1_string, out=out_file)
         
     # Output slightly-more-compact xml -- e.g. <tag />
     tree.write(config('OUT_PATH') + "emu_prepped.xml")    
