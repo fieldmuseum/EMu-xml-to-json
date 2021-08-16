@@ -7,6 +7,6 @@ CatItemsCat,NOT NULL,,cd:measurementMethod,FMNH Metric,measurements
 CatItemsInv,NOT NULL,,cd:measurementType,anthropology current inventory count,measurements
 CatItemsInv,NOT NULL,,cd:measurementMethod,FMNH Metric,measurements
 DesKType,Osteology Summary,DesKDescription,NULL,,
-AdmWebPublishNoPassword,No,AudIdentifier,NULL,,
-AdmWebPublishNoPassword,No,AudCitation,NULL,,
-AdmWebPublishNoPassword,No,AudAccessURI,NULL,,
+AdmPublishWebNoPassword,No,AudIdentifier,NULL,,
+AdmPublishWebNoPassword,No,AudCitation,NULL,,
+AdmPublishWebNoPassword,No,AudAccessURI,NULL,,
