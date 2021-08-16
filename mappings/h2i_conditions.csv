@@ -1,5 +1,5 @@
 if_field1,if_value1,then_field,h2i_field,static_value,h2i_container
-CatAccessionYearLocal,NOT NULL,,cd:temporalCoverageType,accession year,timey_wimeys
+CatAccessionYearLocal,NOT NULL,,cd:temporalCoverageType,accession year,dates
 AccAccessionNo,NOT NULL,,cd:identifierType,accession number,identifiers
 DarCatalogNumber,NOT NULL,,cd:identifierType,objectID,identifiers
 CatItemsCat,NOT NULL,,cd:measurementType,anthropology original inventory count,measurements
