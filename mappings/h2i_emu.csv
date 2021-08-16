@@ -26,6 +26,10 @@ CatItemsInv,cd:measurementValue,yes,,measurements
 DesObjectName,h2i:culturalArtefactSimpleName,yes,DesObj,simplenames
 DesObjectType,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
 DarCollector,dwc:recordedBy,,,
+ecatRel_SummaryData,dwc:relationshipRemarks,yes,RelObjectsRef_tab,resourcerelationship
+ecatRel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,resourcerelationship
+ebiblio_irn,fmnh:referenceID,yes,RelObjectsRef_tab,references
+ebiblio_SummaryData,fmnh:reference,yes,RelObjectsRef_tab,references
 AudIdentifier,dc:identifier,yes,Multimedia,multimedia
 AudAccessURI,ac:accessURI,yes,Multimedia,multimedia
 AudCitation,fmnh:citation,yes,Multimedia,multimedia
