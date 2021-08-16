@@ -28,3 +28,4 @@ DesObjectType,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
 DarCollector,dwc:recordedBy,,,
 AudIdentifier,dc:identifier,,Multimedia,multimedia
 AudAccessURI,ac:accessURI,,Multimedia,multimedia
+AudCitation,fmnh:citation,,Multimedia,multimedia
