@@ -26,3 +26,5 @@ CatItemsInv,cd:measurementValue,yes,,measurements
 DesObjectName,h2i:culturalArtefactSimpleName,yes,DesObj,simplenames
 DesObjectType,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
 DarCollector,dwc:recordedBy,,,
+AudIdentifier,dc:identifier,,Multimedia,multimedia
+AudAccessURI,ac:accessURI,,Multimedia,multimedia
