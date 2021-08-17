@@ -1,8 +1,0 @@
-Start time: 2021-07-24 18:31:00.516390
-Finished at 2021-07-24 18:31:00.517517 - File Input Error: ./data_in/2021-05-05/sample_bad.xml : not well-formed (invalid token): line 136, column 80
-
-Start time: 2021-07-24 18:43:32.292727
-Finished at 2021-07-24 18:43:32.307484 - JSON output OK 
-
-Start time: 2021-07-24 19:34:21.569029
-Finished at 2021-07-24 19:34:21.569808 - Error: no xml file in data_in/2021-08-08/ : [Errno 2] No such file or directory: 'no xml file in data_in/2021-08-08/'

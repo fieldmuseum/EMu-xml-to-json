@@ -1,0 +1,26 @@
+
+Start time: 2021-08-16 19:52:17.798963
+Finished at 2021-08-16 19:52:23.632926 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:30:43.008154
+
+Start time: 2021-08-16 21:35:35.023310
+Finished at 2021-08-16 21:35:35.036085 - File Input Error: testing/data_in/2021-8-9/.DS_Store : not well-formed (invalid token): line 1, column 0
+
+Start time: 2021-08-16 21:38:53.290998
+Finished at 2021-08-16 21:39:02.707624 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:41:32.343717
+Finished at 2021-08-16 21:41:41.750972 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:42:04.365831
+Finished at 2021-08-16 21:42:13.757768 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:42:50.327431
+Finished at 2021-08-16 21:42:59.775844 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:44:28.263031
+Finished at 2021-08-16 21:44:37.741926 - Error: (None, None, None)
+
+Start time: 2021-08-16 21:48:50.971438
+Finished at 2021-08-16 21:49:00.576169 - Error: (None, None, None)
