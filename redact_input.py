@@ -7,7 +7,7 @@ from glob import glob
 import sys
 
 
-def redact_input(input, map_conditions):
+def redact_input(input, map_conditions):  # , emu_mapping):
 
     h2i_null_fields = map_conditions.query('h2i_field == "NULL"')['h2i_field'].values
 
@@ -24,34 +24,41 @@ def redact_input(input, map_conditions):
 
                 h2i_null_field = str(h2i_null_field1)
 
-                emu_if_field = map_conditions.query('h2i_field == @h2i_null_field')['if_field1'].values
-                emu_if_value = map_conditions.query('h2i_field == @h2i_null_field')['if_value1'].values
-                emu_then_field = map_conditions.query('h2i_field == @h2i_null_field')['then_field'].values
-                h2i_con_value = map_conditions.query('h2i_field == @h2i_null_field')['static_value'].values
+                m_emu_if_field = map_conditions.query('h2i_field == @h2i_null_field')['if_field1'].values
 
-                if str(column.tag) == str(emu_if_field)[2:-2]: # and column.text == str(emu_if_value): # "NULL":
+                # SINGLE- and TABLE-EMu fields
+                if str(column.tag) in str(m_emu_if_field)[2:-2]:
+                    m_emu_if_value = map_conditions.query('if_field1 == @column.tag')['if_value1'].values
+                    m_emu_then_field = map_conditions.query('if_field1 == @column.tag')['then_field'].values
 
-                    emu_xpath_string = './/tuple/' + str(emu_if_field)[2:-2] + '[.="' + str(emu_if_value)[2:-2] + '"]/preceding-sibling::' + str(emu_then_field)[2:-2]
-                    emu_xpath = etree.XPath(emu_xpath_string)
-                    emu_then_update = emu_xpath(input) 
-                                        
-                    if emu_then_update != []:
+                    if column.text in m_emu_if_value: # "NULL":
 
-                        emu_then_update[0].text = ""
+                        for emu_then_field in m_emu_then_field:
+
+                            emu_xpath_string = './/tuple/' + column.tag + '[.="' + column.text + '"]/preceding-sibling::' + emu_then_field
+                            emu_xpath = etree.XPath(emu_xpath_string)
+                            emu_then_update = emu_xpath(input) 
+
+                            print(emu_xpath_string)
+                                                
+                            if emu_then_update != []:
+
+                                emu_then_update[0].text = ""
 
 
-                    # Also check for 'following-siblings'
-                    emu_xpath2_string = './/tuple/' + str(emu_if_field)[2:-2] + '[.="' + str(emu_if_value)[2:-2] + '"]/following-sibling::' + str(emu_then_field)[2:-2]
-                    emu_xpath2 = etree.XPath(emu_xpath2_string)
-                    emu_then_update2 = emu_xpath2(input) 
+                            # Also check for 'following-siblings'
+                            emu_xpath2_string = './/tuple/' + column.tag + '[.="' + column.text + '"]/following-sibling::' + emu_then_field
+                            emu_xpath2 = etree.XPath(emu_xpath2_string)
+                            emu_then_update2 = emu_xpath2(input) 
 
-                    if emu_then_update2 != []:
+                            if emu_then_update2 != []:
 
-                        emu_then_update2[0].text = ""
-                    
+                                emu_then_update2[0].text = ""
+                            
                     # if the emu_if-field should also be updated, update it too:
-                    if str(column.text) == str(emu_if_value)[2:-2]:
+                    if str(column.text) in m_emu_if_value:
                         column.text = ""
+
 
     return input
 
