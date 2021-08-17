@@ -2,6 +2,7 @@
 # from https://thispointer.com/python-how-to-create-a-zip-archive-from-multiple-files-or-directory/
 
 from zipfile import ZipFile
+import zipfile, zlib
     
 # Function : file_compress
 def file_compress(inp_file_names="", out_zip_file="out.zip"):
@@ -14,7 +15,7 @@ def file_compress(inp_file_names="", out_zip_file="out.zip"):
     """
 
     try:
-        with ZipFile(out_zip_file, 'w') as zipObj:
+        with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=8) as zipObj:
 
             # Add multiple files to the zip
             for inp_file in inp_file_names:
