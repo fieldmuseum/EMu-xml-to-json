@@ -156,7 +156,8 @@ def xml_to_json(xml_input):
                                 for sib_key in tup_group_field:
                                     if sib_key.text != "" and sib_key.text is not None:
                                         sib_key_str = str(emu_map.query('emu == @sib_key.tag')['h2i_field'].values)[2:-2]
-                                        group_temp_dict[sib_key_str] = str(sib_key.text)
+                                        if sib_key.tag in t_emu_field:
+                                            group_temp_dict[sib_key_str] = str(sib_key.text)
                                 
                                 if str_h2i_group in emu_h2i_groups:
 
