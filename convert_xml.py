@@ -11,7 +11,7 @@ import prep_input as pi, prep_output as po
 import redact_input as ri
 
 
-def xml_to_json(xml_input):
+def xml_to_json(xml_input, emu_xml_out=False):
 
     # # # # # # # # # # # # # # # # # # #
     # Import mappings for h2i field-types:
@@ -230,13 +230,14 @@ def xml_to_json(xml_input):
 
 
     # Fixed EMu-XML
-    # # Commented out until can fix with Ubuntu
-    # # Output 'canonic' xml -- e.g. <tag></tag>
-    # with open(config('OUT_PATH') + "emu_raw_canonic.xml", mode='w', encoding='utf-8') as out_file:
-    #     ET.canonicalize(xml_data=tree1_string, out=out_file)
-        
-    # Output slightly-more-compact xml -- e.g. <tag />
-    tree.write(config('OUT_PATH') + "emu_prepped.xml")    
+    if emu_xml_out == True:
+        # Output compact xml -- e.g. <tag />
+        tree.write(config('OUT_PATH') + "emu_prepped.xml")    
+
+        # # Output 'canonic' xml -- e.g. <tag></tag>
+        # # # Commented out until can fix with Ubuntu
+        # with open(config('OUT_PATH') + "emu_raw_canonic.xml", mode='w', encoding='utf-8') as out_file:
+        #     ET.canonicalize(xml_data=tree1_string, out=out_file)
 
 
 # To run convert_xml.py directly, run:
@@ -244,4 +245,4 @@ def xml_to_json(xml_input):
 if __name__ == '__main__':
     for arg in sys.argv[1:]:
         for filename in glob(arg):
-            xml_to_json(arg)
+            xml_to_json(arg, emu_xml_out=False)
