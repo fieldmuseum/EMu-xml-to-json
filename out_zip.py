@@ -25,4 +25,4 @@ def file_compress(inp_file_names="", out_zip_file="out.zip"):
 
 
 if __name__ == '__main__':
-    file_compress(inp_file_names, out_zip_file)
+    file_compress(inp_file_names="", out_zip_file="out.zip")

@@ -1,6 +1,6 @@
 # Convert EMu XML to JSON
 
-import check_xml as chx
+# import check_xml as chx
 import convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
@@ -38,7 +38,7 @@ def emu_to_json(xml_in, email=True):
         log_msg = "Finished at " + log_time + ' - File Input Error: ' + xml_in + ' : ' + str(e) + '\n'
 
         # Output 'fixed' xml (but check log + fixed.xml manually)
-        chx.fix_xml_encode(xml_in)
+        # chx.fix_xml_encode(xml_in)
         # cx.check_xml_encode(xml_in)
         # cx.check_xml_form(xml_in)
         
@@ -52,7 +52,7 @@ def emu_to_json(xml_in, email=True):
     logs.close()
 
     # Zip output & cleanup
-    files_to_zip = glob.glob(config('OUT_PATH') + '/emu*')
+    files_to_zip = glob.glob(config('OUT_PATH') + '/emu*')  + glob.glob(config('LOG_PATH') + '/xml_log_' + log_date + '.txt')
 
     if len(files_to_zip) > 0:
         
