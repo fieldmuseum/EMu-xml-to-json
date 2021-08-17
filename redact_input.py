@@ -38,8 +38,6 @@ def redact_input(input, map_conditions):  # , emu_mapping):
                             emu_xpath_string = './/tuple/' + column.tag + '[.="' + column.text + '"]/preceding-sibling::' + emu_then_field
                             emu_xpath = etree.XPath(emu_xpath_string)
                             emu_then_update = emu_xpath(input) 
-
-                            print(emu_xpath_string)
                                                 
                             if emu_then_update != []:
 
