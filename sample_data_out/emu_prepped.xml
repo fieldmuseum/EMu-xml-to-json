@@ -1,0 +1,440 @@
+<ecatalogue>
+
+  
+  <data>
+    <irn>1312411</irn>
+    <DarGlobalUniqueIdentifier>03b53a6a-99ca-43ee-b8c5-ecc498336b10</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1904</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>8143</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>862</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>8143.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+        <CatOtherNumbersValue>306</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+        <CatOtherNumbersValue>XVII</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>99448</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>99539</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>99540</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>CSA58327</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>112461</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>112834</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>112835</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>112836</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>GN87049_30</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>GN79715</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>GN83906_4</CatOtherNumbersValue>
+      </tuple>
+      <tuple>
+        <CatOtherNumbersType>Image number</CatOtherNumbersType>
+        <CatOtherNumbersValue>A99566</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>tusk</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+      </tuple>
+      <tuple>
+        <DesKDescription>carved elephant tusk; note on back of catalog card: men and spear, [2 illegible words], birds, snake eating man, men vs [illegible word]; Dimensions: L = 223.5 cm; 7'4"; 88"</DesKDescription>
+        <DesKType>Full Description</DesKType>
+      </tuple>
+      <tuple>
+        <DesKDescription>The Art of Benin Catalog entry:
+306. TUSK. Ivory. L. 7'4". CNHM 8143. Plate XVII A very fine ivory tusk carved all over with figures and animal forms. The second and fifth figures up, on the front of the tusk (on the outer side of the circumference), are representations of Oba Ohe, who was mentioned under "Shield Plaques." Figures f Europeans and other dignitaries can be seen. Other forms include crocodile heads, a clenched hand, a turkey cock, crocodile, leopard, mud fish, cock, and elephant head with the trunk ending in a human hand. In the detail of the tusk illustrated is shown the figure of a European holding the foot of a leopard with his right hand. Above his hat is the head of a crocodile. To his left is the head of an elephant with its trunk ending in a human hand. Below the figure's feet is a leaf form similar to that found on altars to the hand.</DesKDescription>
+        <DesKType>Full Description</DesKType>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Ceremonial Artifact</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <EcbPartsUsed_tab>
+      <tuple>
+        <EcbPartsUsed>tusk</EcbPartsUsed>
+      </tuple>
+    </EcbPartsUsed_tab>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Edo</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>animal tooth; elephant tusk - ivory</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>400853</esites_irn>
+        <PolContinent>Africa</PolContinent>
+        <PolPD1>Nigeria</PolPD1>
+        <PolPD2>Edo</PolPD2>
+        <PolPD3>Benin Kingdom</PolPD3>
+        <PolPopn>Benin City</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Benin City</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode>2202: West Africa: carvings, castings: ivory</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>Africa</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Nigeria</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Benin City</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>8143</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>dcb87a50-a8b2-4237-b7e3-3508dcd89169</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/514/A112461c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/dcb87a50-a8b2-4237-b7e3-3508dcd89169 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>d70aa770-db59-4728-a176-592c89019ff5</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2243/413/CSA58327_8143_Edit.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/d70aa770-db59-4728-a176-592c89019ff5 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>a8ccda11-84db-4fc2-ac93-30b67d336c33</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/84/719/A99540.jpg</AudAccessURI>
+        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a8ccda11-84db-4fc2-ac93-30b67d336c33 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>3cc23b3f-7ccc-40b0-bef4-8ab14ce6bf6f</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/812/A112835_6c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3cc23b3f-7ccc-40b0-bef4-8ab14ce6bf6f (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>8f7d0dc9-c4df-4021-95b6-bb8935865513</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/810/A112835_3c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8f7d0dc9-c4df-4021-95b6-bb8935865513 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>8d962990-9683-4e06-9f16-aea9789b9ca4</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/814/A112835_10c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8d962990-9683-4e06-9f16-aea9789b9ca4 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>85959424-47c2-4504-9df6-6ffcab5d778e</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/817/A112836_10c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/85959424-47c2-4504-9df6-6ffcab5d778e (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>754a85df-31f5-4061-bea2-91369c629e83</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/100/961/A99539.jpg</AudAccessURI>
+        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/754a85df-31f5-4061-bea2-91369c629e83 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>3689ceaf-c784-4cfb-ad11-8c77a3ed1644</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/922/A112834_2c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3689ceaf-c784-4cfb-ad11-8c77a3ed1644 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>1bcf1e79-011c-4ca1-a9bb-e752ccfb1492</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/921/A112834_1c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/1bcf1e79-011c-4ca1-a9bb-e752ccfb1492 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>c8181248-f06b-4c0f-a0d2-06a7f2d9ab90</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/102/124/CSA58327.jpg</AudAccessURI>
+        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c8181248-f06b-4c0f-a0d2-06a7f2d9ab90 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>3297a964-bd6c-42ea-a232-9f0b2c316fae</AudIdentifier>
+        <AudAccessURI />
+        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3297a964-bd6c-42ea-a232-9f0b2c316fae (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>No</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>fd805cb9-ff9b-4a87-b2a8-eabb3eafd113</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/815/A112836_4c.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/fd805cb9-ff9b-4a87-b2a8-eabb3eafd113 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>7efcf662-cfa0-4a6c-82f1-f35021759d39</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2040/207/GN87049_30.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Balodimas. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/7efcf662-cfa0-4a6c-82f1-f35021759d39 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>cf432cf2-947b-4368-9b92-0ca22615812a</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2032/932/GN79715.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: J. Bayalis. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/cf432cf2-947b-4368-9b92-0ca22615812a (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>15676409-38ec-45bf-8e12-3afb4bf4abf8</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2102/425/A99566.jpg</AudAccessURI>
+        <AudCitation>(c) Field Museum of Natural History. https://mm.fieldmuseum.org/15676409-38ec-45bf-8e12-3afb4bf4abf8 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>c3d29c28-bd93-4e6c-935e-9298d84cab27</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2036/093/GN83906_4.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: R. Testa. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/c3d29c28-bd93-4e6c-935e-9298d84cab27 (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>a0c4cd9f-838d-4552-bc77-950cb9caf47b</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/343/326/8143CC.pdf</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp, J. W. Kennedy. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a0c4cd9f-838d-4552-bc77-950cb9caf47b (accessed on 12 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+  </data>
+
+  
+  <data>
+    <irn>123456</irn>
+    <DarGlobalUniqueIdentifier>0123abcde-12345-abcdef</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1910</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>8765-sample</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>789-sample</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>8765.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+        <CatOtherNumbersValue>3456-sample</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>sample-data description</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>sample-data use classification</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <EcbPartsUsed_tab>
+      <tuple>
+        <EcbPartsUsed>sample-data parts used</EcbPartsUsed>
+      </tuple>
+    </EcbPartsUsed_tab>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Sample-data Group</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>sample-data materials</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>45678</esites_irn>
+        <PolContinent>Africa</PolContinent>
+        <PolPD1>Nigeria</PolPD1>
+        <PolPD2>Edo</PolPD2>
+        <PolPD3>Benin Kingdom</PolPD3>
+        <PolPopn>Sample-data city</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Benin City</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode>sample-code: sample-subjects</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>Africa</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Nigeria</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Benin City</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>8765-sample</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>abcdef-12345-987654-gfedcba</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1234/567/sample-data.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: sample-data https://mm.fieldmuseum.org/abcdef-12345-987654-gfedcba (accessed on 16 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+  </data>
+
+  
+  <data>
+    <irn>234567</irn>
+    <DarGlobalUniqueIdentifier>1234abcde-23456-abcdef</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1911</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>9876-sample</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>678-sample</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>9876.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
+        <CatOtherNumbersValue>23456-sample</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>sample-data description</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Sample-data Group</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>sample-data materials</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>45678</esites_irn>
+        <PolContinent>Africa</PolContinent>
+        <PolPD1>Nigeria</PolPD1>
+        <PolPD2>Edo</PolPD2>
+        <PolPD3>Benin Kingdom</PolPD3>
+        <PolPopn>Sample-data city</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Benin City</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode>sample-code: sample-subjects</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>Africa</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Nigeria</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Benin City</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>9876-sample</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>bcdefg-23456-9876543-fedcba</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1234/567/sample-data.jpg</AudAccessURI>
+        <AudCitation>Courtesy of: sample-data https://mm.fieldmuseum.org/abcdef-12345-987654-gfedcba (accessed on 16 Aug 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+  </data>
+</ecatalogue>
