@@ -69,7 +69,7 @@ def emu_to_json(xml_in, email=True):
     # Send notification
     if email == True:
         subject = "EMu xml-to-json results - " + log_date
-        message = "Output from EMu-xml-to-json - " + log_time + " - log: \n" + log_msg
+        message = "Output from EMu-xml-to-json - Starter: " + log_start + " - log: \n" + log_msg
         notify.send_output(message, subject, zip_output, config('TO_ADD1'))
         # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
 
