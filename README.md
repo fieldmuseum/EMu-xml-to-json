@@ -22,7 +22,6 @@ We are currently testing it as a sustainable way to share data with partners fro
 
 
 ### Not in EMu:
-
 1. Clone this repo
 
 2. Set local environment variables by adding a text file named **.env** in the root directory of this repo. Open it and follow the [**.env.example**](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/.env.example) file. 
