@@ -1,5 +1,8 @@
-# EMu XML-to-JSON converter
-A script to convert EMu XML exports to JSON. (Note - For record-sets > 1000, this can be slow.)
+# EMu XML-to-JSON converter for cultural data
+A script to convert EMu XML exports to JSON for cultural data. (Note - For record-sets > 1000, this can be slow.)
+It is based on a combination of standards: darwin core, latimer core, audubon core and the very draft h2i extension to abcd.
+We are currently testing it as a sustainable way to share data with partners from [Digital Benin](https://digital-benin.org/) and [Mapping Philippine Material Culture](https://philippinestudies.uk/mapping/)
+
 
 ## How to setup & use
 
@@ -66,7 +69,7 @@ A 6-column CSV that defines logic for conditionally redacting or mapping rows in
 -  `if_field1` = the input EMu-field whose value defines a condition
 -  `if_value1` = the input value. 
     -  Use "NOT NULL" for "any non-blank input value"
--  `then_field` = the input EMu-field (if any) who value should be transformed or redacted.
+-  `then_field` = the input EMu-field (if any) whose value should be transformed or redacted.
 -  `h2i_field` = the output h2i_field that should be set (conditionally) to the value in `static_value`. 
     -  Use "NULL" to redact an output value from the `then_field`
 -  `static_value` = the output value used if an input field matches conditions in the if_field1 & if_value1
