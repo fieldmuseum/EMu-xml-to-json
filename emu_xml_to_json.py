@@ -19,7 +19,7 @@ def emu_to_json(xml_in, email=True):
     # Else output error/exception-log
     try:
 
-        cvx.xml_to_json(xml_input=xml_in, emu_xml_out=False)
+        cvx.xml_to_json(xml_input=xml_in, emu_xml_out=True)
         
         # Update logs
         log_time = str(datetime.now())
