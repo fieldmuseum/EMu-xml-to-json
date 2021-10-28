@@ -1,0 +1,3 @@
+if_field1,if_value1,then_field,h2i_field,static_value,h2i_container
+AccDateAccessioned,NOT NULL,,cd:temporalCoverageType,accession date,collectionHistory
+AccAccessionNo,NOT NULL,,cd:identifierType,accession number,identifiers
