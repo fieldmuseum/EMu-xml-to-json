@@ -1,11 +1,11 @@
 if_field1,if_logic1,if_value1,then_field,h2i_field,static_value,h2i_container
-CatAccessionYearLocal,IS NOT,NULL,,cd:temporalCoverageType,accession year,dates
-AccAccessionNo,IS NOT,NULL,,cd:identifierType,accession number,identifiers
-DarCatalogNumber,IS NOT,NULL,,cd:identifierType,objectID,identifiers
-CatItemsCat,IS NOT,NULL,,cd:measurementType,anthropology original inventory count,measurements
-CatItemsCat,IS NOT,NULL,,cd:measurementMethod,FMNH Metric,measurements
-CatItemsInv,IS NOT,NULL,,cd:measurementType,anthropology current inventory count,measurements
-CatItemsInv,IS NOT,NULL,,cd:measurementMethod,FMNH Metric,measurements
+CatAccessionYearLocal,IS,NOT NULL,,cd:temporalCoverageType,accession year,dates
+AccAccessionNo,IS,NOT NULL,,cd:identifierType,accession number,identifiers
+DarCatalogNumber,IS,NOT NULL,,cd:identifierType,objectID,identifiers
+CatItemsCat,IS,NOT NULL,,cd:measurementType,anthropology original inventory count,measurements
+CatItemsCat,IS,NOT NULL,,cd:measurementMethod,FMNH Metric,measurements
+CatItemsInv,IS,NOT NULL,,cd:measurementType,anthropology current inventory count,measurements
+CatItemsInv,IS,NOT NULL,,cd:measurementMethod,FMNH Metric,measurements
 DesObjectType,IS NOT,cultural,DesObjectName,NULL,,
 DesObjectType,IS NOT,cultural,DesObjectType,NULL,,
 DesKType,IS,Osteology Summary,DesKDescription,NULL,,

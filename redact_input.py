@@ -7,10 +7,13 @@ from glob import glob
 import sys
 
 
-def redact_input(input, map_conditions):  # , emu_mapping):
+def redact_input(input, map_conditions, emu_mapping):
 
     # h2i_null_fields = map_conditions.query('h2i_field == "NULL"')['h2i_field'].values
     m_emu_if_fields = map_conditions.query('h2i_field == "NULL"')['if_field1'].values
+
+    # mapped_fields = emu_mapping['emu'].values
+    # mapped_groups = emu_mapping['emu_group'].values
 
     get_cols = etree.XPath('.//*')
 
@@ -28,14 +31,9 @@ def redact_input(input, map_conditions):  # , emu_mapping):
 
                 m_emu_then_field = map_conditions.query('if_field1 == @column.tag & h2i_field == "NULL"')['then_field'].values
 
-                print("redactable value:  " + str(column.text))
-                print("if IS value:  " + str(m_emu_if_is_value) + "  & NOT value:  " + str(m_emu_if_isnt_value))
-
 
                 # Redact values where 'if_logic' + 'if_value' criteria are met
                 if str(column.text) in m_emu_if_is_value or (str(column.text) not in m_emu_if_isnt_value and len(m_emu_if_isnt_value) > 0): # "NULL":
-
-                    print("REDACTED value:  " + str(column.text))
 
                     for emu_then_field in m_emu_then_field:
 
@@ -60,6 +58,12 @@ def redact_input(input, map_conditions):  # , emu_mapping):
                         
                     # update the emu_if-field, too:
                     column.text = ""
+
+    # # Remove unmapped columns:
+    # for column in input.xpath('.//*'): # get_cols(input):
+            
+    #     if column.tag not in mapped_fields:  # and column.tag not in mapped_groups:
+    #         input.remove(column)
 
 
     return input

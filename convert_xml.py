@@ -36,7 +36,7 @@ def xml_to_json(xml_input, emu_xml_out=False):
 
 
     # Remove redacted values
-    tree_prep = ri.redact_input(tree_prep, map_condition)
+    tree_prep = ri.redact_input(tree_prep, map_condition, emu_map)
 
 
     # Return updated xml as string to switch to lxml.etree
@@ -76,6 +76,7 @@ def xml_to_json(xml_input, emu_xml_out=False):
             t_h2i_group = emu_map.query('emu == @tup_field.tag')['h2i_container'].values
 
             t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
+            # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
             t_h2i_con_field = map_condition.query('if_field1 == @tup_field.tag')['h2i_field'].values
             t_h2i_con_value = map_condition.query('if_field1 == @tup_field.tag')['static_value'].values
             t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
@@ -123,6 +124,10 @@ def xml_to_json(xml_input, emu_xml_out=False):
                 t_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
                 t_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
 
+                # t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
+                # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
+                # t_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
+
                 # str_emu_group = str(m_emu_group)
 
                 check_tuples = etree.XPath("./tuple")
@@ -138,13 +143,77 @@ def xml_to_json(xml_input, emu_xml_out=False):
                         get_sub_tuples = etree.XPath(".//*")
                         tuple_group = [get_sub_tuples(tuple1_1)]
 
+                        # print("tup_group -- " + str(tuple_group))
+                        # print("tup_field tag [is the group]  ----  " + str(tup_field.tag))
+
                         for tup_group_field in tuple_group:
+
+                            # print("tup_group_field -- " + str(tup_group_field))
+
+                            # for sib_field in tup_group_field:
+
+                            #     print("sib_field -- " + str(sib_field))
                             # TO DO -- include a check for map_conditions here; currently none needed?
+                            t_g_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
+
+                            t_emu_if_field = map_condition.query('if_field1 == @tup_field.tag')['if_field1'].values
+                            t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
+                            # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
+                            # t_h2i_con_field = map_condition.query('if_field1 == @tup_field.tag')['h2i_field'].values
+                            # t_h2i_con_value = map_condition.query('if_field1 == @tup_field.tag')['static_value'].values
+                            t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
+
+                            group_temp_dict = {}
+
+
+                            if len(e_h2i_con_group) > 0:
                                 
-                            if tup_field.tag in m_emu_group:
+                                str_t_h2i_con_group = str(e_h2i_con_group[0])
+                            
+                            else:
+
+                                str_t_h2i_con_group = str(e_h2i_con_group)
+                                
+                            
+                            ## # # # # # # #    FIX BELOW    # # # # # # # ##
+                            
+                            # if tup_field.tag in t_emu_if_field and tup_field.text in t_emu_if_value:  # t_h2i_con_group is not None:  # and t_emu_then_field is not None:
+
+                                # group_temp_dict[str(t_g_h2i_field)[2:-2]] = str(tup_group_field.text)
+
+                                # NEED TO fix the next for loop -- 
+                                #    IF    t_h2i_con_value = ^$ (empty) & t-h2i-then-field is NOT empty, 
+                                #    THEN 
+                                #       for  tuple_group-sibling.tag in then_emu_Field
+                                #        t_h2i_con_field = h2i_con_field value
+
+
+
+                                # for t_emu_then_field in tuple_group:
+
+                                #     group_temp_dict[str(t_h2i_con_field)[2:-2]] = t_emu_then_field.text
+
+
+
+
+                                # if t_h2i_con_field != "NULL" and t_h2i_con_value is None:
+
+                                #     for sib_con_field in t_emu_then_field:
+
+                                #     for key, val in zip(t_h2i_con_field, t_h2i_con_value):
+                                #         group_temp_dict[str(key)] = str(val)
+
+                                # group_all[str_t_h2i_con_group].append(group_temp_dict.copy())
+
+                            ## # # # # # # #    FIX ABOVE    # # # # # # # ##
+
+
+
+                            if tup_field.tag in m_emu_group:  # and tup_field.tag not in t_emu_then_field:
 
                                 e_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
                                 e_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
+                                e_t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
 
                                 group_temp_dict = dict.fromkeys(e_h2i_field)
 
@@ -154,18 +223,51 @@ def xml_to_json(xml_input, emu_xml_out=False):
                                 #     str_h2i_con_group = str(e_h2i_con_group[0])
 
                                 for sib_key in tup_group_field:
-                                    if sib_key.text != "" and sib_key.text is not None:
+
+
+
+                                ## # # # # # # #    FIX BELOW    # # # # # # # ##
+                                # 
+                                #   
+                                    # Check for map-conditions:
+                                    if sib_key.tag in t_emu_if_field and sib_key.text in t_emu_if_value: 
+
+                                        # use [xpath?] to get sibling.tag which == emu_then_field
+                                        # set group_temp[h2i_con_field] = sibling.text
+                                        group_temp_dict[str(t_g_h2i_field)[2:-2]] = str(sib_key.text)
+                                        # group_temp_dict[str(t_h2i_con_field)[2:-2]] = str(t_h2i_con_value[2:-2])
+
+
+                                ## # # # # # # #    FIX above    # # # # # # # ##
+
+
+                                    elif sib_key.text not in ["",[], None]:
                                         sib_key_str = str(emu_map.query('emu == @sib_key.tag')['h2i_field'].values)[2:-2]
                                         if sib_key.tag in t_emu_field:
                                             group_temp_dict[sib_key_str] = str(sib_key.text)
-                                
-                                if str_h2i_group in emu_h2i_groups:
+                                        # else:
+                                        #     group_temp_dict[sib_key_str] = None
+
+                                if len(t_h2i_con_group) > 0:
+                                    # e_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
+                                    str_t_h2i_con_group = str(e_t_h2i_con_group[0])
+
+
+                                if str_h2i_group in str_t_h2i_con_group:
+
+                                    group_all[str_t_h2i_con_group].append(group_temp_dict.copy())
+
+
+                                elif str_h2i_group in emu_h2i_groups:
 
                                     group_all[str_h2i_group].append(group_temp_dict.copy())
                                 
                                 elif len(tup_group_field) == 1:
 
                                     group_all[str(e_h2i_field)[2:-2]] = tup_group_field[0].text
+
+
+                            group_temp_dict.clear()
 
 
                 # if NOT a tuple:
@@ -202,17 +304,20 @@ def xml_to_json(xml_input, emu_xml_out=False):
 
                             # # # # # # # REF/TABLE-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
                             # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
-                            # Conditions besides 'NOT NULL' + h2i-container would currently need separate 'elif' statements
                             elif e_emu_if_value == "NOT NULL":  # and str_h2i_con_group is not None:
 
                                 group_temp_dict[str(e_h2i_field)[2:-2]] = str(group_field.text)
+                                group_temp_dict[str(e_h2i_con_field)[2:-2]] = str(group_field.text)
 
                                 for key, val in zip(e_h2i_con_field, e_h2i_con_value):
                                     group_temp_dict[str(key)] = str(val)
 
                                 group_all[str_h2i_con_group].append(group_temp_dict.copy())
 
+                            # Conditions besides 'NOT NULL' & others above currently need separate 'elif' statements
+
                             group_temp_dict.clear()
+
 
 
         all_records.append(group_all.copy())
