@@ -29,8 +29,6 @@ def prep_output_dict(emu_mapping, map_conditions):
     # h2i_con_groups = map_condition['h2i_container'].values  # Safe to assume all container-values show in emu_map?
 
     for group_key in h2i_groups:
-        h2i_group_emu = emu_mapping.query('h2i_container == @group_key')['h2i_field'].values
-        h2i_group_maps = map_conditions.query('h2i_container == @group_key')['h2i_field'].values
 
         single_dict[group_key] = []
 
