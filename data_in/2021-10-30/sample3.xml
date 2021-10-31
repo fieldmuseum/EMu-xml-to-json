@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           ecatalogue
+    integer         irn
+    text short      DarGlobalUniqueIdentifier
+    integer         CatAccessionYearLocal
+    integer         DarCatalogNumberNumeric
+    tuple           PriAccessionNumberRef
+      text short      AccAccessionNo
+    end
+    text short      DarCatalogNumber
+    table           OtherNums
+      text short      CatOtherNumbersType
+      text long       CatOtherNumbersValue
+    end
+    table           Description
+      text long       DesKDescription
+      text short      DesKType
+      text short      DesKPreferred
+    end
+    table           DesUseClassification_tab
+      text short      DesUseClassification
+    end
+    table           EcbPartsUsed_tab
+      text short      EcbPartsUsed
+    end
+    table           DesEthnicGroupSubgroup_tab
+      text short      DesEthnicGroupSubgroup
+    end
+    table           AttPeriod_tab
+      text short      AttPeriod
+    end
+    table           DesMaterials_tab
+      text short      DesMaterials
+    end
+    tuple           ColCollectionEventRef
+      tuple           ColSiteRef
+        integer         esites_irn
+        text short      PolContinent
+        text short      PolPD1
+        text short      PolPD2
+        text short      PolPD3
+        text short      PolPopn
+      end
+    end
+    text long       DarLocality
+    integer         CatItemsCat
+    integer         CatItemsInv
+    table           DesObj
+      text short      DesObjectName
+      text short      DesObjectType
+    end
+    text short      DarCollector
+    text short      CatRecordType
+    text short      DesSubjectCode
+    text short      DesPeriod
+    text long       DesTechnicalDescription
+    table           ColContinentLocal_tab
+      text short      ColContinentLocal
+    end
+    table           ColCountryLocal_tab
+      text short      ColCountryLocal
+    end
+    table           ColProvinceStateTerritoryLocal_tab
+      text short      ColProvinceStateTerritoryLocal
+    end
+    table           ColDistrictCountyShireLocal_tab
+      text short      ColDistrictCountyShireLocal
+    end
+    table           ColTownshipLocal_tab
+      text short      ColTownshipLocal
+    end
+    integer         CatObjectCount
+    integer         CatItemsSub
+    text short      CatLegalStatus
+    integer         CatAnthroCatalogNumber
+    text long       CatSubNumbers
+    table           Multimedia
+      text short      AudIdentifier
+      text short      AudAccessURI
+      text short      AudCitation
+      text short      emul_AdmPublishWebNoPassword
+    end
+    table           RefReferenceRef_tab
+      integer         ebiblio_irn
+      text long       ebiblio_SummaryData
+    end
+    table           RelObjectsRef_tab
+      integer         ecatrel_irn
+      text short      ecatrel_SummaryData
+      text short      ecatrel_DarGlobalUniqueIdentifier
+    end
+  end
+?>
+<!-- Data -->
+<table name="ecatalogue">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">3808027</atom>
+    <atom name="DarGlobalUniqueIdentifier">a3e1ffc0-3c29-4627-8be6-cb83f4257352</atom>
+    <atom name="CatAccessionYearLocal">2019</atom>
+    <atom name="DarCatalogNumberNumeric">360807</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4490</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">360807.nosub[1]</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2017.0012.000072</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">basket</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">test-description</atom>
+        <atom name="DesKType">Source Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Canela</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">fiber; palm leaf - buruti</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesMaterials">paint</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">584757</atom>
+        <atom name="PolContinent">South America</atom>
+        <atom name="PolPD1">Brazil</atom>
+        <atom name="PolPD2">Maranhão</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn">Escalvado</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Escalvado</atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <table name="DesObj">
+      <tuple>
+        <atom name="DesObjectName">basket</atom>
+        <atom name="DesObjectType">basic name</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">cestinha</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">kaj-re</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+    </table>
+    <atom name="DarCollector"></atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">South America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">Brazil</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Maranhão</atom>
+      </tuple>
+    </table>
+    <table name="ColTownshipLocal_tab">
+      <tuple>
+        <atom name="ColTownshipLocal">Escalvado</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">0</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">360807</atom>
+    <atom name="CatSubNumbers">nosub[1]</atom>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="irn">3808034</atom>
+    <atom name="DarGlobalUniqueIdentifier">d36d9d0c-f684-4308-8e18-34f5ac5cb01d</atom>
+    <atom name="CatAccessionYearLocal">2019</atom>
+    <atom name="DarCatalogNumberNumeric">360812</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4490</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">360812.nosub[1]</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2017.0012.000079</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">necklace</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">test-description</atom>
+        <atom name="DesKType">Source Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Canela</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">seed</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesMaterials">wood; sucupira</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesMaterials">paint (annatto)</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">584757</atom>
+        <atom name="PolContinent">South America</atom>
+        <atom name="PolPD1">Brazil</atom>
+        <atom name="PolPD2">Maranhão</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn">Escalvado</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Escalvado</atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <table name="DesObj">
+      <tuple>
+        <atom name="DesObjectName">necklace</atom>
+        <atom name="DesObjectType">basic name</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">miçanga</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">kẽn-re</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+    </table>
+    <atom name="DarCollector"></atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">South America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">Brazil</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Maranhão</atom>
+      </tuple>
+    </table>
+    <table name="ColTownshipLocal_tab">
+      <tuple>
+        <atom name="ColTownshipLocal">Escalvado</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">0</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">360812</atom>
+    <atom name="CatSubNumbers">nosub[1]</atom>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="irn">3808032</atom>
+    <atom name="DarGlobalUniqueIdentifier">f80828f0-6c10-4486-851d-ed8d9a1c260f</atom>
+    <atom name="CatAccessionYearLocal">2019</atom>
+    <atom name="DarCatalogNumberNumeric">360811</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4490</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">360811.nosub[1]</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2017.0012.000077</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">rattle</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">test</atom>
+        <atom name="DesKType">Source Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Canela</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">gourd</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesMaterials">cotton</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesMaterials">seed</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">584757</atom>
+        <atom name="PolContinent">South America</atom>
+        <atom name="PolPD1">Brazil</atom>
+        <atom name="PolPD2">Maranhão</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn">Escalvado</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Escalvado</atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <table name="DesObj">
+      <tuple>
+        <atom name="DesObjectName">rattle</atom>
+        <atom name="DesObjectType">basic name</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">cabaca</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesObjectName">cuhtõj kryi-re</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+    </table>
+    <atom name="DarCollector"></atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">South America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">Brazil</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Maranhão</atom>
+      </tuple>
+    </table>
+    <table name="ColTownshipLocal_tab">
+      <tuple>
+        <atom name="ColTownshipLocal">Escalvado</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">0</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">360811</atom>
+    <atom name="CatSubNumbers">nosub[1]</atom>
+    <table name="RefReferenceRef_tab">
+      <tuple>
+        <atom name="ebiblio_irn">37723</atom>
+        <atom name="ebiblio_SummaryData">[Book] Miller, Theresa L. Plant Kin: A Multispecies Ethnography in Indigenous Brazil. 328.</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="irn">3630556</atom>
+    <atom name="DarGlobalUniqueIdentifier">29cf43da-7863-4f6a-af06-b88df84cfd24</atom>
+    <atom name="CatAccessionYearLocal">1896</atom>
+    <atom name="DarCatalogNumberNumeric">23495</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">253</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">23495.102</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersValue">95</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">fragment</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">example"</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Maya</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">stone</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">406172</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1">México</atom>
+        <atom name="PolPD2">Yucatán</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn">Xkichmook</atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality">Xkichmook</atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <table name="DesObj">
+      <tuple>
+        <atom name="DesObjectName">kat</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+    </table>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode">xx99: Mexico: Yucatan: archaeology</atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">México</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Yucatán</atom>
+      </tuple>
+    </table>
+    <table name="ColTownshipLocal_tab">
+      <tuple>
+        <atom name="ColTownshipLocal">Xkichmook</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">23495</atom>
+    <atom name="CatSubNumbers">.102</atom>
+    <table name="Multimedia">
+      <tuple>
+        <atom name="AudIdentifier">aed844e7-f998-4d0d-87d7-d35a4cde098f</atom>
+        <atom name="AudAccessURI"></atom>
+        <atom name="AudCitation">Courtesy of: C. Pontone. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/aed844e7-f998-4d0d-87d7-d35a4cde098f (accessed on 11 Mar 2021)</atom>
+        <atom name="emul_AdmPublishWebNoPassword">No</atom>
+      </tuple>
+      <tuple>
+        <atom name="AudIdentifier">fc7f8eb5-0253-497d-9e5e-f299bc54d0bf</atom>
+        <atom name="AudAccessURI"></atom>
+        <atom name="AudCitation">Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/fc7f8eb5-0253-497d-9e5e-f299bc54d0bf (accessed on 11 Mar 2021)</atom>
+        <atom name="emul_AdmPublishWebNoPassword">No</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="irn">3763547</atom>
+    <atom name="DarGlobalUniqueIdentifier">1bb1501d-9f14-4ce1-a2df-988f535fe81d</atom>
+    <atom name="CatAccessionYearLocal">1911</atom>
+    <atom name="DarCatalogNumberNumeric">129589</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">1139</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">129589.1</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Fieldwork number</atom>
+        <atom name="CatOtherNumbersValue">1762</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">anklet</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">Name: Balnatoñ: - Woman's anklets. Made similar to the wristlets of the same name.</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+    </table>
+    <table name="DesEthnicGroupSubgroup_tab">
+      <tuple>
+        <atom name="DesEthnicGroupSubgroup">Bila-an</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">metal; brass</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">401931</atom>
+        <atom name="PolContinent">Asia</atom>
+        <atom name="PolPD1">Philippines</atom>
+        <atom name="PolPD2">Mindanao Island</atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <table name="DesObj">
+      <tuple>
+        <atom name="DesObjectName">balnatōñ</atom>
+        <atom name="DesObjectType">cultural</atom>
+      </tuple>
+    </table>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode">3446: Philippines: ornaments, accessories</atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">Asia</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">Philippines</atom>
+      </tuple>
+    </table>
+    <table name="ColProvinceStateTerritoryLocal_tab">
+      <tuple>
+        <atom name="ColProvinceStateTerritoryLocal">Mindanao Island</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">129589</atom>
+    <atom name="CatSubNumbers">.1</atom>
+    <table name="Multimedia">
+      <tuple>
+        <atom name="AudIdentifier">4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db</atom>
+        <atom name="AudAccessURI">http://fm-digital-assets.fieldmuseum.org/805/047/129589CC.pdf</atom>
+        <atom name="AudCitation">Courtesy of: D. Weddle, E. E. McKenna. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db (accessed on 04 Oct 2021)</atom>
+        <atom name="emul_AdmPublishWebNoPassword">Yes</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="irn">154226</atom>
+    <atom name="DarGlobalUniqueIdentifier">2b8a8ec3-5274-404e-be05-ddd35011713d</atom>
+    <atom name="CatAccessionYearLocal">2008</atom>
+    <atom name="DarCatalogNumberNumeric">342703</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4297</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">342703 nosub[1]</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2002.12.6001</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">plate</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+    </table>
+    <table name="DesUseClassification_tab">
+      <tuple>
+        <atom name="DesUseClassification">Food Service Tool or Equipment</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">clay (ceramic)</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">404761</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1"></atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Single</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">0</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">342703</atom>
+    <atom name="CatSubNumbers">nosub[1]</atom>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
+    <atom name="irn">152315</atom>
+    <atom name="DarGlobalUniqueIdentifier">44bc1ef9-5157-4d44-a737-4812ffc1e5a7</atom>
+    <atom name="CatAccessionYearLocal">2008</atom>
+    <atom name="DarCatalogNumberNumeric">342710</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4297</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">342710.3</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2002.12.3321</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">figurine</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">example / remove</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesUseClassification_tab">
+      <tuple>
+        <atom name="DesUseClassification">Art</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">clay (ceramic)</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">405478</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1">México</atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">México</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">342710</atom>
+    <atom name="CatSubNumbers">.3</atom>
+  </tuple>
+
+  <!-- Row 8 -->
+  <tuple>
+    <atom name="irn">152504</atom>
+    <atom name="DarGlobalUniqueIdentifier">41dd3a78-f540-475f-b075-32866cce7468</atom>
+    <atom name="CatAccessionYearLocal">2008</atom>
+    <atom name="DarCatalogNumberNumeric">342710</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4297</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">342710.5</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2002.12.3321</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">figurine</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">example full description</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesUseClassification_tab">
+      <tuple>
+        <atom name="DesUseClassification">Art</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">clay (ceramic)</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">405478</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1">México</atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">México</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">342710</atom>
+    <atom name="CatSubNumbers">.5</atom>
+    <table name="Multimedia">
+      <tuple>
+        <atom name="AudIdentifier">701edc73-6f7b-49b2-b0fc-bbbd6346430b</atom>
+        <atom name="AudAccessURI">http://fm-digital-assets.fieldmuseum.org/2195/815/CL0000_342710_5_InMount.JPG</atom>
+        <atom name="AudCitation">Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/701edc73-6f7b-49b2-b0fc-bbbd6346430b (accessed on 29 Apr 2021)</atom>
+        <atom name="emul_AdmPublishWebNoPassword">Yes</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 9 -->
+  <tuple>
+    <atom name="irn">153530</atom>
+    <atom name="DarGlobalUniqueIdentifier">e48acf38-2db7-4c09-b24b-32bd5bf91770</atom>
+    <atom name="CatAccessionYearLocal">2008</atom>
+    <atom name="DarCatalogNumberNumeric">342710</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4297</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">342710.7</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2002.12.3321</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">figurine</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">example full description, not to publish</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesUseClassification_tab">
+      <tuple>
+        <atom name="DesUseClassification">Art</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">clay (ceramic)</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">405478</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1">México</atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">México</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">342710</atom>
+    <atom name="CatSubNumbers">.7</atom>
+    <table name="Multimedia">
+      <tuple>
+        <atom name="AudIdentifier">c05fc80c-1f2d-4122-8c4b-ce6876bf3d67</atom>
+        <atom name="AudAccessURI">http://fm-digital-assets.fieldmuseum.org/2196/097/CL0000_342710_7_InMountAngle.JPG</atom>
+        <atom name="AudCitation">Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c05fc80c-1f2d-4122-8c4b-ce6876bf3d67 (accessed on 29 Apr 2021)</atom>
+        <atom name="emul_AdmPublishWebNoPassword">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="AudIdentifier">abcde-12345-test</atom>
+        <atom name="AudAccessURI">http://fm-digital-assets.fieldmuseum.org/test/unpublished</atom>
+        <atom name="AudCitation">Test unpublished media</atom>
+        <atom name="emul_AdmPublishWebNoPassword">No</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 10 -->
+  <tuple>
+    <atom name="irn">151896</atom>
+    <atom name="DarGlobalUniqueIdentifier">40b583fd-b8b6-4831-9552-eddb17330a26</atom>
+    <atom name="CatAccessionYearLocal">2008</atom>
+    <atom name="DarCatalogNumberNumeric">342705</atom>
+    <tuple name="PriAccessionNumberRef">
+      <atom name="AccAccessionNo">4297</atom>
+    </tuple>
+    <atom name="DarCatalogNumber">342705.6</atom>
+    <table name="OtherNums">
+      <tuple>
+        <atom name="CatOtherNumbersType">Tracking number</atom>
+        <atom name="CatOtherNumbersValue">T2002.12.3315</atom>
+      </tuple>
+    </table>
+    <table name="Description">
+      <tuple>
+        <atom name="DesKDescription">utensil (miniature)</atom>
+        <atom name="DesKType">Basic Description</atom>
+        <atom name="DesKPreferred">Yes</atom>
+      </tuple>
+      <tuple>
+        <atom name="DesKDescription">example full description / not to publish</atom>
+        <atom name="DesKType">Full Description</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+    </table>
+    <table name="DesUseClassification_tab">
+      <tuple>
+        <atom name="DesUseClassification">Food Service Tool or Equipment</atom>
+      </tuple>
+    </table>
+    <table name="DesMaterials_tab">
+      <tuple>
+        <atom name="DesMaterials">wood</atom>
+      </tuple>
+    </table>
+    <tuple name="ColCollectionEventRef">
+      <tuple name="ColSiteRef">
+        <atom name="esites_irn">405478</atom>
+        <atom name="PolContinent">North America</atom>
+        <atom name="PolPD1">México</atom>
+        <atom name="PolPD2"></atom>
+        <atom name="PolPD3"></atom>
+        <atom name="PolPopn"></atom>
+      </tuple>
+    </tuple>
+    <atom name="DarLocality"></atom>
+    <atom name="CatItemsCat">1</atom>
+    <atom name="CatItemsInv">1</atom>
+    <atom name="DarCollector">Collector</atom>
+    <atom name="CatRecordType">Child</atom>
+    <atom name="DesSubjectCode"></atom>
+    <atom name="DesPeriod"></atom>
+    <atom name="DesTechnicalDescription"></atom>
+    <table name="ColContinentLocal_tab">
+      <tuple>
+        <atom name="ColContinentLocal">North America</atom>
+      </tuple>
+    </table>
+    <table name="ColCountryLocal_tab">
+      <tuple>
+        <atom name="ColCountryLocal">México</atom>
+      </tuple>
+    </table>
+    <atom name="CatObjectCount">1</atom>
+    <atom name="CatItemsSub">1</atom>
+    <atom name="CatLegalStatus">Permanent Collection</atom>
+    <atom name="CatAnthroCatalogNumber">342705</atom>
+    <atom name="CatSubNumbers">.6</atom>
+  </tuple>
+</table>

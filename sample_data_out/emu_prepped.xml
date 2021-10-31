@@ -2,257 +2,508 @@
 
   
   <data>
-    <irn>1312411</irn>
-    <DarGlobalUniqueIdentifier>03b53a6a-99ca-43ee-b8c5-ecc498336b10</DarGlobalUniqueIdentifier>
-    <CatAccessionYearLocal>1904</CatAccessionYearLocal>
-    <DarCatalogNumberNumeric>8143</DarCatalogNumberNumeric>
+    <irn>3808027</irn>
+    <DarGlobalUniqueIdentifier>a3e1ffc0-3c29-4627-8be6-cb83f4257352</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360807</DarCatalogNumberNumeric>
     <PriAccessionNumberRef>
-      <AccAccessionNo>862</AccAccessionNo>
+      <AccAccessionNo>4490</AccAccessionNo>
     </PriAccessionNumberRef>
-    <DarCatalogNumber>8143.nosub[1]</DarCatalogNumber>
+    <DarCatalogNumber>360807.nosub[1]</DarCatalogNumber>
     <OtherNums>
       <tuple>
-        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
-        <CatOtherNumbersValue>306</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
-        <CatOtherNumbersValue>XVII</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>99448</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>99539</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>99540</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>CSA58327</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>112461</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>112834</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>112835</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>112836</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>GN87049_30</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>GN79715</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>GN83906_4</CatOtherNumbersValue>
-      </tuple>
-      <tuple>
-        <CatOtherNumbersType>Image number</CatOtherNumbersType>
-        <CatOtherNumbersValue>A99566</CatOtherNumbersValue>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000072</CatOtherNumbersValue>
       </tuple>
     </OtherNums>
     <Description>
       <tuple>
-        <DesKDescription>tusk</DesKDescription>
+        <DesKDescription>basket</DesKDescription>
         <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
       </tuple>
       <tuple>
-        <DesKDescription>carved elephant tusk; note on back of catalog card: men and spear, [2 illegible words], birds, snake eating man, men vs [illegible word]; Dimensions: L = 223.5 cm; 7'4"; 88"</DesKDescription>
-        <DesKType>Full Description</DesKType>
-      </tuple>
-      <tuple>
-        <DesKDescription>The Art of Benin Catalog entry:
-306. TUSK. Ivory. L. 7'4". CNHM 8143. Plate XVII A very fine ivory tusk carved all over with figures and animal forms. The second and fifth figures up, on the front of the tusk (on the outer side of the circumference), are representations of Oba Ohe, who was mentioned under "Shield Plaques." Figures f Europeans and other dignitaries can be seen. Other forms include crocodile heads, a clenched hand, a turkey cock, crocodile, leopard, mud fish, cock, and elephant head with the trunk ending in a human hand. In the detail of the tusk illustrated is shown the figure of a European holding the foot of a leopard with his right hand. Above his hat is the head of a crocodile. To his left is the head of an elephant with its trunk ending in a human hand. Below the figure's feet is a leaf form similar to that found on altars to the hand.</DesKDescription>
-        <DesKType>Full Description</DesKType>
+        <DesKDescription>test-description</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
       </tuple>
     </Description>
-    <DesUseClassification_tab>
-      <tuple>
-        <DesUseClassification>Ceremonial Artifact</DesUseClassification>
-      </tuple>
-    </DesUseClassification_tab>
-    <EcbPartsUsed_tab>
-      <tuple>
-        <EcbPartsUsed>tusk</EcbPartsUsed>
-      </tuple>
-    </EcbPartsUsed_tab>
     <DesEthnicGroupSubgroup_tab>
       <tuple>
-        <DesEthnicGroupSubgroup>Edo</DesEthnicGroupSubgroup>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
       </tuple>
     </DesEthnicGroupSubgroup_tab>
     <DesMaterials_tab>
       <tuple>
-        <DesMaterials>animal tooth; elephant tusk - ivory</DesMaterials>
+        <DesMaterials>fiber; palm leaf - buruti</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>paint</DesMaterials>
       </tuple>
     </DesMaterials_tab>
     <ColCollectionEventRef>
       <ColSiteRef>
-        <esites_irn>400853</esites_irn>
-        <PolContinent>Africa</PolContinent>
-        <PolPD1>Nigeria</PolPD1>
-        <PolPD2>Edo</PolPD2>
-        <PolPD3>Benin Kingdom</PolPD3>
-        <PolPopn>Benin City</PolPopn>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
       </ColSiteRef>
     </ColCollectionEventRef>
-    <DarLocality>Benin City</DarLocality>
+    <DarLocality>Escalvado</DarLocality>
     <CatItemsCat>1</CatItemsCat>
     <CatItemsInv>1</CatItemsInv>
-    <DarCollector>Collector</DarCollector>
+    <DesObj>
+      <tuple>
+        <DesObjectName />
+        <DesObjectType />
+      </tuple>
+      <tuple>
+        <DesObjectName>cestinha</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>kaj-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
     <CatRecordType>Single</CatRecordType>
-    <DesSubjectCode>2202: West Africa: carvings, castings: ivory</DesSubjectCode>
+    <DesSubjectCode />
     <DesPeriod />
     <DesTechnicalDescription />
     <ColContinentLocal_tab>
       <tuple>
-        <ColContinentLocal>Africa</ColContinentLocal>
+        <ColContinentLocal>South America</ColContinentLocal>
       </tuple>
     </ColContinentLocal_tab>
     <ColCountryLocal_tab>
       <tuple>
-        <ColCountryLocal>Nigeria</ColCountryLocal>
+        <ColCountryLocal>Brazil</ColCountryLocal>
       </tuple>
     </ColCountryLocal_tab>
     <ColProvinceStateTerritoryLocal_tab>
       <tuple>
-        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
       </tuple>
     </ColProvinceStateTerritoryLocal_tab>
     <ColTownshipLocal_tab>
       <tuple>
-        <ColTownshipLocal>Benin City</ColTownshipLocal>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
       </tuple>
     </ColTownshipLocal_tab>
     <CatObjectCount>1</CatObjectCount>
     <CatItemsSub>0</CatItemsSub>
     <CatLegalStatus>Permanent Collection</CatLegalStatus>
-    <CatAnthroCatalogNumber>8143</CatAnthroCatalogNumber>
+    <CatAnthroCatalogNumber>360807</CatAnthroCatalogNumber>
     <CatSubNumbers>nosub[1]</CatSubNumbers>
+  </data>
+
+  
+  <data>
+    <irn>3808034</irn>
+    <DarGlobalUniqueIdentifier>d36d9d0c-f684-4308-8e18-34f5ac5cb01d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360812</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4490</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>360812.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000079</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>necklace</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>test-description</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>seed</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>wood; sucupira</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>paint (annatto)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Escalvado</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName />
+        <DesObjectType />
+      </tuple>
+      <tuple>
+        <DesObjectName>miçanga</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>kẽn-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>South America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Brazil</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>360812</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+  </data>
+
+  
+  <data>
+    <irn>3808032</irn>
+    <DarGlobalUniqueIdentifier>f80828f0-6c10-4486-851d-ed8d9a1c260f</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360811</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4490</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>360811.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000077</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>rattle</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>test</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>gourd</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>cotton</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>seed</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Escalvado</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName />
+        <DesObjectType />
+      </tuple>
+      <tuple>
+        <DesObjectName>cabaca</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>cuhtõj kryi-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>South America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Brazil</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>360811</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <RefReferenceRef_tab>
+      <tuple>
+        <ebiblio_irn>37723</ebiblio_irn>
+        <ebiblio_SummaryData>[Book] Miller, Theresa L. Plant Kin: A Multispecies Ethnography in Indigenous Brazil. 328.</ebiblio_SummaryData>
+      </tuple>
+    </RefReferenceRef_tab>
+  </data>
+
+  
+  <data>
+    <irn>3630556</irn>
+    <DarGlobalUniqueIdentifier>29cf43da-7863-4f6a-af06-b88df84cfd24</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1896</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>23495</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>253</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>23495.102</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersValue>95</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>fragment</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>example"</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Maya</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>stone</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>406172</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2>Yucatán</PolPD2>
+        <PolPD3 />
+        <PolPopn>Xkichmook</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Xkichmook</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>kat</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode>xx99: Mexico: Yucatan: archaeology</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Yucatán</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Xkichmook</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>23495</CatAnthroCatalogNumber>
+    <CatSubNumbers>.102</CatSubNumbers>
     <Multimedia>
       <tuple>
-        <AudIdentifier>dcb87a50-a8b2-4237-b7e3-3508dcd89169</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/514/A112461c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/dcb87a50-a8b2-4237-b7e3-3508dcd89169 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>d70aa770-db59-4728-a176-592c89019ff5</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2243/413/CSA58327_8143_Edit.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/d70aa770-db59-4728-a176-592c89019ff5 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>a8ccda11-84db-4fc2-ac93-30b67d336c33</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/84/719/A99540.jpg</AudAccessURI>
-        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a8ccda11-84db-4fc2-ac93-30b67d336c33 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>3cc23b3f-7ccc-40b0-bef4-8ab14ce6bf6f</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/812/A112835_6c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3cc23b3f-7ccc-40b0-bef4-8ab14ce6bf6f (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>8f7d0dc9-c4df-4021-95b6-bb8935865513</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/810/A112835_3c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8f7d0dc9-c4df-4021-95b6-bb8935865513 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>8d962990-9683-4e06-9f16-aea9789b9ca4</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/814/A112835_10c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8d962990-9683-4e06-9f16-aea9789b9ca4 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>85959424-47c2-4504-9df6-6ffcab5d778e</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/817/A112836_10c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/85959424-47c2-4504-9df6-6ffcab5d778e (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>754a85df-31f5-4061-bea2-91369c629e83</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/100/961/A99539.jpg</AudAccessURI>
-        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/754a85df-31f5-4061-bea2-91369c629e83 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>3689ceaf-c784-4cfb-ad11-8c77a3ed1644</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/922/A112834_2c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3689ceaf-c784-4cfb-ad11-8c77a3ed1644 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>1bcf1e79-011c-4ca1-a9bb-e752ccfb1492</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/73/921/A112834_1c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/1bcf1e79-011c-4ca1-a9bb-e752ccfb1492 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>c8181248-f06b-4c0f-a0d2-06a7f2d9ab90</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/102/124/CSA58327.jpg</AudAccessURI>
-        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c8181248-f06b-4c0f-a0d2-06a7f2d9ab90 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
-      </tuple>
-      <tuple>
-        <AudIdentifier>3297a964-bd6c-42ea-a232-9f0b2c316fae</AudIdentifier>
+        <AudIdentifier />
         <AudAccessURI />
-        <AudCitation>(c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/3297a964-bd6c-42ea-a232-9f0b2c316fae (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>No</emul_AdmPublishWebNoPassword>
+        <AudCitation />
+        <emul_AdmPublishWebNoPassword />
       </tuple>
       <tuple>
-        <AudIdentifier>fd805cb9-ff9b-4a87-b2a8-eabb3eafd113</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1356/815/A112836_4c.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Weinstein. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/fd805cb9-ff9b-4a87-b2a8-eabb3eafd113 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+        <AudIdentifier />
+        <AudAccessURI />
+        <AudCitation />
+        <emul_AdmPublishWebNoPassword />
+      </tuple>
+    </Multimedia>
+  </data>
+
+  
+  <data>
+    <irn>3763547</irn>
+    <DarGlobalUniqueIdentifier>1bb1501d-9f14-4ce1-a2df-988f535fe81d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1911</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>129589</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>1139</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>129589.1</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Fieldwork number</CatOtherNumbersType>
+        <CatOtherNumbersValue>1762</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>anklet</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
       </tuple>
       <tuple>
-        <AudIdentifier>7efcf662-cfa0-4a6c-82f1-f35021759d39</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2040/207/GN87049_30.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Balodimas. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/7efcf662-cfa0-4a6c-82f1-f35021759d39 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+        <DesKDescription>Name: Balnatoñ: - Woman's anklets. Made similar to the wristlets of the same name.</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
       </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
       <tuple>
-        <AudIdentifier>cf432cf2-947b-4368-9b92-0ca22615812a</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2032/932/GN79715.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: J. Bayalis. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/cf432cf2-947b-4368-9b92-0ca22615812a (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+        <DesEthnicGroupSubgroup>Bila-an</DesEthnicGroupSubgroup>
       </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
       <tuple>
-        <AudIdentifier>15676409-38ec-45bf-8e12-3afb4bf4abf8</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2102/425/A99566.jpg</AudAccessURI>
-        <AudCitation>(c) Field Museum of Natural History. https://mm.fieldmuseum.org/15676409-38ec-45bf-8e12-3afb4bf4abf8 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+        <DesMaterials>metal; brass</DesMaterials>
       </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>401931</esites_irn>
+        <PolContinent>Asia</PolContinent>
+        <PolPD1>Philippines</PolPD1>
+        <PolPD2>Mindanao Island</PolPD2>
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
       <tuple>
-        <AudIdentifier>c3d29c28-bd93-4e6c-935e-9298d84cab27</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2036/093/GN83906_4.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: R. Testa. (c) Field Museum of Natural History. https://mm.fieldmuseum.org/c3d29c28-bd93-4e6c-935e-9298d84cab27 (accessed on 12 Aug 2021)</AudCitation>
-        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+        <DesObjectName>balnatōñ</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
       </tuple>
+    </DesObj>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode>3446: Philippines: ornaments, accessories</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
       <tuple>
-        <AudIdentifier>a0c4cd9f-838d-4552-bc77-950cb9caf47b</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/343/326/8143CC.pdf</AudAccessURI>
-        <AudCitation>Courtesy of: C. J. Philipp, J. W. Kennedy. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a0c4cd9f-838d-4552-bc77-950cb9caf47b (accessed on 12 Aug 2021)</AudCitation>
+        <ColContinentLocal>Asia</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Philippines</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Mindanao Island</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>129589</CatAnthroCatalogNumber>
+    <CatSubNumbers>.1</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/805/047/129589CC.pdf</AudAccessURI>
+        <AudCitation>Courtesy of: D. Weddle, E. E. McKenna. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db (accessed on 04 Oct 2021)</AudCitation>
         <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
       </tuple>
     </Multimedia>
@@ -260,94 +511,216 @@
 
   
   <data>
-    <irn>123456</irn>
-    <DarGlobalUniqueIdentifier>0123abcde-12345-abcdef</DarGlobalUniqueIdentifier>
-    <CatAccessionYearLocal>1910</CatAccessionYearLocal>
-    <DarCatalogNumberNumeric>8765-sample</DarCatalogNumberNumeric>
+    <irn>154226</irn>
+    <DarGlobalUniqueIdentifier>2b8a8ec3-5274-404e-be05-ddd35011713d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342703</DarCatalogNumberNumeric>
     <PriAccessionNumberRef>
-      <AccAccessionNo>789-sample</AccAccessionNo>
+      <AccAccessionNo>4297</AccAccessionNo>
     </PriAccessionNumberRef>
-    <DarCatalogNumber>8765.nosub[1]</DarCatalogNumber>
+    <DarCatalogNumber>342703 nosub[1]</DarCatalogNumber>
     <OtherNums>
       <tuple>
-        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
-        <CatOtherNumbersValue>3456-sample</CatOtherNumbersValue>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.6001</CatOtherNumbersValue>
       </tuple>
     </OtherNums>
     <Description>
       <tuple>
-        <DesKDescription>sample-data description</DesKDescription>
+        <DesKDescription>plate</DesKDescription>
         <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
       </tuple>
     </Description>
     <DesUseClassification_tab>
       <tuple>
-        <DesUseClassification>sample-data use classification</DesUseClassification>
+        <DesUseClassification>Food Service Tool or Equipment</DesUseClassification>
       </tuple>
     </DesUseClassification_tab>
-    <EcbPartsUsed_tab>
-      <tuple>
-        <EcbPartsUsed>sample-data parts used</EcbPartsUsed>
-      </tuple>
-    </EcbPartsUsed_tab>
-    <DesEthnicGroupSubgroup_tab>
-      <tuple>
-        <DesEthnicGroupSubgroup>Sample-data Group</DesEthnicGroupSubgroup>
-      </tuple>
-    </DesEthnicGroupSubgroup_tab>
     <DesMaterials_tab>
       <tuple>
-        <DesMaterials>sample-data materials</DesMaterials>
+        <DesMaterials>clay (ceramic)</DesMaterials>
       </tuple>
     </DesMaterials_tab>
     <ColCollectionEventRef>
       <ColSiteRef>
-        <esites_irn>45678</esites_irn>
-        <PolContinent>Africa</PolContinent>
-        <PolPD1>Nigeria</PolPD1>
-        <PolPD2>Edo</PolPD2>
-        <PolPD3>Benin Kingdom</PolPD3>
-        <PolPopn>Sample-data city</PolPopn>
+        <esites_irn>404761</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1 />
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
       </ColSiteRef>
     </ColCollectionEventRef>
-    <DarLocality>Benin City</DarLocality>
+    <DarLocality />
     <CatItemsCat>1</CatItemsCat>
     <CatItemsInv>1</CatItemsInv>
     <DarCollector>Collector</DarCollector>
     <CatRecordType>Single</CatRecordType>
-    <DesSubjectCode>sample-code: sample-subjects</DesSubjectCode>
+    <DesSubjectCode />
     <DesPeriod />
     <DesTechnicalDescription />
     <ColContinentLocal_tab>
       <tuple>
-        <ColContinentLocal>Africa</ColContinentLocal>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342703</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+  </data>
+
+  
+  <data>
+    <irn>152315</irn>
+    <DarGlobalUniqueIdentifier>44bc1ef9-5157-4d44-a737-4812ffc1e5a7</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342710.3</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>figurine</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>example / remove</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Art</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
       </tuple>
     </ColContinentLocal_tab>
     <ColCountryLocal_tab>
       <tuple>
-        <ColCountryLocal>Nigeria</ColCountryLocal>
+        <ColCountryLocal>México</ColCountryLocal>
       </tuple>
     </ColCountryLocal_tab>
-    <ColProvinceStateTerritoryLocal_tab>
-      <tuple>
-        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
-      </tuple>
-    </ColProvinceStateTerritoryLocal_tab>
-    <ColTownshipLocal_tab>
-      <tuple>
-        <ColTownshipLocal>Benin City</ColTownshipLocal>
-      </tuple>
-    </ColTownshipLocal_tab>
     <CatObjectCount>1</CatObjectCount>
-    <CatItemsSub>0</CatItemsSub>
+    <CatItemsSub>1</CatItemsSub>
     <CatLegalStatus>Permanent Collection</CatLegalStatus>
-    <CatAnthroCatalogNumber>8765-sample</CatAnthroCatalogNumber>
-    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.3</CatSubNumbers>
+  </data>
+
+  
+  <data>
+    <irn>152504</irn>
+    <DarGlobalUniqueIdentifier>41dd3a78-f540-475f-b075-32866cce7468</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342710.5</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>figurine</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>example full description</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Art</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.5</CatSubNumbers>
     <Multimedia>
       <tuple>
-        <AudIdentifier>abcdef-12345-987654-gfedcba</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1234/567/sample-data.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: sample-data https://mm.fieldmuseum.org/abcdef-12345-987654-gfedcba (accessed on 16 Aug 2021)</AudCitation>
+        <AudIdentifier>701edc73-6f7b-49b2-b0fc-bbbd6346430b</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2195/815/CL0000_342710_5_InMount.JPG</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/701edc73-6f7b-49b2-b0fc-bbbd6346430b (accessed on 29 Apr 2021)</AudCitation>
         <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
       </tuple>
     </Multimedia>
@@ -355,86 +728,161 @@
 
   
   <data>
-    <irn>234567</irn>
-    <DarGlobalUniqueIdentifier>1234abcde-23456-abcdef</DarGlobalUniqueIdentifier>
-    <CatAccessionYearLocal>1911</CatAccessionYearLocal>
-    <DarCatalogNumberNumeric>9876-sample</DarCatalogNumberNumeric>
+    <irn>153530</irn>
+    <DarGlobalUniqueIdentifier>e48acf38-2db7-4c09-b24b-32bd5bf91770</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
     <PriAccessionNumberRef>
-      <AccAccessionNo>678-sample</AccAccessionNo>
+      <AccAccessionNo>4297</AccAccessionNo>
     </PriAccessionNumberRef>
-    <DarCatalogNumber>9876.nosub[1]</DarCatalogNumber>
+    <DarCatalogNumber>342710.7</DarCatalogNumber>
     <OtherNums>
       <tuple>
-        <CatOtherNumbersType>Publication number</CatOtherNumbersType>
-        <CatOtherNumbersValue>23456-sample</CatOtherNumbersValue>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
       </tuple>
     </OtherNums>
     <Description>
       <tuple>
-        <DesKDescription>sample-data description</DesKDescription>
+        <DesKDescription>figurine</DesKDescription>
         <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>example full description, not to publish</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
       </tuple>
     </Description>
-    <DesEthnicGroupSubgroup_tab>
+    <DesUseClassification_tab>
       <tuple>
-        <DesEthnicGroupSubgroup>Sample-data Group</DesEthnicGroupSubgroup>
+        <DesUseClassification>Art</DesUseClassification>
       </tuple>
-    </DesEthnicGroupSubgroup_tab>
+    </DesUseClassification_tab>
     <DesMaterials_tab>
       <tuple>
-        <DesMaterials>sample-data materials</DesMaterials>
+        <DesMaterials>clay (ceramic)</DesMaterials>
       </tuple>
     </DesMaterials_tab>
     <ColCollectionEventRef>
       <ColSiteRef>
-        <esites_irn>45678</esites_irn>
-        <PolContinent>Africa</PolContinent>
-        <PolPD1>Nigeria</PolPD1>
-        <PolPD2>Edo</PolPD2>
-        <PolPD3>Benin Kingdom</PolPD3>
-        <PolPopn>Sample-data city</PolPopn>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
       </ColSiteRef>
     </ColCollectionEventRef>
-    <DarLocality>Benin City</DarLocality>
+    <DarLocality />
     <CatItemsCat>1</CatItemsCat>
     <CatItemsInv>1</CatItemsInv>
     <DarCollector>Collector</DarCollector>
-    <CatRecordType>Single</CatRecordType>
-    <DesSubjectCode>sample-code: sample-subjects</DesSubjectCode>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
     <DesPeriod />
     <DesTechnicalDescription />
     <ColContinentLocal_tab>
       <tuple>
-        <ColContinentLocal>Africa</ColContinentLocal>
+        <ColContinentLocal>North America</ColContinentLocal>
       </tuple>
     </ColContinentLocal_tab>
     <ColCountryLocal_tab>
       <tuple>
-        <ColCountryLocal>Nigeria</ColCountryLocal>
+        <ColCountryLocal>México</ColCountryLocal>
       </tuple>
     </ColCountryLocal_tab>
-    <ColProvinceStateTerritoryLocal_tab>
-      <tuple>
-        <ColProvinceStateTerritoryLocal>Benin Kingdom</ColProvinceStateTerritoryLocal>
-      </tuple>
-    </ColProvinceStateTerritoryLocal_tab>
-    <ColTownshipLocal_tab>
-      <tuple>
-        <ColTownshipLocal>Benin City</ColTownshipLocal>
-      </tuple>
-    </ColTownshipLocal_tab>
     <CatObjectCount>1</CatObjectCount>
-    <CatItemsSub>0</CatItemsSub>
+    <CatItemsSub>1</CatItemsSub>
     <CatLegalStatus>Permanent Collection</CatLegalStatus>
-    <CatAnthroCatalogNumber>9876-sample</CatAnthroCatalogNumber>
-    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.7</CatSubNumbers>
     <Multimedia>
       <tuple>
-        <AudIdentifier>bcdefg-23456-9876543-fedcba</AudIdentifier>
-        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1234/567/sample-data.jpg</AudAccessURI>
-        <AudCitation>Courtesy of: sample-data https://mm.fieldmuseum.org/abcdef-12345-987654-gfedcba (accessed on 16 Aug 2021)</AudCitation>
+        <AudIdentifier>c05fc80c-1f2d-4122-8c4b-ce6876bf3d67</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2196/097/CL0000_342710_7_InMountAngle.JPG</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c05fc80c-1f2d-4122-8c4b-ce6876bf3d67 (accessed on 29 Apr 2021)</AudCitation>
         <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
       </tuple>
+      <tuple>
+        <AudIdentifier />
+        <AudAccessURI />
+        <AudCitation />
+        <emul_AdmPublishWebNoPassword />
+      </tuple>
     </Multimedia>
+  </data>
+
+  
+  <data>
+    <irn>151896</irn>
+    <DarGlobalUniqueIdentifier>40b583fd-b8b6-4831-9552-eddb17330a26</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342705</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342705.6</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3315</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>utensil (miniature)</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>example full description / not to publish</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Food Service Tool or Equipment</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>wood</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342705</CatAnthroCatalogNumber>
+    <CatSubNumbers>.6</CatSubNumbers>
   </data>
 </ecatalogue>
