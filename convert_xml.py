@@ -329,15 +329,15 @@ def xml_to_json(xml_input, emu_xml_out=False):
     # Output 
 
     # H2I-json
-    f = open(config('OUT_PATH') + 'emu_to_json.json', 'w')
-    f.write(json.dumps(all_records, indent=True))
+    f = open(config('OUT_PATH') + 'emu_to_json.json', 'w', encoding='utf-8')
+    f.write(json.dumps(all_records, indent=True, ensure_ascii=False))
     f.close()
 
 
     # Fixed EMu-XML
     if emu_xml_out == True:
         # Output compact xml -- e.g. <tag />
-        tree.write(config('OUT_PATH') + "emu_prepped.xml")    
+        tree.write(config('OUT_PATH') + "emu_prepped.xml", encoding='utf-8')    
 
         # # Output 'canonic' xml -- e.g. <tag></tag>
         # # # Commented out until can fix with Ubuntu
