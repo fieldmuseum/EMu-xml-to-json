@@ -166,13 +166,13 @@ def xml_to_json(xml_input, emu_xml_out=False):
                             group_temp_dict = {}
 
 
-                            if len(e_h2i_con_group) > 0:
+                            if len(t_h2i_con_group) > 0:
                                 
-                                str_t_h2i_con_group = str(e_h2i_con_group[0])
+                                str_t_h2i_con_group = str(t_h2i_con_group[0])
                             
                             else:
 
-                                str_t_h2i_con_group = str(e_h2i_con_group)
+                                str_t_h2i_con_group = str(t_h2i_con_group)
                                 
                             
                             ## # # # # # # #    FIX BELOW    # # # # # # # ##
