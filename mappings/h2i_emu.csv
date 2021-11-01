@@ -30,6 +30,3 @@ ecatrel_SummaryData,dwc:relationshipRemarks,yes,RelObjectsRef_tab,resourcerelati
 ecatrel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,resourcerelationship
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
 ebiblio_SummaryData,fmnh:reference,yes,RefReferenceRef_tab,references
-AudIdentifier,dc:identifier,yes,Multimedia,multimedia
-AudAccessURI,ac:accessURI,yes,Multimedia,multimedia
-AudCitation,fmnh:citation,yes,Multimedia,multimedia

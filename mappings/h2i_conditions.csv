@@ -9,6 +9,3 @@ CatItemsInv,IS,NOT NULL,,cd:measurementMethod,FMNH Metric,measurements
 DesObjectType,IS NOT,cultural,DesObjectName,NULL,,
 DesObjectType,IS NOT,cultural,DesObjectType,NULL,,
 DesKType,IS,Osteology Summary,DesKDescription,NULL,,
-emul_AdmPublishWebNoPassword,IS,No,AudIdentifier,NULL,,
-emul_AdmPublishWebNoPassword,IS,No,AudCitation,NULL,,
-emul_AdmPublishWebNoPassword,IS,No,AudAccessURI,NULL,,

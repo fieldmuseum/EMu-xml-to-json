@@ -1,0 +1,4 @@
+if_field1,if_logic1,if_value1,then_field,h2i_field,static_value,h2i_container
+emul_AdmPublishWebNoPassword,IS,No,AudIdentifier,NULL,,
+emul_AdmPublishWebNoPassword,IS,No,AudCitation,NULL,,
+emul_AdmPublishWebNoPassword,IS,No,AudAccessURI,NULL,,

@@ -1,0 +1,6 @@
+emu,h2i_field,repeatable,emu_group,h2i_container
+irn,dwc:recordNumber,,,
+DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
+AudIdentifier,dc:identifier,yes,Multimedia,multimedia
+AudAccessURI,ac:accessURI,yes,Multimedia,multimedia
+AudCitation,fmnh:citation,yes,Multimedia,multimedia
