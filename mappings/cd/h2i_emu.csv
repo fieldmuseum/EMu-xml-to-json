@@ -17,7 +17,7 @@ ColDateVisitedFrom,cd:temporalCoverageStartDate,yes,AccCollectionEventRef,object
 ColDateVisitedTo,cd:temporalCoverageEndDate,yes,AccCollectionEventRef,objectGroup
 ColCollectionMethods_tab,dwc:samplingProtocol,yes,AccCollectionEventRef,objectGroup
 AccCount,cd:measurementValue,yes,,measurements
-NamFullName,dwc:recordedBy,yes,AccCollectorRef_tab,person
+NamFullName,abcd:fullName,yes,AccCollectorRef_tab,person
 NamExternalReferences_tab,dc:identifier,yes,AccCollectorRef_tab,person
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
 ebiblio_SummaryData,fmnh:reference,yes,RefReferenceRef_tab,references
