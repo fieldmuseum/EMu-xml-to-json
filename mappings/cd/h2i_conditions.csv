@@ -1,3 +1,4 @@
-if_field1,if_value1,then_field,h2i_field,static_value,h2i_container
-AccDateAccessioned,NOT NULL,,cd:temporalCoverageType,accession date,collectionHistory
-AccAccessionNo,NOT NULL,,cd:identifierType,accession number,identifiers
+if_field1,if_logic1,if_value1,then_field,h2i_field,static_value,h2i_container
+AccDateAccessioned,IS,NOT NULL,,cd:temporalCoverageType,accession date,collectionHistory
+AccAccessionNo,IS,NOT NULL,,cd:identifierType,accession number,identifiers
+NamFullName,IS,NOT NULL,,cd:role,Collector,person

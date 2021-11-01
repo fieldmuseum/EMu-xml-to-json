@@ -64,8 +64,9 @@ A 5-column CSV that maps EMu-column-names to corresponding standard-term names, 
 - `h2i_container` = the group name for a set of `h2i_fields` that should be nested together in the output JSON
 
 ### h2i_conditions.csv ([example](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/mappings/h2i_conditions.csv))
-A 6-column CSV that defines logic for conditionally redacting or mapping rows in multi-value-tables to standard terms.
+A 7-column CSV that defines logic for conditionally redacting or mapping rows in multi-value-tables to standard terms.
 -  `if_field1` = the input EMu-field whose value defines a condition
+-  `if_logic1` = the logical comparison for the condition (e.g. if the field "IS" or "IS NOT" equal to if_value1)
 -  `if_value1` = the input value. 
     -  Use "NOT NULL" for "any non-blank input value"
 -  `then_field` = the input EMu-field (if any) whose value should be transformed or redacted.
