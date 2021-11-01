@@ -96,9 +96,10 @@ def get_group_tuple(tup_field, tup_group_field, emu_map, map_condition, group_al
     return group_all
 
 
-def get_group_nontuple(tuple_group, t_emu_field, emu_map, map_condition, group_all):
+def get_group_nontuple(tuple_group, tup_field, emu_map, map_condition, group_all):
 
     emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
+    t_emu_field = emu_map.query('emu_group == @tup_field.tag')['emu'].values
 
     for group_field in tuple_group:
             
@@ -249,15 +250,6 @@ def xml_to_json(xml_input, emu_xml_out=False):
             # EMu REF & TABLE fields  (where tup_field.tag is actually a value in emu_map['emu_group'])
             elif tup_field.tag in emu_map['emu_group'].values and tup_field.tag is not None:
 
-                t_emu_field = emu_map.query('emu_group == @tup_field.tag')['emu'].values
-                m_emu_group = emu_map.query('emu_group == @tup_field.tag')['emu_group'].values
-                t_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
-                t_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
-
-                # t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
-                # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
-                # t_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
-
                 check_tuples = etree.XPath("./tuple")
                 has_tuples = check_tuples(tup_field)
 
@@ -278,7 +270,7 @@ def xml_to_json(xml_input, emu_xml_out=False):
                 # if NOT a tuple:
                 else:
 
-                    group_all = get_group_nontuple(tuple_group, t_emu_field, emu_map, map_condition, group_all)
+                    group_all = get_group_nontuple(tuple_group, tup_field, emu_map, map_condition, group_all)
 
 
         all_records.append(group_all.copy())
