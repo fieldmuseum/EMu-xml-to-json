@@ -10,6 +10,142 @@ import json, sys
 import prep_input as pi, prep_output as po
 import redact_input as ri
 
+def get_group_tuple(tup_field, tup_group_field, emu_map, map_condition, group_all):
+    
+    emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
+
+    t_emu_field = emu_map.query('emu_group == @tup_field.tag')['emu'].values
+    m_emu_group = emu_map.query('emu_group == @tup_field.tag')['emu_group'].values
+    # t_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
+    # t_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
+
+    # TO DO -- include a check for map_conditions here; currently none needed?
+    t_g_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
+
+    t_emu_if_field = map_condition.query('if_field1 == @tup_field.tag')['if_field1'].values
+    t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
+    # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
+    # t_h2i_con_field = map_condition.query('if_field1 == @tup_field.tag')['h2i_field'].values
+    # t_h2i_con_value = map_condition.query('if_field1 == @tup_field.tag')['static_value'].values
+    t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
+
+    group_temp_dict = {}
+
+
+    if len(t_h2i_con_group) > 0:
+        
+        str_t_h2i_con_group = str(t_h2i_con_group[0])
+    
+    else:
+
+        str_t_h2i_con_group = str(t_h2i_con_group)
+
+
+    if tup_field.tag in m_emu_group:
+
+        e_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
+        e_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
+        e_t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
+
+        group_temp_dict = dict.fromkeys(e_h2i_field)
+
+        if len(e_h2i_group) > 0:
+            str_h2i_group = str(e_h2i_group[0])
+        # if len(e_h2i_con_group) > 0:
+        #     str_h2i_con_group = str(e_h2i_con_group[0])
+
+        for sib_key in tup_group_field:
+
+            # Check for map-conditions:
+            if sib_key.tag in t_emu_if_field and sib_key.text in t_emu_if_value: 
+
+                group_temp_dict[str(t_g_h2i_field)[2:-2]] = str(sib_key.text)
+
+
+
+            elif sib_key.text not in ["",[], None]:
+                sib_key_str = str(emu_map.query('emu == @sib_key.tag')['h2i_field'].values)[2:-2]
+                if sib_key.tag in t_emu_field:
+                    group_temp_dict[sib_key_str] = str(sib_key.text)
+                # else:
+                #     group_temp_dict[sib_key_str] = None
+
+        if len(t_h2i_con_group) > 0:
+            # e_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
+            str_t_h2i_con_group = str(e_t_h2i_con_group[0])
+
+
+        if str_h2i_group in str_t_h2i_con_group:
+
+            group_all[str_t_h2i_con_group].append(group_temp_dict.copy())
+
+            # return group_all
+
+        elif str_h2i_group in emu_h2i_groups:
+
+            group_all[str_h2i_group].append(group_temp_dict.copy())
+
+            # return group_all
+        
+        elif len(tup_group_field) == 1:
+
+            group_all[str(e_h2i_field)[2:-2]] = tup_group_field[0].text
+        
+    group_temp_dict.clear()
+
+    return group_all
+
+
+def get_group_nontuple(tuple_group, t_emu_field, emu_map, map_condition, group_all):
+
+    emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
+
+    for group_field in tuple_group:
+            
+        if group_field.tag in t_emu_field:
+
+            e_h2i_field = emu_map.query('emu == @group_field.tag')['h2i_field'].values
+            e_h2i_group = emu_map.query('emu == @group_field.tag')['h2i_container'].values
+
+            e_emu_if_field = map_condition.query('if_field1 == @group_field.tag')['if_field1'].values
+            e_emu_if_value = map_condition.query('if_field1 == @group_field.tag')['if_value1'].values
+            e_emu_then_field = map_condition.query('if_field1 == @group_field.tag')['then_field'].values
+            e_h2i_con_field = map_condition.query('if_field1 == @group_field.tag')['h2i_field'].values
+            e_h2i_con_value = map_condition.query('if_field1 == @group_field.tag')['static_value'].values
+            e_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
+
+            group_temp_dict = {}
+
+            if len(e_h2i_group) > 0:
+                str_h2i_group = str(e_h2i_group[0])
+            if len(e_h2i_con_group) > 0:
+                str_h2i_con_group = str(e_h2i_con_group[0])
+
+
+            # # # # # # # REF/TABLE-to-1 -- withOUT conditional mapping
+            # e.g. ColCollectionEventRef.ColSiteRef.PolPD1 --> dwc:country
+            if group_field.tag not in e_emu_if_field: # and group_field.tag in single_dict.keys()
+
+                if e_h2i_group not in emu_h2i_groups:
+
+                    group_all[str(e_h2i_field)[2:-2]] = group_field.text  # # # # use += instead?                             
+
+            # # # # # # # REF/TABLE-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
+            # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
+            elif e_emu_if_value == "NOT NULL":  # and str_h2i_con_group is not None:
+
+                group_temp_dict[str(e_h2i_field)[2:-2]] = str(group_field.text)
+                group_temp_dict[str(e_h2i_con_field)[2:-2]] = str(group_field.text)
+
+                for key, val in zip(e_h2i_con_field, e_h2i_con_value):
+                    group_temp_dict[str(key)] = str(val)
+
+                group_all[str_h2i_con_group].append(group_temp_dict.copy())
+            
+            group_temp_dict.clear()
+
+            return group_all
+
 
 def xml_to_json(xml_input, emu_xml_out=False):
 
@@ -22,28 +158,22 @@ def xml_to_json(xml_input, emu_xml_out=False):
     emu_no_group = emu_map[emu_map['emu_group'].isnull()]['emu'].values
     emu_h2i_groups = emu_map[emu_map['h2i_container'].notnull()]['h2i_container'].values
 
-    # # Redacted fields
-    # h2i_null_fields = map_condition.query('h2i_field == "NULL"')['h2i_field'].values
-
 
     # # # # # # # # # # # #
     # Prep input-XML  # # # 
     
-
     # Turn EMu col-names into XML-tags:
     tree1_string = pi.xml_prep(xml_in = xml_input)
     tree_prep = etree.XML(tree1_string)
 
-
     # Remove redacted values
     tree_prep = ri.redact_input(tree_prep, map_condition, emu_map)
-
 
     # Return updated xml as string to switch to lxml.etree
     prep_tree_string = etree.tostring(tree_prep).decode('utf-8')
 
-    # 3 - convert back to xml ElementTree
-    doc = ET.fromstring(prep_tree_string)  # ET.parse(prep_tree_string)   # 
+    # Convert back to xml ElementTree
+    doc = ET.fromstring(prep_tree_string)
     tree = ET.ElementTree(doc)
 
     # Setup separate empty dict of h2i terms
@@ -128,8 +258,6 @@ def xml_to_json(xml_input, emu_xml_out=False):
                 # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
                 # t_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
 
-                # str_emu_group = str(m_emu_group)
-
                 check_tuples = etree.XPath("./tuple")
                 has_tuples = check_tuples(tup_field)
 
@@ -143,181 +271,14 @@ def xml_to_json(xml_input, emu_xml_out=False):
                         get_sub_tuples = etree.XPath(".//*")
                         tuple_group = [get_sub_tuples(tuple1_1)]
 
-                        # print("tup_group -- " + str(tuple_group))
-                        # print("tup_field tag [is the group]  ----  " + str(tup_field.tag))
-
                         for tup_group_field in tuple_group:
 
-                            # print("tup_group_field -- " + str(tup_group_field))
-
-                            # for sib_field in tup_group_field:
-
-                            #     print("sib_field -- " + str(sib_field))
-                            # TO DO -- include a check for map_conditions here; currently none needed?
-                            t_g_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
-
-                            t_emu_if_field = map_condition.query('if_field1 == @tup_field.tag')['if_field1'].values
-                            t_emu_if_value = map_condition.query('if_field1 == @tup_field.tag')['if_value1'].values
-                            # t_emu_then_field = map_condition.query('if_field1 == @tup_field.tag')['then_field'].values
-                            # t_h2i_con_field = map_condition.query('if_field1 == @tup_field.tag')['h2i_field'].values
-                            # t_h2i_con_value = map_condition.query('if_field1 == @tup_field.tag')['static_value'].values
-                            t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
-
-                            group_temp_dict = {}
-
-
-                            if len(t_h2i_con_group) > 0:
-                                
-                                str_t_h2i_con_group = str(t_h2i_con_group[0])
-                            
-                            else:
-
-                                str_t_h2i_con_group = str(t_h2i_con_group)
-                                
-                            
-                            ## # # # # # # #    FIX BELOW    # # # # # # # ##
-                            
-                            # if tup_field.tag in t_emu_if_field and tup_field.text in t_emu_if_value:  # t_h2i_con_group is not None:  # and t_emu_then_field is not None:
-
-                                # group_temp_dict[str(t_g_h2i_field)[2:-2]] = str(tup_group_field.text)
-
-                                # NEED TO fix the next for loop -- 
-                                #    IF    t_h2i_con_value = ^$ (empty) & t-h2i-then-field is NOT empty, 
-                                #    THEN 
-                                #       for  tuple_group-sibling.tag in then_emu_Field
-                                #        t_h2i_con_field = h2i_con_field value
-
-
-
-                                # for t_emu_then_field in tuple_group:
-
-                                #     group_temp_dict[str(t_h2i_con_field)[2:-2]] = t_emu_then_field.text
-
-
-
-
-                                # if t_h2i_con_field != "NULL" and t_h2i_con_value is None:
-
-                                #     for sib_con_field in t_emu_then_field:
-
-                                #     for key, val in zip(t_h2i_con_field, t_h2i_con_value):
-                                #         group_temp_dict[str(key)] = str(val)
-
-                                # group_all[str_t_h2i_con_group].append(group_temp_dict.copy())
-
-                            ## # # # # # # #    FIX ABOVE    # # # # # # # ##
-
-
-
-                            if tup_field.tag in m_emu_group:  # and tup_field.tag not in t_emu_then_field:
-
-                                e_h2i_field = emu_map.query('emu_group == @tup_field.tag')['h2i_field'].values
-                                e_h2i_group = emu_map.query('emu_group == @tup_field.tag')['h2i_container'].values
-                                e_t_h2i_con_group = map_condition.query('if_field1 == @tup_field.tag')['h2i_container'].values
-
-                                group_temp_dict = dict.fromkeys(e_h2i_field)
-
-                                if len(e_h2i_group) > 0:
-                                    str_h2i_group = str(e_h2i_group[0])
-                                # if len(e_h2i_con_group) > 0:
-                                #     str_h2i_con_group = str(e_h2i_con_group[0])
-
-                                for sib_key in tup_group_field:
-
-
-
-                                ## # # # # # # #    FIX BELOW    # # # # # # # ##
-                                # 
-                                #   
-                                    # Check for map-conditions:
-                                    if sib_key.tag in t_emu_if_field and sib_key.text in t_emu_if_value: 
-
-                                        # use [xpath?] to get sibling.tag which == emu_then_field
-                                        # set group_temp[h2i_con_field] = sibling.text
-                                        group_temp_dict[str(t_g_h2i_field)[2:-2]] = str(sib_key.text)
-                                        # group_temp_dict[str(t_h2i_con_field)[2:-2]] = str(t_h2i_con_value[2:-2])
-
-
-                                ## # # # # # # #    FIX above    # # # # # # # ##
-
-
-                                    elif sib_key.text not in ["",[], None]:
-                                        sib_key_str = str(emu_map.query('emu == @sib_key.tag')['h2i_field'].values)[2:-2]
-                                        if sib_key.tag in t_emu_field:
-                                            group_temp_dict[sib_key_str] = str(sib_key.text)
-                                        # else:
-                                        #     group_temp_dict[sib_key_str] = None
-
-                                if len(t_h2i_con_group) > 0:
-                                    # e_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
-                                    str_t_h2i_con_group = str(e_t_h2i_con_group[0])
-
-
-                                if str_h2i_group in str_t_h2i_con_group:
-
-                                    group_all[str_t_h2i_con_group].append(group_temp_dict.copy())
-
-
-                                elif str_h2i_group in emu_h2i_groups:
-
-                                    group_all[str_h2i_group].append(group_temp_dict.copy())
-                                
-                                elif len(tup_group_field) == 1:
-
-                                    group_all[str(e_h2i_field)[2:-2]] = tup_group_field[0].text
-
-
-                            group_temp_dict.clear()
-
+                            group_all = get_group_tuple(tup_field, tup_group_field, emu_map, map_condition, group_all)
 
                 # if NOT a tuple:
                 else:
-                    for group_field in tuple_group:
-                            
-                        if group_field.tag in t_emu_field:
 
-                            e_h2i_field = emu_map.query('emu == @group_field.tag')['h2i_field'].values
-                            e_h2i_group = emu_map.query('emu == @group_field.tag')['h2i_container'].values
-
-                            e_emu_if_field = map_condition.query('if_field1 == @group_field.tag')['if_field1'].values
-                            e_emu_if_value = map_condition.query('if_field1 == @group_field.tag')['if_value1'].values
-                            e_emu_then_field = map_condition.query('if_field1 == @group_field.tag')['then_field'].values
-                            e_h2i_con_field = map_condition.query('if_field1 == @group_field.tag')['h2i_field'].values
-                            e_h2i_con_value = map_condition.query('if_field1 == @group_field.tag')['static_value'].values
-                            e_h2i_con_group = map_condition.query('if_field1 == @group_field.tag')['h2i_container'].values
-
-                            group_temp_dict = {}
-
-                            if len(e_h2i_group) > 0:
-                                str_h2i_group = str(e_h2i_group[0])
-                            if len(e_h2i_con_group) > 0:
-                                str_h2i_con_group = str(e_h2i_con_group[0])
-
-
-                            # # # # # # # REF/TABLE-to-1 -- withOUT conditional mapping
-                            # e.g. ColCollectionEventRef.ColSiteRef.PolPD1 --> dwc:country
-                            if group_field.tag not in e_emu_if_field: # and group_field.tag in single_dict.keys()
-
-                                if e_h2i_group not in emu_h2i_groups:
-
-                                    group_all[str(e_h2i_field)[2:-2]] = group_field.text  # # # # use += instead?                             
-
-                            # # # # # # # REF/TABLE-to-1 -- WITH conditional mapping [all currently to multi-value h2i field]
-                            # e.g. PriAccessionNumberRef.AccAccessionNo --> cd:identifier + cd:identifierType --> 'accession number'
-                            elif e_emu_if_value == "NOT NULL":  # and str_h2i_con_group is not None:
-
-                                group_temp_dict[str(e_h2i_field)[2:-2]] = str(group_field.text)
-                                group_temp_dict[str(e_h2i_con_field)[2:-2]] = str(group_field.text)
-
-                                for key, val in zip(e_h2i_con_field, e_h2i_con_value):
-                                    group_temp_dict[str(key)] = str(val)
-
-                                group_all[str_h2i_con_group].append(group_temp_dict.copy())
-
-                            # Conditions besides 'NOT NULL' & others above currently need separate 'elif' statements
-
-                            group_temp_dict.clear()
-
+                    group_all = get_group_nontuple(tuple_group, t_emu_field, emu_map, map_condition, group_all)
 
 
         all_records.append(group_all.copy())
