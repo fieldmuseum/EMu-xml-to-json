@@ -36,8 +36,10 @@ def redact_input(input, map_conditions, emu_mapping):
                 if str(column.text) in m_emu_if_is_value or (str(column.text) not in m_emu_if_isnt_value and len(m_emu_if_isnt_value) > 0): # "NULL":
 
                     for emu_then_field in m_emu_then_field:
+                        print('column.tag = ' + str(column.tag) + " & type = " + str(type(column.tag)))
+                        print('column.text = ' + str(column.text) + " & type = " + str(type(column.text)))
 
-                        emu_xpath_string = './/tuple/' + column.tag + '[.="' + column.text + '"]/preceding-sibling::' + emu_then_field
+                        emu_xpath_string = './/tuple/' + str(column.tag) + '[.="' + str(column.text) + '"]/preceding-sibling::' + emu_then_field
                         emu_xpath = etree.XPath(emu_xpath_string)
                         emu_then_update = emu_xpath(input) 
                                             
@@ -47,7 +49,7 @@ def redact_input(input, map_conditions, emu_mapping):
 
 
                         # Also check for 'following-siblings'
-                        emu_xpath2_string = './/tuple/' + column.tag + '[.="' + column.text + '"]/following-sibling::' + emu_then_field
+                        emu_xpath2_string = './/tuple/' + str(column.tag) + '[.="' + str(column.text) + '"]/following-sibling::' + emu_then_field
                         emu_xpath2 = etree.XPath(emu_xpath2_string)
                         emu_then_update2 = emu_xpath2(input) 
 
