@@ -8,8 +8,8 @@ We are currently testing it as a sustainable way to share data with partners fro
 
 ### In EMu:
 1. Export a set of records as XML.  
-    - Without media export Name: H2I_JSON
-    - With media export Name: H2I_JSON_AudubonCore
+    - Without media export called: H2I_JSON
+    - With media export called: H2I_JSON_AudubonCore
 
 2. When possible, check that the XML output is well-formed.
     - ['Scholarly XML' VSCode add-on](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml)
