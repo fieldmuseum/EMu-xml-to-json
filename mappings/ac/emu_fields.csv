@@ -1,4 +1,4 @@
-emu,h2i_field,repeatable,emu_group,h2i_container
+emu,json_field,repeatable,emu_group,json_container
 irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
 AudIdentifier,dc:identifier,yes,MulMultiMediaRef_tab,multimedia

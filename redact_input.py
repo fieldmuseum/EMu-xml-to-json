@@ -9,8 +9,8 @@ import sys
 
 def redact_input(input, map_conditions, emu_mapping):
 
-    # h2i_null_fields = map_conditions.query('h2i_field == "NULL"')['h2i_field'].values
-    m_emu_if_fields = map_conditions.query('h2i_field == "NULL"')['if_field1'].values
+    # json_null_fields = map_conditions.query('json_field == "NULL"')['json_field'].values
+    m_emu_if_fields = map_conditions.query('json_field == "NULL"')['if_field1'].values
 
     # mapped_fields = emu_mapping['emu'].values
     # mapped_groups = emu_mapping['emu_group'].values
@@ -23,13 +23,13 @@ def redact_input(input, map_conditions, emu_mapping):
 
             # # # # # # # # # # # #
             # Clear redacted values
-            # for h2i_null_field1 in h2i_null_fields:
+            # for json_null_field1 in json_null_fields:
             for m_emu_if_field in m_emu_if_fields:
 
-                m_emu_if_is_value = map_conditions.query('if_field1 == @column.tag & if_logic1 == "IS" & h2i_field == "NULL"')['if_value1'].values
-                m_emu_if_isnt_value = map_conditions.query('if_field1 == @column.tag & if_logic1 == "IS NOT" & h2i_field == "NULL"')['if_value1'].values
+                m_emu_if_is_value = map_conditions.query('if_field1 == @column.tag & if_logic1 == "IS" & json_field == "NULL"')['if_value1'].values
+                m_emu_if_isnt_value = map_conditions.query('if_field1 == @column.tag & if_logic1 == "IS NOT" & json_field == "NULL"')['if_value1'].values
 
-                m_emu_then_field = map_conditions.query('if_field1 == @column.tag & h2i_field == "NULL"')['then_field'].values
+                m_emu_then_field = map_conditions.query('if_field1 == @column.tag & json_field == "NULL"')['then_field'].values
 
 
                 # Redact values where 'if_logic' + 'if_value' criteria are met

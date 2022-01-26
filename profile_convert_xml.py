@@ -9,6 +9,8 @@ from decouple import config
 import json, sys
 import prep_input as pi, prep_output as po
 import redact_input as ri
+import cProfile  # , line_profiler
+from timeit import default_timer as timer
 
 def get_group_tuple(tup_field, tup_group_field, emu_map, map_condition, group_all):
     
@@ -303,4 +305,5 @@ def xml_to_json(xml_input, emu_xml_out=False):
 if __name__ == '__main__':
     for arg in sys.argv[1:]:
         for filename in glob(arg):
-            xml_to_json(arg, emu_xml_out=False)
+            # xml_to_json(arg, emu_xml_out=False)
+            cProfile.run('xml_to_json(arg, emu_xml_out=False)', sort = 'ncalls')
