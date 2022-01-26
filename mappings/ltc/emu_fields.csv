@@ -1,4 +1,4 @@
-emu,h2i_field,repeatable,emu_group,h2i_container
+emu,json_field,repeatable,emu_group,json_container
 AccCatalogue,cd:organisationalUnit,,,
 AccDateAccessioned,cd:temporalCoverageStartDate,yes,,collectionHistory
 AccAccessionNo,cd:identifier,yes,,identifiers

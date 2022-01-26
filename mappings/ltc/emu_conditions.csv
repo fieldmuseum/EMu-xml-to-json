@@ -1,4 +1,4 @@
-if_field1,if_logic1,if_value1,then_field,h2i_field,static_value,h2i_container
+if_field1,if_logic1,if_value1,then_field,json_field,static_value,json_container
 AccDateAccessioned,IS,NOT NULL,,cd:temporalCoverageType,accession date,collectionHistory
 AccAccessionNo,IS,NOT NULL,,cd:identifierType,accession number,identifiers
 NamFullName,IS,NOT NULL,,cd:role,Collector,person
