@@ -26,12 +26,12 @@ We are currently testing it as a sustainable way to share data with partners fro
 ### Not in EMu:
 1. Clone this repo
 
-2. Set local environment variables by adding a text file named **.env** in the root directory of this repo. Open it and follow the [**.env.example**](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/.env.example) file. 
+2. Set local environment variables by adding a text file named **.env** in the root directory of this repo. Open it and follow the [**.env.example**](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/.env.example) file. More [info here](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5) if needed.
     - `IN_PATH` = the path to your input XML file
     - `MAP_PATH` = the path to your emu_conditions.csv
     - `OUT_PATH` & `LOG_PATH` = the path where you want the output JSON and log files to go
     - `FROM_ADD` & `TO_ADD1` = the sender and recipient email addresses for notifications
-    - More [info here](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5) if needed.
+    - other examples-variables are included for using `'mutt` to send notifications from a server
 
 3. Install [Python 3.9 or later](https://www.python.org/downloads/). To send email notifications from a server, also install mutt. (e.g. [Ubuntu wiki](https://wiki.ubuntu.com/Mutt))
 
