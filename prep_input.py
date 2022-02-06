@@ -4,16 +4,12 @@
 
 from typing import Text
 import xml.etree.ElementTree as ET
-from lxml import etree
 from glob import glob
-import json
-import pandas as pd
-import numpy as np
+import re, sys
 from decouple import config
-import sys
 
 
-def xml_prep(xml_in):
+def xml_prep(xml_in, linebreaks_to_commas=False):
 
 
     # # # # # # # # # # #
@@ -25,6 +21,16 @@ def xml_prep(xml_in):
     # Replace "table" "tag with table-name
     root1.tag = root1.get('name')
     root1.attrib = {}
+
+
+    # Convert linebreaks fields to commas ('linebreaks_to_commas' option)
+    # ...For table-as-text fields:
+    if linebreaks_to_commas == True:
+        for table_as_text in root1.findall('.//*'):
+            if table_as_text.get('name') is not None:
+                if table_as_text.get('name').find("_tab") > 0 and table_as_text.text.find("\n") > 0:
+                    table_as_text.text = re.sub('\n', '","', table_as_text.text)
+                    table_as_text.text = '"' + table_as_text.text + '"'
 
 
     # Replace top-level "tuple" with "data" 
@@ -43,6 +49,7 @@ def xml_prep(xml_in):
             child.set('name', 'tuple')
         child.tag = child.get('name')
         child.attrib = {}
+
 
     tree1_string = ET.tostring(tree1.getroot())
 
