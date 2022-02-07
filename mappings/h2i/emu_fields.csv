@@ -30,3 +30,11 @@ ecatrel_SummaryData,dwc:relationshipRemarks,yes,RelObjectsRef_tab,resourcerelati
 ecatrel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,resourcerelationship
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
 ebiblio_SummaryData,fmnh:reference,yes,RefReferenceRef_tab,references
+MeaAnthroMeasurementTaken_tab,,,,
+MeaMammalsMeasurementTaken_tab,,,,
+MeaMeasurementKind_tab,,,,
+MeaMeasurementValue_tab,,,,
+MeaUnit_tab,,,,
+MeaMeasuredByRef_tab,,,,
+MeaDateMeasured0,,,,
+MeaFisRemarks_tab,,,,
