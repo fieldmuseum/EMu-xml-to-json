@@ -34,7 +34,7 @@ MeaAnthroMeasurementTaken_tab,cd:measurementValue,yes,,measurements
 MeaMammalsMeasurementTaken_tab,cd:measurementValue,yes,,measurements
 MeaMeasurementKind_tab,cd:measurementValue,yes,,measurements
 MeaMeasurementValue_tab,cd:measurementValue,yes,,measurements
-MeaUnit_tab,cd:measurementValue,yes,,measurements
-MeaMeasuredByRef_tab,cd:measurementValue,yes,,measurements
-MeaDateMeasured0,cd:measurementValue,yes,,measurements
-MeaFisRemarks_tab,cd:measurementValue,yes,,measurements
+MeaUnit_tab,cd:measurementUnit,yes,,measurements
+MeaMeasuredByRef_tab,cd:NOPROPERTY?,yes,,measurements
+MeaDateMeasured0,cd:measurementDeterminedDate,yes,,measurements
+MeaFisRemarks_tab,cd:measurementRemarks,yes,,measurements
