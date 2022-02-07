@@ -31,8 +31,8 @@ ecatrel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,re
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
 ebiblio_SummaryData,fmnh:reference,yes,RefReferenceRef_tab,references
 MeaAnthroMeasurementTaken,ltc:measurementType,yes,Measurement,measurements
-MeaMeasurementKind,h2i:measurementKind,yes,Measurement,measurements
-MeaMeasurementValue,fmnh:measurementValue,yes,Measurement,measurements
+MeaMeasurementKind,fmnh:measurementKind,yes,Measurement,measurements
+MeaMeasurementValue,ltc:measurementValue,yes,Measurement,measurements
 MeaUnit,ltc:measurementUnit,yes,Measurement,measurements
 eparties_NamBriefName,dwc:measurementDeterminedBy,yes,Measurement,measurements
 MeaDateMeasured,ltc:measurementDeterminedDate,yes,Measurement,measurements
