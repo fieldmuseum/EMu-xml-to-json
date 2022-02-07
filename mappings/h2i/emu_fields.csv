@@ -30,10 +30,10 @@ ecatrel_SummaryData,dwc:relationshipRemarks,yes,RelObjectsRef_tab,resourcerelati
 ecatrel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,resourcerelationship
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
 ebiblio_SummaryData,fmnh:reference,yes,RefReferenceRef_tab,references
-MeaAnthroMeasurementTaken_tab,ltc:measurementType,yes,,measurements
-MeaMeasurementKind_tab,h2i:measurementKind,yes,,measurements
-MeaMeasurementValue_tab,fmnh:measurementValue,yes,,measurements
-MeaUnit_tab,ltc:measurementUnit,yes,,measurements
-MeaMeasuredByRef_tab,dwc:measurementDeterminedBy,yes,,measurements
-MeaDateMeasured0,ltc:measurementDeterminedDate,yes,,measurements
-MeaFisRemarks_tab,ltc:measurementRemarks,yes,,measurements
+MeaAnthroMeasurementTaken,ltc:measurementType,yes,Measurement,measurements
+MeaMeasurementKind,h2i:measurementKind,yes,Measurement,measurements
+MeaMeasurementValue,fmnh:measurementValue,yes,Measurement,measurements
+MeaUnit,ltc:measurementUnit,yes,Measurement,measurements
+eparties_NamBriefName,dwc:measurementDeterminedBy,yes,Measurement,measurements
+MeaDateMeasured,ltc:measurementDeterminedDate,yes,Measurement,measurements
+MeaFisRemarks,ltc:measurementRemarks,yes,Measurement,measurements
