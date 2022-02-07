@@ -35,6 +35,6 @@ MeaMammalsMeasurementTaken_tab,cd:measurementType,yes,,measurements
 MeaMeasurementKind_tab,cd:measurementType,yes,,measurements
 MeaMeasurementValue_tab,cd:measurementValue,yes,,measurements
 MeaUnit_tab,cd:measurementUnit,yes,,measurements
-MeaMeasuredByRef_tab,cd:PERSONCLASS_YIKES,yes,,measurements
+MeaMeasuredByRef_tab,dwc:measurementDeterminedBy,yes,,measurements
 MeaDateMeasured0,cd:measurementDeterminedDate,yes,,measurements
 MeaFisRemarks_tab,cd:measurementRemarks,yes,,measurements
