@@ -273,6 +273,11 @@ def xml_to_json(xml_input, emu_xml_out=False):
                     group_all = get_group_nontuple(tuple_group, tup_field, emu_map, map_condition, group_all)
 
 
+        for item in group_all.keys():
+            if group_all[item] == []:
+                group_all[item] = None
+
+
         all_records.append(group_all.copy())
 
         group_all.clear()
