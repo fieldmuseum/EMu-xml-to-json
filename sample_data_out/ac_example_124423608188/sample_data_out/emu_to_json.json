@@ -1,0 +1,96 @@
+[
+ {
+  "dwc:recordNumber": "3650360",
+  "dwc:occurrenceID": "7faca37c-820f-4ab6-92a0-896174533b9c",
+  "multimedia": [
+   {
+    "dc:identifier": "ea16d995-62eb-410e-a899-237f51003c92",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/796/317/108319CC.pdf",
+    "fmnh:citation": "Courtesy of: D. Weddle. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/ea16d995-62eb-410e-a899-237f51003c92 (accessed on 24 Sep 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "3182745",
+  "dwc:occurrenceID": "c34dadff-ed5a-4dce-b6ac-366bcb27af18",
+  "multimedia": [
+   {
+    "dc:identifier": "8b125b1a-345c-4e17-83cb-b40072708306",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1181/760/358818_1_20_Overall.jpg",
+    "fmnh:citation": "Courtesy of: E. Dux. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8b125b1a-345c-4e17-83cb-b40072708306 (accessed on 11 Oct 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "1260216",
+  "dwc:occurrenceID": "9dfdd154-4710-4c75-a012-e28318912a7d",
+  "multimedia": [
+   {
+    "dc:identifier": "c5a9bc6d-7b48-480f-85e2-fe693872e1d1",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1254/238/CL0053_34550_Top_NoScale.JPG",
+    "fmnh:citation": "Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c5a9bc6d-7b48-480f-85e2-fe693872e1d1 (accessed on 27 Sep 2021)"
+   },
+   {
+    "dc:identifier": "e59fe0b3-dec0-4a53-abbc-27cd29d5b49e",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1254/237/CL0053_34550_Front_NoScale.JPG",
+    "fmnh:citation": "Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/e59fe0b3-dec0-4a53-abbc-27cd29d5b49e (accessed on 27 Sep 2021)"
+   },
+   {
+    "dc:identifier": "6ab7f505-1985-406c-8bc4-8f80490091fd",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1240/126/CL0053_34550_Top.JPG",
+    "fmnh:citation": "Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/6ab7f505-1985-406c-8bc4-8f80490091fd (accessed on 27 Sep 2021)"
+   },
+   {
+    "dc:identifier": "f8582ee2-5792-483f-ade0-fe3be11909ad",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1240/124/CL0053_34550_Front.JPG",
+    "fmnh:citation": "Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/f8582ee2-5792-483f-ade0-fe3be11909ad (accessed on 27 Sep 2021)"
+   },
+   {
+    "dc:identifier": "d45c152e-42e9-406a-8bb8-48ef52e21f0d",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/865/180/34550CC.pdf",
+    "fmnh:citation": "Courtesy of: D. Weddle. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/d45c152e-42e9-406a-8bb8-48ef52e21f0d (accessed on 17 Sep 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "1160367",
+  "dwc:occurrenceID": "2ea85423-1031-4011-aa40-42752163c808",
+  "multimedia": [
+   {
+    "dc:identifier": "74082455-6335-4f21-a8e4-923f45d6984a",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/928/CL0048_252164_FrontAngle.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/74082455-6335-4f21-a8e4-923f45d6984a (accessed on 24 Sep 2021)"
+   },
+   {
+    "dc:identifier": "0c45c575-1dd4-40d0-8982-1473a3b27308",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/926/CL0048_252164_Bottom.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/0c45c575-1dd4-40d0-8982-1473a3b27308 (accessed on 24 Sep 2021)"
+   },
+   {
+    "dc:identifier": "dc9d5f92-0faa-4b9b-b3dd-f7ed473f5058",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/931/CL0048_252164_Top.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/dc9d5f92-0faa-4b9b-b3dd-f7ed473f5058 (accessed on 24 Sep 2021)"
+   },
+   {
+    "dc:identifier": "2c8d337f-7a52-4a25-83b3-2be444e298fc",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/927/CL0048_252164_Front.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/2c8d337f-7a52-4a25-83b3-2be444e298fc (accessed on 24 Sep 2021)"
+   },
+   {
+    "dc:identifier": "48cbec6c-3bd1-4967-b9cf-aea68dd9745e",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/925/CL0048_252164_Back.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/48cbec6c-3bd1-4967-b9cf-aea68dd9745e (accessed on 12 Oct 2021)"
+   },
+   {
+    "dc:identifier": "a2fe86f5-d300-483c-ac56-f495465a1a4a",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/929/CL0048_252164_Left.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a2fe86f5-d300-483c-ac56-f495465a1a4a (accessed on 24 Sep 2021)"
+   },
+   {
+    "dc:identifier": "99ce3caa-25b8-4947-bdde-80bf5b739c72",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/1158/930/CL0048_252164_Right.jpg",
+    "fmnh:citation": "Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/99ce3caa-25b8-4947-bdde-80bf5b739c72 (accessed on 24 Sep 2021)"
+   }
+  ]
+ }
+]

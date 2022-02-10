@@ -1,0 +1,951 @@
+<ecatalogue>
+
+  
+  <data>
+    <irn>3650360</irn>
+    <DarGlobalUniqueIdentifier>7faca37c-820f-4ab6-92a0-896174533b9c</DarGlobalUniqueIdentifier>
+    <MulMultiMediaRef_tab>
+      <tuple>
+        <AdmDateInserted>2014-12-16</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/796/317/108319CC.pdf</AudAccessURI>
+        <AudACDescription>scan of catalog card</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen>7faca37c-820f-4ab6-92a0-896174533b9c | 488361b1-cf8b-4133-bcc9-3ee90746bfcc</AudAssociatedSpecimen>
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: D. Weddle. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/ea16d995-62eb-410e-a899-237f51003c92 (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>ea16d995-62eb-410e-a899-237f51003c92</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>108319.2 | 108319.1 | 108319</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Saltan (Malokbot) River, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3446: Philippines: ornaments, accessories</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>202575</ChaFileSize>
+        <ChaImageHeight>283</ChaImageHeight>
+        <ChaImageWidth>422</ChaImageWidth>
+        <ChaMd5Sum>2727cc766ef3dce0e10a0240cc877af8</ChaMd5Sum>
+        <ChaMediaForm>PDF document</ChaMediaForm>
+        <ChaVideoFilmLength />
+        <DetResourceType>Text</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>application</MulMimeType>
+        <MulMimeFormat>pdf</MulMimeFormat>
+        <MulIdentifier>108319CC.pdf</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Dustin Weddle</NamFullName>
+            <irn>177275</irn>
+            <MulMultimediaCreatorRole>Scanner</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>108319 Catalog Card</MulTitle>
+        <irn>796317</irn>
+      </tuple>
+    </MulMultiMediaRef_tab>
+  </data>
+
+  
+  <data>
+    <irn>3182745</irn>
+    <DarGlobalUniqueIdentifier>c34dadff-ed5a-4dce-b6ac-366bcb27af18</DarGlobalUniqueIdentifier>
+    <MulMultiMediaRef_tab>
+      <tuple>
+        <AdmDateInserted>2015-09-15</AdmDateInserted>
+        <AdmDateModified>2021-10-11</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1181/760/358818_1_20_Overall.jpg</AudAccessURI>
+        <AudACDescription>Incoming condition, top view</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen>c34dadff-ed5a-4dce-b6ac-366bcb27af18 | abd2cdc3-1ef8-4075-bbf0-799917c69ab2 | 1a95a4e4-21b6-475b-97da-baaddb7225ab | 404eee1b-da28-439e-8129-e077e1b529e8 | ea9c11f9-7f62-463a-b078-b0b040f1947a | 7d31bfa6-336a-4a18-b545-a074150d2a9f | 82227f86-8497-4258-b9</AudAssociatedSpecimen>
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: E. Dux. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/8b125b1a-345c-4e17-83cb-b40072708306 (accessed on 11 Oct 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>8b125b1a-345c-4e17-83cb-b40072708306</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>358818.7 | 358818.8 | 358818.3 | 358818.4 | 358818.16 | 358818.17 | 358818 | 358818.9 | 358818.14 | 358818.15 | 358818.2 | 358818.20 | 358818.12 | 358818.13 | 358818.18 | 358818.19 | 358818.1 | 358818.5 | 358818.6 | 358818.10 | 358818.11</AudNumbers>
+        <AudRelatedGeography>Philippines, Mindanao, Bukidnon Province, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage />
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>967180</ChaFileSize>
+        <ChaImageHeight>2236</ChaImageHeight>
+        <ChaImageWidth>3400</ChaImageWidth>
+        <ChaMd5Sum>4f6e3022125bb9d26d14bfa1c5062d95</ChaMd5Sum>
+        <ChaMediaForm>jpeg</ChaMediaForm>
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <dates>
+          <tuple>
+            <DetResourceDetailsDate>2015-08-24</DetResourceDetailsDate>
+          </tuple>
+        </dates>
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>358818_1_20_Overall.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Elana Dux</NamFullName>
+            <irn>159092</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>358818.1-.20 tike, fiber leg bands</MulTitle>
+        <irn>1181760</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>10925252</SupFileSize>
+            <SupMD5Checksum>30e8c1bb968a788f45263a1b16b30b52</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+    </MulMultiMediaRef_tab>
+  </data>
+
+  
+  <data>
+    <irn>1260216</irn>
+    <DarGlobalUniqueIdentifier>9dfdd154-4710-4c75-a012-e28318912a7d</DarGlobalUniqueIdentifier>
+    <MulMultiMediaRef_tab>
+      <tuple>
+        <AdmDateInserted>2015-12-21</AdmDateInserted>
+        <AdmDateModified>2021-09-27</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1254/238/CL0053_34550_Top_NoScale.JPG</AudAccessURI>
+        <AudACDescription>Top view without scale</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c5a9bc6d-7b48-480f-85e2-fe693872e1d1 (accessed on 27 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>c5a9bc6d-7b48-480f-85e2-fe693872e1d1</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>34550.nosub[2] | 34549.1</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Benguet Prov., Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3448: Philippines: stimulents</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>1114587</ChaFileSize>
+        <ChaImageHeight>1328</ChaImageHeight>
+        <ChaImageWidth>3056</ChaImageWidth>
+        <ChaMd5Sum>00e088ad115a3cac9e74ed3a3395751c</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Digital Co-Curation Team</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Philippines Collection</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0053_34550_Top_NoScale.JPG</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Alpha Sadcopen</NamFullName>
+            <irn>182415</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>Digital Co-curation Team</NamFullName>
+            <irn>184269</irn>
+            <MulMultimediaCreatorRole>Project leader</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>34550 wood pipe bowl</MulTitle>
+        <irn>1254238</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>7542294</SupFileSize>
+            <SupMD5Checksum>d763d6637d5cacc55834e54a70fc83f9</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-12-21</AdmDateInserted>
+        <AdmDateModified>2021-09-27</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1254/237/CL0053_34550_Front_NoScale.JPG</AudAccessURI>
+        <AudACDescription>Front view without scale</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/e59fe0b3-dec0-4a53-abbc-27cd29d5b49e (accessed on 27 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>e59fe0b3-dec0-4a53-abbc-27cd29d5b49e</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>34550.nosub[2] | 34549.1</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Benguet Prov., Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3448: Philippines: stimulents</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>488062</ChaFileSize>
+        <ChaImageHeight>1751</ChaImageHeight>
+        <ChaImageWidth>1982</ChaImageWidth>
+        <ChaMd5Sum>a81dbfb1e120e8a4ff0cf97cdf1d0eb8</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Digital Co-Curation Team</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Philippines Collection</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0053_34550_Front_NoScale.JPG</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Alpha Sadcopen</NamFullName>
+            <irn>182415</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>Digital Co-curation Team</NamFullName>
+            <irn>184269</irn>
+            <MulMultimediaCreatorRole>Project leader</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>34550 wood pipe bowl</MulTitle>
+        <irn>1254237</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>5354508</SupFileSize>
+            <SupMD5Checksum>86d0221a3864cf971ec9a79ccd411ef5</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-11-19</AdmDateInserted>
+        <AdmDateModified>2021-09-27</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1240/126/CL0053_34550_Top.JPG</AudAccessURI>
+        <AudACDescription>Top view</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/6ab7f505-1985-406c-8bc4-8f80490091fd (accessed on 27 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>6ab7f505-1985-406c-8bc4-8f80490091fd</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>34550.nosub[2]</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Benguet Prov., Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3448: Philippines: stimulents</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>6861067</ChaFileSize>
+        <ChaImageHeight>3585</ChaImageHeight>
+        <ChaImageWidth>6000</ChaImageWidth>
+        <ChaMd5Sum>73d735732f8378b1f425228d2bb07adf</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Digital Co-Curation Team</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Philippines Collection</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0053_34550_Top.JPG</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Alpha Sadcopen</NamFullName>
+            <irn>182415</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>Digital Co-curation Team</NamFullName>
+            <irn>184269</irn>
+            <MulMultimediaCreatorRole>Project leader</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>34550 wood pipe bowl</MulTitle>
+        <irn>1240126</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>43308538</SupFileSize>
+            <SupMD5Checksum>b61bad1b1f8231aa3b253249dfe9a0b3</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-11-19</AdmDateInserted>
+        <AdmDateModified>2021-09-27</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1240/124/CL0053_34550_Front.JPG</AudAccessURI>
+        <AudACDescription>Front view</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: A. Sadcopen, Digital Co-curation Team. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/f8582ee2-5792-483f-ade0-fe3be11909ad (accessed on 27 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>f8582ee2-5792-483f-ade0-fe3be11909ad</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>34550.nosub[2]</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Benguet Prov., Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3448: Philippines: stimulents</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>2972348</ChaFileSize>
+        <ChaImageHeight>3926</ChaImageHeight>
+        <ChaImageWidth>4859</ChaImageWidth>
+        <ChaMd5Sum>f0e86015cd136727d6fc451a11b4e000</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Digital Co-Curation Team</DetSubject>
+          </tuple>
+          <tuple>
+            <DetSubject>Philippines Collection</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0053_34550_Front.JPG</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Alpha Sadcopen</NamFullName>
+            <irn>182415</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>Digital Co-curation Team</NamFullName>
+            <irn>184269</irn>
+            <MulMultimediaCreatorRole>Project leader</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>34550 wood pipe bowl</MulTitle>
+        <irn>1240124</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>28727908</SupFileSize>
+            <SupMD5Checksum>3a19bed30c42a4cced63b489ca14c82f</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-02-03</AdmDateInserted>
+        <AdmDateModified>2021-09-17</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/865/180/34550CC.pdf</AudAccessURI>
+        <AudACDescription>scan of catalog card | [FRONT] | [MAIN BODY] Field Columbian Museum. | ENT | [Field Museum Subject Code written in red] 34-48 | Country: Philippine Islands | Locality: Luzon, Benguet Prov. | People: Igorote [sic]. Stock. | Name: Pipe bowl for smoking of hard wood carved into  | human head, 6 cm long. | Collection: R.F. Cummings Dr. A.E. Jenks, Coll. | Notes: | Price: | | [LEFT MARGIN] A | 34550 | Neg. Alb. p.414 | 51 | Acc. 989 | | [ILLUSTRATION] |  | [ILLUSTRATION NOTATION] | | [BACK] [1 photograph] |</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: D. Weddle. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/d45c152e-42e9-406a-8bb8-48ef52e21f0d (accessed on 17 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>d45c152e-42e9-406a-8bb8-48ef52e21f0d</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>34550.nosub[2]</AudNumbers>
+        <AudRelatedGeography>Philippines, Luzon Island, Benguet Prov., Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>3448: Philippines: stimulents</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>256645</ChaFileSize>
+        <ChaImageHeight>285</ChaImageHeight>
+        <ChaImageWidth>422</ChaImageWidth>
+        <ChaMd5Sum>4980b60f783f1e8f78c332e084c100fa</ChaMd5Sum>
+        <ChaMediaForm>PDF document</ChaMediaForm>
+        <ChaVideoFilmLength />
+        <DetResourceType>Text</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>application</MulMimeType>
+        <MulMimeFormat>pdf</MulMimeFormat>
+        <MulIdentifier>34550CC.pdf</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Dustin Weddle</NamFullName>
+            <irn>177275</irn>
+            <MulMultimediaCreatorRole>Transcriber</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>34550 Catalog Card</MulTitle>
+        <irn>865180</irn>
+      </tuple>
+    </MulMultiMediaRef_tab>
+  </data>
+
+  
+  <data>
+    <irn>1160367</irn>
+    <DarGlobalUniqueIdentifier>2ea85423-1031-4011-aa40-42752163c808</DarGlobalUniqueIdentifier>
+    <MulMultiMediaRef_tab>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/928/CL0048_252164_FrontAngle.jpg</AudAccessURI>
+        <AudACDescription>FrontAngle</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/74082455-6335-4f21-a8e4-923f45d6984a (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>74082455-6335-4f21-a8e4-923f45d6984a</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>5497318</ChaFileSize>
+        <ChaImageHeight>2251</ChaImageHeight>
+        <ChaImageWidth>5037</ChaImageWidth>
+        <ChaMd5Sum>7a8f29045f881f98648004c437f8ac36</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_FrontAngle.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158928</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>16803330</SupFileSize>
+            <SupMD5Checksum>169c4f585b6db3eb93bbc3967085029f</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/926/CL0048_252164_Bottom.jpg</AudAccessURI>
+        <AudACDescription>Bottom</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/0c45c575-1dd4-40d0-8982-1473a3b27308 (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>0c45c575-1dd4-40d0-8982-1473a3b27308</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>3248204</ChaFileSize>
+        <ChaImageHeight>1980</ChaImageHeight>
+        <ChaImageWidth>3427</ChaImageWidth>
+        <ChaMd5Sum>210ba0675ce3c7da68246cdd03b0df04</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Bottom.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158926</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>10186776</SupFileSize>
+            <SupMD5Checksum>83dd920f667dab3539e764b1734241f0</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/931/CL0048_252164_Top.jpg</AudAccessURI>
+        <AudACDescription>Top</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/dc9d5f92-0faa-4b9b-b3dd-f7ed473f5058 (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>dc9d5f92-0faa-4b9b-b3dd-f7ed473f5058</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>4359264</ChaFileSize>
+        <ChaImageHeight>2365</ChaImageHeight>
+        <ChaImageWidth>3707</ChaImageWidth>
+        <ChaMd5Sum>2073a5b97abb18c1f034272870068604</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Top.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158931</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>13400882</SupFileSize>
+            <SupMD5Checksum>891886f10160375aec4d1eeadd4d5cbe</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/927/CL0048_252164_Front.jpg</AudAccessURI>
+        <AudACDescription>Front</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/2c8d337f-7a52-4a25-83b3-2be444e298fc (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>2c8d337f-7a52-4a25-83b3-2be444e298fc</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>6584025</ChaFileSize>
+        <ChaImageHeight>2595</ChaImageHeight>
+        <ChaImageWidth>5284</ChaImageWidth>
+        <ChaMd5Sum>5d258fd15a49c469cf814e3c28395609</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Front.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158927</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>20454390</SupFileSize>
+            <SupMD5Checksum>d5dedfba65c879def6d4a53bb99a5420</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-10-12</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/925/CL0048_252164_Back.jpg</AudAccessURI>
+        <AudACDescription>reference image, back</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/48cbec6c-3bd1-4967-b9cf-aea68dd9745e (accessed on 12 Oct 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>48cbec6c-3bd1-4967-b9cf-aea68dd9745e</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>6087631</ChaFileSize>
+        <ChaImageHeight>2381</ChaImageHeight>
+        <ChaImageWidth>5358</ChaImageWidth>
+        <ChaMd5Sum>719b9c6c87747242c882770bda508746</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Back.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>252164 clay (ceramic) vessel; bowl</MulTitle>
+        <irn>1158925</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>18836826</SupFileSize>
+            <SupMD5Checksum>1820c12347d45ce8924efe8507800c7f</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/929/CL0048_252164_Left.jpg</AudAccessURI>
+        <AudACDescription>Left</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/a2fe86f5-d300-483c-ac56-f495465a1a4a (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>a2fe86f5-d300-483c-ac56-f495465a1a4a</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>6388780</ChaFileSize>
+        <ChaImageHeight>2465</ChaImageHeight>
+        <ChaImageWidth>5377</ChaImageWidth>
+        <ChaMd5Sum>5eb1c5cbee1946655b6ed58981ad19d1</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Left.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158929</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>19569760</SupFileSize>
+            <SupMD5Checksum>0a79f9717f7c1cb275d38e2216f420f5</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+      <tuple>
+        <AdmDateInserted>2015-08-25</AdmDateInserted>
+        <AdmDateModified>2021-09-24</AdmDateModified>
+        <AdmPublishWebNoPassword>Yes</AdmPublishWebNoPassword>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/1158/930/CL0048_252164_Right.jpg</AudAccessURI>
+        <AudACDescription>Right</AudACDescription>
+        <AudAssociatedObservation />
+        <AudAssociatedSpecimen />
+        <AudCaptureDevice />
+        <AudCitation>Courtesy of: S. Rivers, GDI 2013-2015. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/99ce3caa-25b8-4947-bdde-80bf5b739c72 (accessed on 24 Sep 2021)</AudCitation>
+        <AudDerivedFrom />
+        <AudFundingAttribution />
+        <AudIdentifier>99ce3caa-25b8-4947-bdde-80bf5b739c72</AudIdentifier>
+        <AudLifeStage />
+        <AudNumbers>252164.nosub[1]</AudNumbers>
+        <AudRelatedGeography>Philippines, Banton Island, Asia</AudRelatedGeography>
+        <AudRelatedResourceID />
+        <AudSex />
+        <AudSubjectOrientation />
+        <AudTaxonCoverage>x181: Malaysia: Philippine Islands: archaeology</AudTaxonCoverage>
+        <AudTemporalCoverage />
+        <AudVernacularName />
+        <ChaAudioLength />
+        <ChaFileSize>6284109</ChaFileSize>
+        <ChaImageHeight>2400</ChaImageHeight>
+        <ChaImageWidth>5442</ChaImageWidth>
+        <ChaMd5Sum>3aa453c95363254d73f7aecbaf23857f</ChaMd5Sum>
+        <ChaMediaForm />
+        <ChaVideoFilmLength />
+        <DetResourceType>StillImage</DetResourceType>
+        <DetResourceSubtype />
+        <DetMediaRightsRef>
+          <SummaryData>(c) Field Museum of Natural History - CC BY-NC 4.0</SummaryData>
+        </DetMediaRightsRef>
+        <DetSubject_tab>
+          <tuple>
+            <DetSubject>Philippines Heritage</DetSubject>
+          </tuple>
+        </DetSubject_tab>
+        <MulMimeType>image</MulMimeType>
+        <MulMimeFormat>jpeg</MulMimeFormat>
+        <MulIdentifier>CL0048_252164_Right.jpg</MulIdentifier>
+        <creator>
+          <tuple>
+            <NamFullName>Sarah Rivers</NamFullName>
+            <irn>149559</irn>
+            <MulMultimediaCreatorRole>Photographer</MulMultimediaCreatorRole>
+          </tuple>
+          <tuple>
+            <NamFullName>GDI 2013-2015</NamFullName>
+            <irn>177101</irn>
+            <MulMultimediaCreatorRole>Funder</MulMultimediaCreatorRole>
+          </tuple>
+        </creator>
+        <RightsAcknowledgeLocal>Please cite this as: (c) The Field Museum (DATE) CC-BY-NC</RightsAcknowledgeLocal>
+        <MulTitle>CL-0048 252164</MulTitle>
+        <irn>1158930</irn>
+        <supplementary>
+          <tuple>
+            <SupFileSize>19492128</SupFileSize>
+            <SupMD5Checksum>8fafd640f5e3234adb0be5d122d4ae52</SupMD5Checksum>
+            <SupMimeFormat>dng</SupMimeFormat>
+            <SupMimeType>image</SupMimeType>
+          </tuple>
+        </supplementary>
+      </tuple>
+    </MulMultiMediaRef_tab>
+  </data>
+</ecatalogue>
