@@ -1,0 +1,193 @@
+{
+    "Address": [
+        {
+            "@type": "PostalAddress",
+            "addressCountry": null,
+            "addressLocality": null,
+            "addressRegion": null,
+            "addressType": null,
+            "postalCode": null,
+            "postOfficeBoxNumber": null,
+            "streetAddress": null
+        }
+    ],
+    "ChronometricAge": [
+        {
+            "chronometricAgeProtocol": null,
+            "chronometricAgeRemarks": null,
+            "chronometricAgeUncertaintyInYears": null,
+            "earliestChronometricAge": null,
+            "earliestChronometricAgeReferenceSystem": null,
+            "latestChronometricAge": null,
+            "latestChronometricAgeReferenceSystem": null,
+            "verbatimChronometricAge": null
+        }
+    ],
+    "CollectionDescriptionScheme": [
+        {
+            "schemeName": null
+        }
+    ],
+    "CollectionHistory": [
+        {
+            "status": null,
+            "statusChangeReason": null,
+            "statusEndDate": null,
+            "statusStartDate": null
+        }
+    ],
+    "ContactDetail": [
+        {
+            "contactDetailCategory": null,
+            "contactDetailType": null,
+            "contactDetailValue": null
+        }
+    ],
+    "GeographicOrigin": [
+        {
+            "continent": null,
+            "locality": null,
+            "region": null,
+            "salinityType": null,
+            "waterBody": null,
+            "waterBodyType": null
+        }
+    ],
+    "GeologicContext": [
+        {
+            "bed": null,
+            "earliestAgeOrLowestStage": null,
+            "earliestEonOrLowestEonothem": null,
+            "earliestEpochOrLowestSeries": null,
+            "earliestEraOrLowestErathem": null,
+            "earliestPeriodOrLowestSystem": null,
+            "formation": null,
+            "group": null,
+            "latestAgeOrHighestStage": null,
+            "latestEonOrHighestEonothem": null,
+            "latestEpochOrHighestSeries": null,
+            "latestEraOrHighestErathem": null,
+            "latestPeriodOrHighestSystem": null,
+            "member": null
+        }
+    ],
+    "Identifier": [
+        {
+            "identifier": null,
+            "identifierSource": null,
+            "identifierType": null
+        }
+    ],
+    "MeasurementOrFact": [
+        {
+            "measurementAccuracy": null,
+            "measurementDerivation": null,
+            "measurementDeterminedDate": null,
+            "measurementFactText": null,
+            "measurementMethod": null,
+            "measurementRemarks": null,
+            "measurementType": null,
+            "measurementUnit": null,
+            "measurementValue": null
+        }
+    ],
+    "ObjectClassification": [
+        {
+            "objectClassificationLevel": null,
+            "objectClassificationName": null,
+            "objectClassificationParent": null
+        }
+    ],
+    "ObjectGroup": [
+        {
+            "collectionManagementSystem": null,
+            "collectionName": null,
+            "conditionsOfAccess": null,
+            "currentStatus": null,
+            "degreeOfEstablishment": null,
+            "description": null,
+            "discipline": null,
+            "knownToContainTypes": null,
+            "material": null,
+            "objectType": null,
+            "baseTypeOfCollection": null,
+            "period": null,
+            "preparationType": null,
+            "preservationMethod": null,
+            "preservationMode": null,
+            "typeOfCollection": null
+        }
+    ],
+    "OrganisationalUnit": [
+        {
+            "organisationalUnitName": null,
+            "organisationalUnitType": null
+        }
+    ],
+    "Person": [
+        {
+            "@type": "person",
+            "additionalName": null,
+            "familyName": null,
+            "fullName": null,
+            "givenName": null
+        }
+    ],
+    "PersonRole": [
+        {
+            "endedAtTime": null,
+            "role": null,
+            "startedAtTime": null
+        }
+    ],
+    "RecordLevel": [
+        {
+            "derivedCollection": null,
+            "license": null,
+            "PID": null,
+            "recordRights": null,
+            "rightsHolder": null
+        }
+    ],
+    "Reference": [
+        {
+            "referenceDetails": null,
+            "referenceText": null,
+            "referenceType": null,
+            "resourceURI": null
+        }
+    ],
+    "ResourceRelationship": [
+        {
+            "relatedResourceID": null,
+            "relatedResourceName": null,
+            "relationshipAccordingTo": null,
+            "relationshipEstablishedDate": null,
+            "relationshipOfResource": null,
+            "relationshipRemarks": null,
+            "resourceID": null,
+            "resourceRelationshipID": null
+        }
+    ],
+    "StorageLocation": [
+        {
+            "locationName": null,
+            "locationType": null
+        }
+    ],
+    "Taxon": [
+        {
+            "genus": null,
+            "kingdom": null,
+            "scientificName": null,
+            "taxonRank": null
+        }
+    ],
+    "TemporalCoverage": [
+        {
+            "temporalCoverageEndDate": null,
+            "temporalCoverageStartDate": null,
+            "temporalCoverageType": null
+        }
+    ]
+}
