@@ -1,5 +1,8 @@
+bs4
 charset-normalizer
+glom
 json
+lxml
 pandas
 python-decouple
 xml
