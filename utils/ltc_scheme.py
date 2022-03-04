@@ -273,8 +273,8 @@ def ltc_record_v1() -> dict:
 def ltc_record_v2() -> dict:
     '''
     Returns the Spec for draft-1 standard terms in a Latimer Core record
-    - nested Classes only include Class-name, NOT Class-terms
-    - this would probably handle LTC changes better over time.
+    - Nested Classes only include Class-name, NOT Class-terms
+    - This might handle LTC changes better over time.
     '''
 
     ltc_record = {

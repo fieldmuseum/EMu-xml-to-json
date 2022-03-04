@@ -27,6 +27,7 @@ def get_ltc_values(ltc_node: dict, soup: BeautifulSoup) -> dict:
             class_names_list.append(class_function[1])
 
 
+    # Fill in terms for each class in the LTC scheme / more dynamically
     if ltc_record['ObjectGroup'] is not None:
         for term in ltc_record['ObjectGroup'][0]:
             
@@ -34,34 +35,13 @@ def get_ltc_values(ltc_node: dict, soup: BeautifulSoup) -> dict:
                 term = class_function_list[class_names_list.index(term)]
                 # ltc_record['ObjectGroup'][0][object_group] = classes[0][1]
 
-            # glom.assign(ltc_record, 'ObjectGroup.' + ltc_classes., None)
 
+    # Map EMu values to ltc-fields
+    
+    # run emu_sml_parse here?
 
-
-    # ltc_address = ltc_classes.ltc_address()
-    # ltc_chronomet_age = ltc_classes.ltc_chronometric_age()
-    # ltc_cdscheme = ltc_classes.ltc_collection_description_scheme()
-    # ltc_colhistory = ltc_classes.ltc_collection_history()
-    # ltc_contact = ltc_classes.ltc_contact_detail()
-    # ltc_geograph_orig = ltc_classes.ltc_geographic_origin()
-    # ltc_geolog_ctxt = ltc_classes.ltc_geologic_context()
-    # ltc_identifier = ltc_classes.ltc_identifier()
-    # ltc_measure_fact = ltc_classes.ltc_measurement_or_fact()
-    # ltc_obj_class = ltc_classes.ltc_object_classification()
-    # ltc_object_group = ltc_classes.ltc_object_group()
-    # ltc_org_unit = ltc_classes.ltc_organisational_unit()
-    # ltc_person = ltc_classes.ltc_person()
-    # ltc_person_role = ltc_classes.ltc_person_role()
-    # ltc_record_lev = ltc_classes.ltc_record_level()
-    # ltc_reference = ltc_classes.ltc_reference()
-    # ltc_resource_rel = ltc_classes.ltc_resource_relationship()
-    # ltc_storage_loc = ltc_classes.ltc_storage_location()
-    # ltc_taxon = ltc_classes.ltc_taxon()
-    # ltc_temporal_cov = ltc_classes.ltc_temporal_coverage()
-
-
-    # for class in ltc_class_specs:
-    #   for term in class:
+    # &/or try glom 
+    # glom.assign(ltc_record, 'ObjectGroup.' + ltc_classes., None)
 
 
     # # Dato Item-type for page
