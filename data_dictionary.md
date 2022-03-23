@@ -8,10 +8,19 @@
 | PolPD3 | dwc:county | |
 | DarGlobalUniqueIdentifier | dwc:occurrenceID | https://dwc.tdwg.org/terms/#dwc:occurrenceID | 
 | AccLocality | dwc:locality | |
+| ColCollectionMethods_tab | dwc:samplingProtocol | |
+
+| emu | json_field | uri | description |
+|---|---|---|---|
 | AudIdentifier | dc:identifier | https://ac.tdwg.org/termlist/#dcterms_identifier |
 | NamExternalReferences_tab | dc:identifier | |
 | AccAccessionDescription | dc:description | |
 | AccCatalogue | ltc:organisationalUnit | |
+
+| emu | json_field | uri | description |
+|---|---|---|---|
+| AccCount | ltc:measurementValue | |
+| NamFullName | abltc:fullName | |
 | AccDateAccessioned | ltc:temporalCoverageStartDate | |
 | AccAccessionNo | ltc:identifier | |
 | AccCatalogueNo | ltc:identifier | |
@@ -20,9 +29,9 @@
 | PolPopn | ltc:municipality | |
 | ColDateVisitedFrom | ltc:temporalCoverageStartDate | |
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | |
-| ColCollectionMethods_tab | dwc:samplingProtocol | |
-| AccCount | ltc:measurementValue | |
-| NamFullName | abltc:fullName | |
+
+| emu | json_field | uri | description |
+|---|---|---|---|
 | ebiblio_irn | fmnh:referenceID | |
 | ebiblio_SummaryData | fmnh:reference | |
 | AudCitation | fmnh:citation | |
