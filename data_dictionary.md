@@ -1,14 +1,14 @@
 | emu | json_field | uri | description |
 |---|---|---|---|
 | irn | dwc:recordNumber | https://dwc.tdwg.org/terms/#dwc:recordNumber | 
-| esites_irn | dwc:locationID | |
-| PolContinent | dwc:continent | |
-| PolPD1 | dwc:country | |
-| PolPD2 | dwc:stateProvince | |
-| PolPD3 | dwc:county | |
+| esites_irn | dwc:locationID | https://dwc.tdwg.org/terms/#dwc:locationID |
+| PolContinent | dwc:continent | https://dwc.tdwg.org/terms/#dwc:continent |
+| PolPD1 | dwc:country | 	http://rs.tdwg.org/dwc/terms/countryCode |
+| PolPD2 | dwc:stateProvince | https://dwc.tdwg.org/list/#dwc_stateProvince |
+| PolPD3 | dwc:county | https://dwc.tdwg.org/list/#dwc_county |
 | DarGlobalUniqueIdentifier | dwc:occurrenceID | https://dwc.tdwg.org/terms/#dwc:occurrenceID | 
-| AccLocality | dwc:locality | |
-| ColCollectionMethods_tab | dwc:samplingProtocol | |
+| AccLocality | dwc:locality | https://dwc.tdwg.org/list/#dwc_locality |
+| ColCollectionMethods_tab | dwc:samplingProtocol | https://dwc.tdwg.org/list/#dwciri_samplingProtocol |
 
 | emu | json_field | uri | description |
 |---|---|---|---|
