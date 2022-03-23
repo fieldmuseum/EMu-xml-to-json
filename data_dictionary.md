@@ -12,19 +12,19 @@
 | ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
 
 #Audubon Core
-| emu | json_field | uri | description |
+| emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
 
 #Dublin Core
-| emu | json_field | uri | description |
+| emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudIdentifier | dc:identifier | http://purl.org/dc/terms/identifier |
 | NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
 | AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
 #Latimer Core
-| emu | json_field | uri | description |
+| emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AccCount | ltc:measurementValue | https://github.com/tdwg/cd/issues/292 |
 | NamFullName | abltc:fullName | https://github.com/tdwg/cd/issues/308 |
@@ -39,7 +39,7 @@
 | AccCatalogue | ltc:organisationalUnit | |
 
 #fmnh specific
-| emu | json_field | uri | description |
+| emu | json_field | uri_iri | description |
 |---|---|---|---|
 | ebiblio_irn | fmnh:referenceID | |
 | ebiblio_SummaryData | fmnh:reference | |
