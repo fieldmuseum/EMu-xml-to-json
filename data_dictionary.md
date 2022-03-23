@@ -26,16 +26,16 @@
 #Latimer Core
 | emu | json_field | uri | description |
 |---|---|---|---|
-| AccCount | ltc:measurementValue | |
-| NamFullName | abltc:fullName | |
-| AccDateAccessioned | ltc:temporalCoverageStartDate | |
-| AccAccessionNo | ltc:identifier | |
-| AccCatalogueNo | ltc:identifier | |
-| DesEthnicGroupSubgroup | ltc:culturalAffiliation | |
-| AttPeriod | ltc:period | |
-| PolPopn | ltc:municipality | |
-| ColDateVisitedFrom | ltc:temporalCoverageStartDate | |
-| ColDateVisitedTo | ltc:temporalCoverageEndDate | |
+| AccCount | ltc:measurementValue | https://github.com/tdwg/cd/issues/292 |
+| NamFullName | abltc:fullName | https://github.com/tdwg/cd/issues/308 |
+| AccDateAccessioned | ltc:temporalCoverageStartDate | https://github.com/tdwg/cd/issues/68 |
+| AccAccessionNo | ltc:identifier | https://github.com/tdwg/cd/issues/129 |
+| AccCatalogueNo | ltc:identifier | https://github.com/tdwg/cd/issues/129 |
+| DesEthnicGroupSubgroup | ltc:culturalAffiliation | https://github.com/tdwg/cd/issues/71 |
+| AttPeriod | ltc:period | https://github.com/tdwg/cd/issues/259 |
+| PolPopn | ltc:municipality | https://github.com/tdwg/cd/issues/143 |
+| ColDateVisitedFrom | ltc:temporalCoverageStartDate | https://github.com/tdwg/cd/issues/68 |
+| ColDateVisitedTo | ltc:temporalCoverageEndDate | https://github.com/tdwg/cd/issues/69 |
 | AccCatalogue | ltc:organisationalUnit | |
 
 #fmnh specific
