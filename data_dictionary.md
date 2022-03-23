@@ -1,14 +1,14 @@
 | emu | json_field | uri | description |
 |---|---|---|---|
-| irn | dwc:recordNumber | https://dwc.tdwg.org/terms/#dwc:recordNumber | 
-| esites_irn | dwc:locationID | https://dwc.tdwg.org/terms/#dwc:locationID |
-| PolContinent | dwc:continent | https://dwc.tdwg.org/terms/#dwc:continent |
-| PolPD1 | dwc:country | https://dwc.tdwg.org/list/#dwc_country|
-| PolPD2 | dwc:stateProvince | https://dwc.tdwg.org/list/#dwc_stateProvince |
-| PolPD3 | dwc:county | https://dwc.tdwg.org/list/#dwc_county |
-| DarGlobalUniqueIdentifier | dwc:occurrenceID | https://dwc.tdwg.org/terms/#dwc:occurrenceID | 
-| AccLocality | dwc:locality | https://dwc.tdwg.org/list/#dwc_locality |
-| ColCollectionMethods_tab | dwc:samplingProtocol | https://dwc.tdwg.org/list/#dwciri_samplingProtocol |
+| irn | dwc:recordNumber | https://rs.tdwg.org/dwc/terms/recordNumber | 
+| esites_irn | dwc:locationID | https://rs.tdwg.org/dwc/terms/locationID |
+| PolContinent | dwc:continent | https://rs.tdwg.org/dwc/terms/continent |
+| PolPD1 | dwc:country | http://rs.tdwg.org/dwc/terms/country |
+| PolPD2 | dwc:stateProvince | https://rs.tdwg.org/dwc/terms/stateProvince |
+| PolPD3 | dwc:county | https://rs.tdwg.org/dwc/terms/county |
+| DarGlobalUniqueIdentifier | dwc:occurrenceID | https://rs.tdwg.org/dwc/terms/occurrenceID | 
+| AccLocality | dwc:locality | https://rs.tdwg.org/dwc/terms/locality |
+| ColCollectionMethods_tab | dwc:samplingProtocol | https://rs.tdwg.org/dwc/terms/samplingProtocol |
 
 | emu | json_field | uri | description |
 |---|---|---|---|
