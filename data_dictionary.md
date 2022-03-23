@@ -3,7 +3,7 @@
 | irn | dwc:recordNumber | https://dwc.tdwg.org/terms/#dwc:recordNumber | 
 | esites_irn | dwc:locationID | https://dwc.tdwg.org/terms/#dwc:locationID |
 | PolContinent | dwc:continent | https://dwc.tdwg.org/terms/#dwc:continent |
-| PolPD1 | dwc:country | 	http://rs.tdwg.org/dwc/terms/countryCode |
+| PolPD1 | dwc:country | https://dwc.tdwg.org/list/#dwc_country|
 | PolPD2 | dwc:stateProvince | https://dwc.tdwg.org/list/#dwc_stateProvince |
 | PolPD3 | dwc:county | https://dwc.tdwg.org/list/#dwc_county |
 | DarGlobalUniqueIdentifier | dwc:occurrenceID | https://dwc.tdwg.org/terms/#dwc:occurrenceID | 
