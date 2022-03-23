@@ -1,3 +1,4 @@
+#Darwin Core
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | 
@@ -10,12 +11,19 @@
 | AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality |
 | ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
 
+#Audubon Core
 | emu | json_field | uri | description |
 |---|---|---|---|
-| AudIdentifier | dc:identifier | 	http://purl.org/dc/terms/identifier |
+| AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
+
+#Dublin Core
+| emu | json_field | uri | description |
+|---|---|---|---|
+| AudIdentifier | dc:identifier | http://purl.org/dc/terms/identifier |
 | NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
 | AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
+#Latimer Core
 | emu | json_field | uri | description |
 |---|---|---|---|
 | AccCount | ltc:measurementValue | |
@@ -30,9 +38,10 @@
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | |
 | AccCatalogue | ltc:organisationalUnit | |
 
+#fmnh specific
 | emu | json_field | uri | description |
 |---|---|---|---|
 | ebiblio_irn | fmnh:referenceID | |
 | ebiblio_SummaryData | fmnh:reference | |
 | AudCitation | fmnh:citation | |
-| AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
+
