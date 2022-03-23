@@ -12,10 +12,9 @@
 
 | emu | json_field | uri | description |
 |---|---|---|---|
-| AudIdentifier | dc:identifier | https://ac.tdwg.org/termlist/#dcterms_identifier |
-| NamExternalReferences_tab | dc:identifier | |
-| AccAccessionDescription | dc:description | |
-| AccCatalogue | ltc:organisationalUnit | |
+| AudIdentifier | dc:identifier | 	http://purl.org/dc/terms/identifier |
+| NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
+| AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
 | emu | json_field | uri | description |
 |---|---|---|---|
@@ -29,6 +28,7 @@
 | PolPopn | ltc:municipality | |
 | ColDateVisitedFrom | ltc:temporalCoverageStartDate | |
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | |
+| AccCatalogue | ltc:organisationalUnit | |
 
 | emu | json_field | uri | description |
 |---|---|---|---|
