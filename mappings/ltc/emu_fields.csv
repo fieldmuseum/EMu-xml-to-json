@@ -1,5 +1,5 @@
 emu,json_field,repeatable,emu_group,json_container
-AccCatalogue,ltc:organisationalUnit,,,
+AccCatalogue,ltc:organisationalUnitName,,,
 AccDateAccessioned,ltc:temporalCoverageStartDate,yes,,collectionHistory
 AccAccessionNo,ltc:identifier,yes,,identifiers
 AccCatalogueNo,ltc:identifier,yes,,identifiers

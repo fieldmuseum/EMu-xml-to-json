@@ -3,6 +3,7 @@ irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
 CatAccessionYearLocal,ltc:temporalCoverageStartDate,,,dates
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
+AccCollectorRef_tab_NamFullName,dwc:recordedBy,yes,AccCollectorRef_tab,
 AccAccessionNo,ltc:identifier,yes,PriAccessionNumberRef,identifiers
 DarCatalogNumber,ltc:identifier,yes,,identifiers
 CatOtherNumbersValue,ltc:identifier,yes,OtherNums,identifiers
@@ -37,3 +38,5 @@ MeaUnit,ltc:measurementUnit,yes,Measurement,measurements
 eparties_NamBriefName,dwc:measurementDeterminedBy,yes,Measurement,measurements
 MeaDateMeasured,ltc:measurementDeterminedDate,yes,Measurement,measurements
 MeaFisRemarks,ltc:measurementRemarks,yes,Measurement,measurements
+LocExhibitLocationRef_irn,fmnh:onExhibitOnSite,,LocExhibitLocationRef,exhibitlocation
+LocTemporaryLocationRef_irn,fmnh:onExhibitOffSite,,LocTemporaryLocationRef,exhibitlocation

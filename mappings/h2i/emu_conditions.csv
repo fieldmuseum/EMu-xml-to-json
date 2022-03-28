@@ -1,4 +1,6 @@
 if_field1,if_logic1,if_value1,then_field,json_field,static_value,json_container
+LocExhibitLocationRef_irn,IS,NOT NULL,,fmnh:onExhibitOnSite,True,exhibitlocation
+LocTemporaryLocationRef_irn,IS,NOT NULL,,fmnh:onExhibitOffSite,True,exhibitlocation
 CatAccessionYearLocal,IS,NOT NULL,,ltc:temporalCoverageType,accession year,dates
 AccAccessionNo,IS,NOT NULL,,ltc:identifierType,accession number,identifiers
 DarCatalogNumber,IS,NOT NULL,,ltc:identifierType,objectID,identifiers
