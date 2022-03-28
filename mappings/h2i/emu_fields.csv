@@ -3,6 +3,7 @@ irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
 CatAccessionYearLocal,ltc:temporalCoverageStartDate,,,dates
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
+AccCollectorRef_tab_NamFullName,dwc:recordedBy,yes,AccCollectorRef_tab,
 AccAccessionNo,ltc:identifier,yes,PriAccessionNumberRef,identifiers
 DarCatalogNumber,ltc:identifier,yes,,identifiers
 CatOtherNumbersValue,ltc:identifier,yes,OtherNums,identifiers
