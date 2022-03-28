@@ -45,4 +45,5 @@
 | ebiblio_irn | fmnh:referenceID | |
 | ebiblio_SummaryData | fmnh:reference | |
 | AudCitation | fmnh:citation | |
-
+| LocExhibitLocationRef_irn | fmnh:onExhibitOnSite | |
+| LocTemporaryLocationRef_irn | fmnh:onExhibitOffSite | |
