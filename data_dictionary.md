@@ -1,4 +1,4 @@
-#Darwin Core
+## Darwin Core
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | 
@@ -11,19 +11,19 @@
 | AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality |
 | ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
 
-#Audubon Core
+## Audubon Core
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
 
-#Dublin Core
+## Dublin Core
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudIdentifier | dc:identifier | http://purl.org/dc/terms/identifier |
 | NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
 | AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
-#Latimer Core
+## Latimer Core
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AccCount | ltc:measurementValue | https://github.com/tdwg/cd/issues/292 |
@@ -36,9 +36,9 @@
 | PolPopn | ltc:municipality | https://github.com/tdwg/cd/issues/143 |
 | ColDateVisitedFrom | ltc:temporalCoverageStartDate | https://github.com/tdwg/cd/issues/68 |
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | https://github.com/tdwg/cd/issues/69 |
-| AccCatalogue | ltc:organisationalUnit | |
+| AccCatalogue | ltc:organisationalUnitName | |
 
-#fmnh specific
+## fmnh specific
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | ebiblio_irn | fmnh:referenceID | |
