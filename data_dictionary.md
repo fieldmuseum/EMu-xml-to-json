@@ -10,6 +10,7 @@
 | DarGlobalUniqueIdentifier | dwc:occurrenceID | http://rs.tdwg.org/dwc/terms/occurrenceID | 
 | AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality |
 | ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
+| AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy |
 
 ## Audubon Core
 | emu | json_field | uri_iri | description |
