@@ -2,7 +2,8 @@
 # from https://thispointer.com/python-how-to-create-a-zip-archive-from-multiple-files-or-directory/
 
 from zipfile import ZipFile
-import zipfile, zlib
+import zipfile
+from decouple import config
     
 # Function : file_compress
 def file_compress(inp_file_names="", out_zip_file="out.zip"):
@@ -15,11 +16,21 @@ def file_compress(inp_file_names="", out_zip_file="out.zip"):
     """
 
     try:
-        with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=8) as zipObj:
+        if config('ZIP_COMPRESS_LEVEL')=="TRUE":
+            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=8) as zipObj:
 
-            # Add multiple files to the zip
-            for inp_file in inp_file_names:
-                zipObj.write(inp_file)
+                # Add multiple files to the zip
+                for inp_file in inp_file_names:
+                    zipObj.write(inp_file)
+        
+        else:
+            # For python < 3.7
+            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED) as zipObj:
+
+                # Add multiple files to the zip
+                for inp_file in inp_file_names:
+                    zipObj.write(inp_file)
+
 
     except FileNotFoundError as e:
         print(f' *** Exception occurred during zip process - {e}')
