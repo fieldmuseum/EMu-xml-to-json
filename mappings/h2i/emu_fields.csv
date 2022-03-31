@@ -1,9 +1,10 @@
 emu,json_field,repeatable,emu_group,json_container
-irn,dwc:recordNumber,,,
+cat_irn,dwc:recordNumber,,,
 DarGlobalUniqueIdentifier,dwc:occurrenceID,,,
 CatAccessionYearLocal,ltc:temporalCoverageStartDate,,,dates
 DarCatalogNumberNumeric,dwc:catalogNumber,,,
-AccCollectorRef_tab_NamFullName,dwc:recordedBy,yes,AccCollectorRef_tab,
+DarCollector,dwc:recordedBy,yes,,people
+AccCollectorRef_tab_NamFullName,dwc:recordedBy,yes,PriAccessionNumberRef,people
 AccAccessionNo,ltc:identifier,yes,PriAccessionNumberRef,identifiers
 DarCatalogNumber,ltc:identifier,yes,,identifiers
 CatOtherNumbersValue,ltc:identifier,yes,OtherNums,identifiers
@@ -26,7 +27,6 @@ CatItemsCat,ltc:measurementValue,yes,,measurements
 CatItemsInv,ltc:measurementValue,yes,,measurements
 DesObjectName,h2i:culturalArtefactSimpleName,yes,DesObj,simplenames
 DesObjectType,fmnh:culturalArtefactSimpleNameType,yes,DesObj,simplenames
-DarCollector,dwc:recordedBy,,,
 ecatrel_SummaryData,dwc:relationshipRemarks,yes,RelObjectsRef_tab,resourcerelationship
 ecatrel_DarGlobalUniqueIdentifier,dwc:relatedResourceID,yes,RelObjectsRef_tab,resourcerelationship
 ebiblio_irn,fmnh:referenceID,yes,RefReferenceRef_tab,references
@@ -38,5 +38,5 @@ MeaUnit,ltc:measurementUnit,yes,Measurement,measurements
 eparties_NamBriefName,dwc:measurementDeterminedBy,yes,Measurement,measurements
 MeaDateMeasured,ltc:measurementDeterminedDate,yes,Measurement,measurements
 MeaFisRemarks,ltc:measurementRemarks,yes,Measurement,measurements
-LocExhibitLocationRef_irn,fmnh:onExhibitOnSite,,LocExhibitLocationRef,exhibitlocation
-LocTemporaryLocationRef_irn,fmnh:onExhibitOffSite,,LocTemporaryLocationRef,exhibitlocation
+LocExhibitLocationRef_irn,fmnh:onExhibitOnSiteID,,LocExhibitLocationRef,exhibitlocation
+LocTemporaryLocationRef_irn,fmnh:onExhibitOffSiteID,,LocTemporaryLocationRef,exhibitlocation
