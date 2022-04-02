@@ -2,7 +2,7 @@
 # from https://thispointer.com/python-how-to-create-a-zip-archive-from-multiple-files-or-directory/
 
 from zipfile import ZipFile
-import zipfile
+import zipfile, sys
 from decouple import config
     
 # Function : file_compress
@@ -16,16 +16,16 @@ def file_compress(inp_file_names="", out_zip_file="out.zip"):
     """
 
     try:
-        if config('ZIP_COMPRESS_LEVEL')=="TRUE":
-            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=8) as zipObj:
+        # For python versions <3.7, exclude the new compresslevel option
+        if float(sys.version[0:3]) < 3.7:
+            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED) as zipObj:
 
                 # Add multiple files to the zip
                 for inp_file in inp_file_names:
                     zipObj.write(inp_file)
         
         else:
-            # For python < 3.7
-            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED) as zipObj:
+            with ZipFile(out_zip_file, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=8) as zipObj:
 
                 # Add multiple files to the zip
                 for inp_file in inp_file_names:
