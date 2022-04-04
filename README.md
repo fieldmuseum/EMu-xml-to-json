@@ -1,6 +1,6 @@
 # EMu XML-to-JSON converter for cultural data
-A script to convert EMu XML exports to JSON for cultural data. (Note - For record-sets > 1000, this can be slow.)
-It is based on a combination of standards: darwin core, latimer core, audubon core and the very draft h2i extension to abcd.
+A script to convert EMu XML exports to JSON for cultural data. Note - For record-sets > 1000, this can be slow.
+It is based on a combination of standards: Darwin core, Latimer core, Audubon Core and the very draft H2I extension to ABCD.
 We are currently testing it as a sustainable way to share data with partners from [Digital Benin](https://digital-benin.org/) and [Mapping Philippine Material Culture](https://philippinestudies.uk/mapping/)
 
 
