@@ -1,4 +1,4 @@
-## Darwin Core
+## [Darwin Core properties](https://dwc.tdwg.org/list/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | 
@@ -12,19 +12,19 @@
 | ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
 | AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy |
 
-## Audubon Core
+## [Audubon Core properties](https://ac.tdwg.org/termlist/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
 
-## Dublin Core
+## [Dublin Core properties](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudIdentifier | dc:identifier | http://purl.org/dc/terms/identifier |
 | NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
 | AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
-## Latimer Core
+## [Latimer Core properties](https://github.com/tdwg/cd/issues)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AccCount | ltc:measurementValue | https://github.com/tdwg/cd/issues/292 |
@@ -39,7 +39,7 @@
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | https://github.com/tdwg/cd/issues/69 |
 | AccCatalogue | ltc:organisationalUnitName | |
 
-## fmnh specific
+## fmnh specific properties
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | ebiblio_irn | fmnh:referenceID | bibliographic reference id in FMNH collections management system |
