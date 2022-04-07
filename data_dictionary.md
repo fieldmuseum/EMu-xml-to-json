@@ -1,16 +1,16 @@
 ## [Darwin Core properties](https://dwc.tdwg.org/list/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
-| irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | 
-| esites_irn | dwc:locationID | http://rs.tdwg.org/dwc/terms/locationID |
-| PolContinent | dwc:continent | http://rs.tdwg.org/dwc/terms/continent |
-| PolPD1 | dwc:country |	http://rs.tdwg.org/dwc/terms/country |
-| PolPD2 | dwc:stateProvince | http://rs.tdwg.org/dwc/terms/stateProvince |
-| PolPD3 | dwc:county |	http://rs.tdwg.org/dwc/terms/county |
-| DarGlobalUniqueIdentifier | dwc:occurrenceID | http://rs.tdwg.org/dwc/terms/occurrenceID | 
-| AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality |
-| ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
-| AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy |
+| irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | |
+| esites_irn | dwc:locationID | http://rs.tdwg.org/dwc/terms/locationID | |
+| PolContinent | dwc:continent | http://rs.tdwg.org/dwc/terms/continent | |
+| PolPD1 | dwc:country |	http://rs.tdwg.org/dwc/terms/country | |
+| PolPD2 | dwc:stateProvince | http://rs.tdwg.org/dwc/terms/stateProvince | |
+| PolPD3 | dwc:county |	http://rs.tdwg.org/dwc/terms/county | |
+| DarGlobalUniqueIdentifier | dwc:occurrenceID | http://rs.tdwg.org/dwc/terms/occurrenceID | |
+| AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality | |
+| ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol | |
+| AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy | For most collections items this is the collector. |
 
 ## [Audubon Core properties](https://ac.tdwg.org/termlist/)
 | emu | json_field | uri_iri | description |
