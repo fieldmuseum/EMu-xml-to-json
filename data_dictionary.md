@@ -37,7 +37,7 @@
 | PolPopn | ltc:municipality | https://github.com/tdwg/cd/issues/143 |
 | ColDateVisitedFrom | ltc:temporalCoverageStartDate | https://github.com/tdwg/cd/issues/68 |
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | https://github.com/tdwg/cd/issues/69 |
-| AccCatalogue | ltc:organisationalUnitName | |
+| AccCatalogue | ltc:organisationalUnitName | https://github.com/tdwg/cd/issues/198 |
 
 ## fmnh specific properties
 | emu | json_field | uri_iri | description |
