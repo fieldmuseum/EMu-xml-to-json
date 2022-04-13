@@ -1,30 +1,30 @@
-## Darwin Core
+## [Darwin Core properties](https://dwc.tdwg.org/list/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
-| irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | 
-| esites_irn | dwc:locationID | http://rs.tdwg.org/dwc/terms/locationID |
-| PolContinent | dwc:continent | http://rs.tdwg.org/dwc/terms/continent |
-| PolPD1 | dwc:country |	http://rs.tdwg.org/dwc/terms/country |
-| PolPD2 | dwc:stateProvince | http://rs.tdwg.org/dwc/terms/stateProvince |
-| PolPD3 | dwc:county |	http://rs.tdwg.org/dwc/terms/county |
-| DarGlobalUniqueIdentifier | dwc:occurrenceID | http://rs.tdwg.org/dwc/terms/occurrenceID | 
-| AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality |
-| ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol |
-| AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy |
+| irn | dwc:recordNumber | 	http://rs.tdwg.org/dwc/terms/recordNumber | |
+| esites_irn | dwc:locationID | http://rs.tdwg.org/dwc/terms/locationID | |
+| PolContinent | dwc:continent | http://rs.tdwg.org/dwc/terms/continent | |
+| PolPD1 | dwc:country |	http://rs.tdwg.org/dwc/terms/country | |
+| PolPD2 | dwc:stateProvince | http://rs.tdwg.org/dwc/terms/stateProvince | |
+| PolPD3 | dwc:county |	http://rs.tdwg.org/dwc/terms/county | |
+| DarGlobalUniqueIdentifier | dwc:occurrenceID | http://rs.tdwg.org/dwc/terms/occurrenceID | |
+| AccLocality | dwc:locality | http://rs.tdwg.org/dwc/terms/locality | |
+| ColCollectionMethods_tab | dwc:samplingProtocol | http://rs.tdwg.org/dwc/iri/samplingProtocol | |
+| AccCollectorRef_tab_NamFullName | dwc:recordedBy | http://rs.tdwg.org/dwc/iri/recordedBy | For most collections items this is the collector. |
 
-## Audubon Core
+## [Audubon Core properties](https://ac.tdwg.org/termlist/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudAccessURI | ac:accessURI | https://ac.tdwg.org/termlist/#ac_accessURI |
 
-## Dublin Core
+## [Dublin Core properties](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AudIdentifier | dc:identifier | http://purl.org/dc/terms/identifier |
 | NamExternalReferences_tab | dc:identifier | http://purl.org/dc/terms/identifier |
 | AccAccessionDescription | dc:description | http://purl.org/dc/terms/description |
 
-## Latimer Core
+## [Latimer Core properties](https://github.com/tdwg/cd/issues)
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
 | AccCount | ltc:measurementValue | https://github.com/tdwg/cd/issues/292 |
@@ -37,13 +37,13 @@
 | PolPopn | ltc:municipality | https://github.com/tdwg/cd/issues/143 |
 | ColDateVisitedFrom | ltc:temporalCoverageStartDate | https://github.com/tdwg/cd/issues/68 |
 | ColDateVisitedTo | ltc:temporalCoverageEndDate | https://github.com/tdwg/cd/issues/69 |
-| AccCatalogue | ltc:organisationalUnitName | |
+| AccCatalogue | ltc:organisationalUnitName | https://github.com/tdwg/cd/issues/198 |
 
-## fmnh specific
+## fmnh specific properties
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
-| ebiblio_irn | fmnh:referenceID | |
-| ebiblio_SummaryData | fmnh:reference | |
-| AudCitation | fmnh:citation | |
-| LocExhibitLocationRef_irn | fmnh:onExhibitOnSite | |
-| LocTemporaryLocationRef_irn | fmnh:onExhibitOffSite | |
+| ebiblio_irn | fmnh:referenceID | bibliographic reference id in FMNH collections management system |
+| ebiblio_SummaryData | fmnh:reference | bibliographic reference summary. |
+| AudCitation | fmnh:citation | Preferred multimedia asset citation string |
+| LocExhibitLocationRef_irn | fmnh:onExhibitOnSite | A value in this field indicates that the item is on display at FMNH |
+| LocTemporaryLocationRef_irn | fmnh:onExhibitOffSite | A value in this field indicates that the item is on display but NOT at FMNH |
