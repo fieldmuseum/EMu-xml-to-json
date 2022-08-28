@@ -42,8 +42,8 @@
 ## fmnh specific properties
 | emu | json_field | uri_iri | description |
 |---|---|---|---|
-| ebiblio_irn | fmnh:referenceID | bibliographic reference id in FMNH collections management system |
-| ebiblio_SummaryData | fmnh:reference | bibliographic reference summary. |
-| AudCitation | fmnh:citation | Preferred multimedia asset citation string |
-| LocExhibitLocationRef_irn | fmnh:onExhibitOnSite | A value in this field indicates that the item is on display at FMNH |
-| LocTemporaryLocationRef_irn | fmnh:onExhibitOffSite | A value in this field indicates that the item is on display but NOT at FMNH |
+| ebiblio_irn | fmnh:referenceID | | Bibliographic reference id in FMNH collections management system |
+| ebiblio_SummaryData | fmnh:reference | | Bibliographic reference summary. |
+| AudCitation | fmnh:citation | | Preferred multimedia asset citation string |
+| LocExhibitLocationRef_irn | fmnh:onExhibitOnSite fmnh:onExhibitOnSiteID | | A numeric ID or "True" value in these fields indicates that the item is on display at FMNH |
+| LocTemporaryLocationRef_irn | fmnh:onExhibitOffSite fmnh:onExhibitOffSiteID | | A numeric ID or "True" value in these fields indicates that the item is on display but NOT at FMNH |
