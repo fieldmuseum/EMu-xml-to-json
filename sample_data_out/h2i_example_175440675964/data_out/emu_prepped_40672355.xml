@@ -1,0 +1,1007 @@
+<ecatalogue>
+
+  
+  <data>
+    <cat_irn>3808027</cat_irn>
+    <DarGlobalUniqueIdentifier>a3e1ffc0-3c29-4627-8be6-cb83f4257352</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360807</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4490</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>Dr. Theresa L. Miller</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>360807.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000072</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>basket</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>Object Name: Small basket / cestinha / kaj-re
+Artist: Lindava Craxú Canela
+Description: Small basket made of buriti / crowa pàr palm fibers (Mauritia flexuosa L.)
+Location: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)
+
+This is a type of small basket (kaj-re in Canela) made of out native palm fibers (buriti in Portuguese; crowa pàr in Canela; Mauritia flexuosa L.). Buriti palm is one of the most ubiquitous palms in the local Cerrado (savannah) landscape and the palm fronds are used to make baskets, mats, houses, and many other objects that are part of Canela everyday life. The basket is painted with black paint from the fruits of the pau de leite (aramhôc pàr; Sapium gladulatum (Vell.) Pax) tree, indicating that it is meant for sale rather than everyday use. While the unpainted kaj-re small baskets are used in everyday life to carry garden produce and other items, the painted type is generally sold in nearby towns to tourists and/or non-Indigenous Brazilians. The geometric designs of the black paint are typical of this kind of basket.</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>fiber; palm leaf - buruti</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>paint</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Escalvado</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>kaj-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>cestinha</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>South America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Brazil</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>360807</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+      <LocTemporaryLocationRef_irn>153938</LocTemporaryLocationRef_irn>
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>3808034</cat_irn>
+    <DarGlobalUniqueIdentifier>d36d9d0c-f684-4308-8e18-34f5ac5cb01d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360812</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4490</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>Dr. Theresa L. Miller</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>360812.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000079</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>necklace</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>Object Name: Beaded necklace made w/ seeds from native plant (tiririca / capà-ti hỳ)
+Artist: Jose Diogo Pep-re Canela
+Description: Jewelry / miçanga / kẽn-re made of native plant seeds (tiririca / capà-ti hỳ); wooden pendant made of sucupira / cuhtà caxwỳn pàr)
+Location: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)
+
+This type of seed bead necklace is traditional to the Canela but is no longer commonly made because purchased glass and plastic beads have largely replaced the practice of making beads out of native seeds in the local environment. The wooden pendant is made out of sucupira wood (Diplotropis purpurea [Rich.] Amshoff) which is commonly deforested (both legally and illegally) in the Cerrado and exported within and outside Brazil for timber, furniture, and wooden flooring. The pendant is painted with red annatto (urucum, pym in Canela) paste, the fruits of which are boiled down to make the bright red paste that is used to decorate ritual objects and as ritual body paint. This necklace was definitely used and worn prior to its purchase, likely by the artist himself. Although it is not unheard of for men to make the beaded jewelry (miçanga in Portuguese or kẽn-re in Canela), women typically make the jewelry for ritual and everyday use.
+The artist, Jose Diogo Pep-re Canela, is an interesting person in the community. He is one of the community’s elderly shamans, or kay in Canela, and therefore has developed heightened sensory abilities to communicate with deceased souls or spirits, known as mekarõn in Canela. Illnesses are thought to be caused by the deceased mekarõn convincing the living person’s soul to leave his/her body, and shamans cure illnesses through communicating with the mekarõn to let the living person’s soul return to the body. They do this by laying hands and blowing tobacco smoke on the ill person’s body. Being and becoming a shaman is difficult and requires months and years of food and sex prohibitions known as resguardo, and being taught by a mekarõn soul teacher, in order to achieve the heightened sensory abilities. Shamans can also communicate with animals, plants, objects and artifacts, and essentially all nonhuman beings. Shamans speak with the master spirits of plants, known as Plant-Men and Plant-Women, and serve as mediators between human gardeners and their growing plants, which are considered children in need of affectionate care and attention.</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>seed</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>wood; sucupira</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>paint (annatto)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Escalvado</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>kẽn-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>miçanga</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>South America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Brazil</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>360812</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+      <LocTemporaryLocationRef_irn>153938</LocTemporaryLocationRef_irn>
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>3808032</cat_irn>
+    <DarGlobalUniqueIdentifier>f80828f0-6c10-4486-851d-ed8d9a1c260f</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2019</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>360811</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4490</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>Dr. Theresa L. Miller</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>360811.nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2017.0012.000077</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>rattle</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>Object Name: Small bottle gourd rattle / cabaça / cuhtõj kryi-re
+Artist: Severio Hoku Canela
+Description: Made of a small bottle gourd (Lagenaria siceraria (Molina) Standl. and/or Crescentia cujete L.), with cotton string (algodão / caxàt) and native seeds (catêc-re hy)
+Location: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)
+This is a typical Canela gourd rattle, used in ritual singing activities by the male lead ritual singer in the ceremonial center of the concentric circular village space (see Crocker 1990 and Miller 2019). The rattle is made out of a small bottle gourd known as cuhtõj kryi-re (Lagenaria siceraria (Molina) Standl. and/or Crescentia cujete L.), which is one of three types of bottle gourd and one of the 12 types of gourd that is still cultivated by Canela gardeners. The green cotton strings on the top and bottom of the gourd are decorative and likely store-bought. Canela gardeners traditionally grew cotton (caxàt) varietals in the past and a few still do today, but it is much less common than half a century ago. Nowadays most people buy cotton strings in nearby towns, such as this colored type. The white cotton string attached to the rattle’s handle could possibly be native Canela cotton or store-bought. The rattle’s handle is made out of a lighter type of wood (not sucupira, which has a dark brown-purplish color). The gourd is filled with native catêc-re plant seeds (hy) to make the rattling percussion noise. These seeds have red and white markings and are commonly found throughout the Canela territory. There is also a type of cultivated bean, pànkrỳt catêc-re hy (Phaseolus vulgaris L.) that is named after the seeds, demonstrating their importance in the Canela socio-ecological system.
+The artist, Severio Hoku Canela, was one of the collector’s main research assistants during her fieldwork in 2012-2013. He is a well-known gardener and political leader in the village, and he made this rattle for use in male ritual singing activities. Although he is not a lead singer, the rattle was likely made for someone in his close family who has developed that particular skill.</DesKDescription>
+        <DesKType>Source Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>Idiophone</DesKDescription>
+        <DesKType>Technical Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Canela</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>gourd</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>cotton</DesMaterials>
+      </tuple>
+      <tuple>
+        <DesMaterials>seed</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>584757</esites_irn>
+        <PolContinent>South America</PolContinent>
+        <PolPD1>Brazil</PolPD1>
+        <PolPD2>Maranhão</PolPD2>
+        <PolPD3 />
+        <PolPopn>Escalvado</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Escalvado</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>cuhtõj kryi-re</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+      <tuple>
+        <DesObjectName>maracá de cabaça</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector />
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>South America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Brazil</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Maranhão</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Escalvado</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>360811</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <RefReferenceRef_tab>
+      <tuple>
+        <ebiblio_irn>37723</ebiblio_irn>
+        <ebiblio_SummaryData>[Book] Miller, Theresa L. Plant Kin: A Multispecies Ethnography in Indigenous Brazil. 328.</ebiblio_SummaryData>
+      </tuple>
+    </RefReferenceRef_tab>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+      <LocTemporaryLocationRef_irn>153938</LocTemporaryLocationRef_irn>
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>3630556</cat_irn>
+    <DarGlobalUniqueIdentifier>29cf43da-7863-4f6a-af06-b88df84cfd24</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1896</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>23495</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>253</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>Edward H. Thompson</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>23495.102</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersValue>95</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>fragment</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>1 of 280 bits of stone and bag of stone fragments from box of bits (fragments) of stone; tag with object reads, "potter's earth - - used by the natives of Yucatan in making both the ancient and modern vessels"</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Maya</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>stone</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>406172</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2>Yucatán</PolPD2>
+        <PolPD3 />
+        <PolPopn>Xkichmook</PolPopn>
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality>Xkichmook</DarLocality>
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>kat</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode>xx99: Mexico: Yucatan: archaeology</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Yucatán</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <ColTownshipLocal_tab>
+      <tuple>
+        <ColTownshipLocal>Xkichmook</ColTownshipLocal>
+      </tuple>
+    </ColTownshipLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>23495</CatAnthroCatalogNumber>
+    <CatSubNumbers>.102</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>aed844e7-f998-4d0d-87d7-d35a4cde098f</AudIdentifier>
+        <AudAccessURI />
+        <AudCitation>Courtesy of: C. Pontone. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/aed844e7-f998-4d0d-87d7-d35a4cde098f (accessed on 11 Mar 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>No</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>fc7f8eb5-0253-497d-9e5e-f299bc54d0bf</AudIdentifier>
+        <AudAccessURI />
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/fc7f8eb5-0253-497d-9e5e-f299bc54d0bf (accessed on 11 Mar 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>No</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>3763547</cat_irn>
+    <DarGlobalUniqueIdentifier>1bb1501d-9f14-4ce1-a2df-988f535fe81d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>1911</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>129589</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>1139</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>Dr. Fay-Cooper Cole</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>129589.1</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Fieldwork number</CatOtherNumbersType>
+        <CatOtherNumbersValue>1762</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>anklet</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>Name: Balnatoñ: - Woman's anklets. Made similar to the wristlets of the same name.</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesEthnicGroupSubgroup_tab>
+      <tuple>
+        <DesEthnicGroupSubgroup>Blaan</DesEthnicGroupSubgroup>
+      </tuple>
+    </DesEthnicGroupSubgroup_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>metal; brass</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>401931</esites_irn>
+        <PolContinent>Asia</PolContinent>
+        <PolPD1>Philippines</PolPD1>
+        <PolPD2>Mindanao Island</PolPD2>
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DesObj>
+      <tuple>
+        <DesObjectName>balnatōñ</DesObjectName>
+        <DesObjectType>cultural</DesObjectType>
+      </tuple>
+    </DesObj>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode>3446: Philippines: ornaments, accessories</DesSubjectCode>
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>Asia</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>Philippines</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <ColProvinceStateTerritoryLocal_tab>
+      <tuple>
+        <ColProvinceStateTerritoryLocal>Mindanao Island</ColProvinceStateTerritoryLocal>
+      </tuple>
+    </ColProvinceStateTerritoryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>129589</CatAnthroCatalogNumber>
+    <CatSubNumbers>.1</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/805/047/129589CC.pdf</AudAccessURI>
+        <AudCitation>Courtesy of: D. Weddle, E. E. McKenna. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db (accessed on 04 Oct 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>153530</cat_irn>
+    <DarGlobalUniqueIdentifier>e48acf38-2db7-4c09-b24b-32bd5bf91770</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>William S. Goldman</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342710.7</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>figurine</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>1 of 12 zoomorphic figurines in the form of a snake</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Art</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.7</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>c05fc80c-1f2d-4122-8c4b-ce6876bf3d67</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2196/097/CL0000_342710_7_InMountAngle.JPG</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c05fc80c-1f2d-4122-8c4b-ce6876bf3d67 (accessed on 29 Apr 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+      <tuple>
+        <AudIdentifier>636266aa-f908-459a-ac7c-b9b89280968a</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2196/096/CL0000_342710_7_InMount.JPG</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/636266aa-f908-459a-ac7c-b9b89280968a (accessed on 29 Apr 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>151896</cat_irn>
+    <DarGlobalUniqueIdentifier>40b583fd-b8b6-4831-9552-eddb17330a26</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342705</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>William S. Goldman</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342705.6</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3315</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>utensil (miniature)</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>1 of 8 miniature wood spoons</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Food Service Tool or Equipment</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>wood</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342705</CatAnthroCatalogNumber>
+    <CatSubNumbers>.6</CatSubNumbers>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>152504</cat_irn>
+    <DarGlobalUniqueIdentifier>41dd3a78-f540-475f-b075-32866cce7468</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>William S. Goldman</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342710.5</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>figurine</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>1 of 12 zoomorphic figurines in the form of a snake</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Art</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.5</CatSubNumbers>
+    <Multimedia>
+      <tuple>
+        <AudIdentifier>701edc73-6f7b-49b2-b0fc-bbbd6346430b</AudIdentifier>
+        <AudAccessURI>http://fm-digital-assets.fieldmuseum.org/2195/815/CL0000_342710_5_InMount.JPG</AudAccessURI>
+        <AudCitation>Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/701edc73-6f7b-49b2-b0fc-bbbd6346430b (accessed on 29 Apr 2021)</AudCitation>
+        <emul_AdmPublishWebNoPassword>Yes</emul_AdmPublishWebNoPassword>
+      </tuple>
+    </Multimedia>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>152315</cat_irn>
+    <DarGlobalUniqueIdentifier>44bc1ef9-5157-4d44-a737-4812ffc1e5a7</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342710</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>William S. Goldman</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342710.3</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.3321</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>figurine</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+      <tuple>
+        <DesKDescription>1 of 12 zoomorphic figurines in the form of a snake</DesKDescription>
+        <DesKType>Full Description</DesKType>
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Art</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>405478</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1>México</PolPD1>
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Child</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <ColCountryLocal_tab>
+      <tuple>
+        <ColCountryLocal>México</ColCountryLocal>
+      </tuple>
+    </ColCountryLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>1</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342710</CatAnthroCatalogNumber>
+    <CatSubNumbers>.3</CatSubNumbers>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+
+  
+  <data>
+    <cat_irn>154226</cat_irn>
+    <DarGlobalUniqueIdentifier>2b8a8ec3-5274-404e-be05-ddd35011713d</DarGlobalUniqueIdentifier>
+    <CatAccessionYearLocal>2008</CatAccessionYearLocal>
+    <DarCatalogNumberNumeric>342703</DarCatalogNumberNumeric>
+    <PriAccessionNumberRef>
+      <AccAccessionNo>4297</AccAccessionNo>
+      <AccCollectorRef_tab>
+        <tuple>
+          <AccCollectorRef_tab_NamFullName>William S. Goldman</AccCollectorRef_tab_NamFullName>
+        </tuple>
+      </AccCollectorRef_tab>
+    </PriAccessionNumberRef>
+    <DarCatalogNumber>342703 nosub[1]</DarCatalogNumber>
+    <OtherNums>
+      <tuple>
+        <CatOtherNumbersType>Tracking number</CatOtherNumbersType>
+        <CatOtherNumbersValue>T2002.12.6001</CatOtherNumbersValue>
+      </tuple>
+    </OtherNums>
+    <Description>
+      <tuple>
+        <DesKDescription>plate</DesKDescription>
+        <DesKType>Basic Description</DesKType>
+        <DesKPreferred>Yes</DesKPreferred>
+      </tuple>
+    </Description>
+    <DesUseClassification_tab>
+      <tuple>
+        <DesUseClassification>Food Service Tool or Equipment</DesUseClassification>
+      </tuple>
+    </DesUseClassification_tab>
+    <DesMaterials_tab>
+      <tuple>
+        <DesMaterials>clay (ceramic)</DesMaterials>
+      </tuple>
+    </DesMaterials_tab>
+    <ColCollectionEventRef>
+      <ColSiteRef>
+        <esites_irn>404761</esites_irn>
+        <PolContinent>North America</PolContinent>
+        <PolPD1 />
+        <PolPD2 />
+        <PolPD3 />
+        <PolPopn />
+      </ColSiteRef>
+    </ColCollectionEventRef>
+    <DarLocality />
+    <CatItemsCat>1</CatItemsCat>
+    <CatItemsInv>1</CatItemsInv>
+    <DarCollector>Collector</DarCollector>
+    <CatRecordType>Single</CatRecordType>
+    <DesSubjectCode />
+    <DesPeriod />
+    <DesTechnicalDescription />
+    <ColContinentLocal_tab>
+      <tuple>
+        <ColContinentLocal>North America</ColContinentLocal>
+      </tuple>
+    </ColContinentLocal_tab>
+    <CatObjectCount>1</CatObjectCount>
+    <CatItemsSub>0</CatItemsSub>
+    <CatLegalStatus>Permanent Collection</CatLegalStatus>
+    <CatAnthroCatalogNumber>342703</CatAnthroCatalogNumber>
+    <CatSubNumbers>nosub[1]</CatSubNumbers>
+    <LocExhibitLocationRef>
+        <irn />
+    </LocExhibitLocationRef>
+    <LocTemporaryLocationRef>
+        <irn />
+    </LocTemporaryLocationRef>
+  </data>
+</ecatalogue>

@@ -1,0 +1,743 @@
+[
+ {
+  "dwc:recordNumber": "3808027",
+  "dwc:occurrenceID": "a3e1ffc0-3c29-4627-8be6-cb83f4257352",
+  "dwc:catalogNumber": "360807",
+  "h2i:culturalArtefactFunction": null,
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": "Canela",
+  "ltc:period": null,
+  "ltc:materials": "paint",
+  "dwc:locationID": "584757",
+  "dwc:continent": "South America",
+  "dwc:country": "Brazil",
+  "dwc:stateProvince": "Maranhão",
+  "dwc:county": null,
+  "ltc:municipality": "Escalvado",
+  "dwc:locality": "Escalvado",
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2019",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "Dr. Theresa L. Miller"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4490",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "360807.nosub[1]",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2017.0012.000072",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "basket",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "Object Name: Small basket / cestinha / kaj-re\nArtist: Lindava Craxú Canela\nDescription: Small basket made of buriti / crowa pàr palm fibers (Mauritia flexuosa L.)\nLocation: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)\n\nThis is a type of small basket (kaj-re in Canela) made of out native palm fibers (buriti in Portuguese; crowa pàr in Canela; Mauritia flexuosa L.). Buriti palm is one of the most ubiquitous palms in the local Cerrado (savannah) landscape and the palm fronds are used to make baskets, mats, houses, and many other objects that are part of Canela everyday life. The basket is painted with black paint from the fruits of the pau de leite (aramhôc pàr; Sapium gladulatum (Vell.) Pax) tree, indicating that it is meant for sale rather than everyday use. While the unpainted kaj-re small baskets are used in everyday life to carry garden produce and other items, the painted type is generally sold in nearby towns to tourists and/or non-Indigenous Brazilians. The geometric designs of the black paint are typical of this kind of basket.",
+    "fmnh:culturalArtefactDescriptionType": "Source Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": [
+   {
+    "h2i:culturalArtefactSimpleName": "kaj-re",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   },
+   {
+    "h2i:culturalArtefactSimpleName": "cestinha",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   }
+  ],
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": [
+   {
+    "fmnh:onExhibitOffSiteID": "153938",
+    "fmnh:onExhibitOffSite": "True"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "3808034",
+  "dwc:occurrenceID": "d36d9d0c-f684-4308-8e18-34f5ac5cb01d",
+  "dwc:catalogNumber": "360812",
+  "h2i:culturalArtefactFunction": null,
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": "Canela",
+  "ltc:period": null,
+  "ltc:materials": "paint (annatto)",
+  "dwc:locationID": "584757",
+  "dwc:continent": "South America",
+  "dwc:country": "Brazil",
+  "dwc:stateProvince": "Maranhão",
+  "dwc:county": null,
+  "ltc:municipality": "Escalvado",
+  "dwc:locality": "Escalvado",
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2019",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "Dr. Theresa L. Miller"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4490",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "360812.nosub[1]",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2017.0012.000079",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "necklace",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "Object Name: Beaded necklace made w/ seeds from native plant (tiririca / capà-ti hỳ)\nArtist: Jose Diogo Pep-re Canela\nDescription: Jewelry / miçanga / kẽn-re made of native plant seeds (tiririca / capà-ti hỳ); wooden pendant made of sucupira / cuhtà caxwỳn pàr)\nLocation: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)\n\nThis type of seed bead necklace is traditional to the Canela but is no longer commonly made because purchased glass and plastic beads have largely replaced the practice of making beads out of native seeds in the local environment. The wooden pendant is made out of sucupira wood (Diplotropis purpurea [Rich.] Amshoff) which is commonly deforested (both legally and illegally) in the Cerrado and exported within and outside Brazil for timber, furniture, and wooden flooring. The pendant is painted with red annatto (urucum, pym in Canela) paste, the fruits of which are boiled down to make the bright red paste that is used to decorate ritual objects and as ritual body paint. This necklace was definitely used and worn prior to its purchase, likely by the artist himself. Although it is not unheard of for men to make the beaded jewelry (miçanga in Portuguese or kẽn-re in Canela), women typically make the jewelry for ritual and everyday use.\nThe artist, Jose Diogo Pep-re Canela, is an interesting person in the community. He is one of the community’s elderly shamans, or kay in Canela, and therefore has developed heightened sensory abilities to communicate with deceased souls or spirits, known as mekarõn in Canela. Illnesses are thought to be caused by the deceased mekarõn convincing the living person’s soul to leave his/her body, and shamans cure illnesses through communicating with the mekarõn to let the living person’s soul return to the body. They do this by laying hands and blowing tobacco smoke on the ill person’s body. Being and becoming a shaman is difficult and requires months and years of food and sex prohibitions known as resguardo, and being taught by a mekarõn soul teacher, in order to achieve the heightened sensory abilities. Shamans can also communicate with animals, plants, objects and artifacts, and essentially all nonhuman beings. Shamans speak with the master spirits of plants, known as Plant-Men and Plant-Women, and serve as mediators between human gardeners and their growing plants, which are considered children in need of affectionate care and attention.",
+    "fmnh:culturalArtefactDescriptionType": "Source Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": [
+   {
+    "h2i:culturalArtefactSimpleName": "kẽn-re",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   },
+   {
+    "h2i:culturalArtefactSimpleName": "miçanga",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   }
+  ],
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": [
+   {
+    "fmnh:onExhibitOffSiteID": "153938",
+    "fmnh:onExhibitOffSite": "True"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "3808032",
+  "dwc:occurrenceID": "f80828f0-6c10-4486-851d-ed8d9a1c260f",
+  "dwc:catalogNumber": "360811",
+  "h2i:culturalArtefactFunction": null,
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": "Canela",
+  "ltc:period": null,
+  "ltc:materials": "seed",
+  "dwc:locationID": "584757",
+  "dwc:continent": "South America",
+  "dwc:country": "Brazil",
+  "dwc:stateProvince": "Maranhão",
+  "dwc:county": null,
+  "ltc:municipality": "Escalvado",
+  "dwc:locality": "Escalvado",
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2019",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "Dr. Theresa L. Miller"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4490",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "360811.nosub[1]",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2017.0012.000077",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "rattle",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "Object Name: Small bottle gourd rattle / cabaça / cuhtõj kryi-re\nArtist: Severio Hoku Canela\nDescription: Made of a small bottle gourd (Lagenaria siceraria (Molina) Standl. and/or Crescentia cujete L.), with cotton string (algodão / caxàt) and native seeds (catêc-re hy)\nLocation: Ramkokamekra-Canela Indigenous village of Escalvado in Terra Indígena (TI) Kanela, Maranhão State, Northeast Brazilian Cerrado (savannah)\nThis is a typical Canela gourd rattle, used in ritual singing activities by the male lead ritual singer in the ceremonial center of the concentric circular village space (see Crocker 1990 and Miller 2019). The rattle is made out of a small bottle gourd known as cuhtõj kryi-re (Lagenaria siceraria (Molina) Standl. and/or Crescentia cujete L.), which is one of three types of bottle gourd and one of the 12 types of gourd that is still cultivated by Canela gardeners. The green cotton strings on the top and bottom of the gourd are decorative and likely store-bought. Canela gardeners traditionally grew cotton (caxàt) varietals in the past and a few still do today, but it is much less common than half a century ago. Nowadays most people buy cotton strings in nearby towns, such as this colored type. The white cotton string attached to the rattle’s handle could possibly be native Canela cotton or store-bought. The rattle’s handle is made out of a lighter type of wood (not sucupira, which has a dark brown-purplish color). The gourd is filled with native catêc-re plant seeds (hy) to make the rattling percussion noise. These seeds have red and white markings and are commonly found throughout the Canela territory. There is also a type of cultivated bean, pànkrỳt catêc-re hy (Phaseolus vulgaris L.) that is named after the seeds, demonstrating their importance in the Canela socio-ecological system.\nThe artist, Severio Hoku Canela, was one of the collector’s main research assistants during her fieldwork in 2012-2013. He is a well-known gardener and political leader in the village, and he made this rattle for use in male ritual singing activities. Although he is not a lead singer, the rattle was likely made for someone in his close family who has developed that particular skill.",
+    "fmnh:culturalArtefactDescriptionType": "Source Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "Idiophone",
+    "fmnh:culturalArtefactDescriptionType": "Technical Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": [
+   {
+    "h2i:culturalArtefactSimpleName": "cuhtõj kryi-re",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   },
+   {
+    "h2i:culturalArtefactSimpleName": "maracá de cabaça",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   }
+  ],
+  "resourcerelationship": null,
+  "references": [
+   {
+    "fmnh:referenceID": "37723",
+    "fmnh:reference": "[Book] Miller, Theresa L. Plant Kin: A Multispecies Ethnography in Indigenous Brazil. 328."
+   }
+  ],
+  "exhibitlocation": [
+   {
+    "fmnh:onExhibitOffSiteID": "153938",
+    "fmnh:onExhibitOffSite": "True"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "3630556",
+  "dwc:occurrenceID": "29cf43da-7863-4f6a-af06-b88df84cfd24",
+  "dwc:catalogNumber": "23495",
+  "h2i:culturalArtefactFunction": null,
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": "Maya",
+  "ltc:period": null,
+  "ltc:materials": "stone",
+  "dwc:locationID": "406172",
+  "dwc:continent": "North America",
+  "dwc:country": "México",
+  "dwc:stateProvince": "Yucatán",
+  "dwc:county": null,
+  "ltc:municipality": "Xkichmook",
+  "dwc:locality": "Xkichmook",
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "1896",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "Edward H. Thompson"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "253",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "23495.102",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "95",
+    "ltc:identifierType": null
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "fragment",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "1 of 280 bits of stone and bag of stone fragments from box of bits (fragments) of stone; tag with object reads, \"potter's earth - - used by the natives of Yucatan in making both the ancient and modern vessels\"",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": null,
+    "fmnh:culturalArtefactDescriptionType": null
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": [
+   {
+    "h2i:culturalArtefactSimpleName": "kat",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   }
+  ],
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "3763547",
+  "dwc:occurrenceID": "1bb1501d-9f14-4ce1-a2df-988f535fe81d",
+  "dwc:catalogNumber": "129589",
+  "h2i:culturalArtefactFunction": null,
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": "Blaan",
+  "ltc:period": null,
+  "ltc:materials": "metal; brass",
+  "dwc:locationID": "401931",
+  "dwc:continent": "Asia",
+  "dwc:country": "Philippines",
+  "dwc:stateProvince": "Mindanao Island",
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "1911",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "Dr. Fay-Cooper Cole"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "1139",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "129589.1",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "1762",
+    "ltc:identifierType": "Fieldwork number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "anklet",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "Name: Balnatoñ: - Woman's anklets. Made similar to the wristlets of the same name.",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": [
+   {
+    "h2i:culturalArtefactSimpleName": "balnatōñ",
+    "fmnh:culturalArtefactSimpleNameType": "cultural"
+   }
+  ],
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "153530",
+  "dwc:occurrenceID": "e48acf38-2db7-4c09-b24b-32bd5bf91770",
+  "dwc:catalogNumber": "342710",
+  "h2i:culturalArtefactFunction": "Art",
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": null,
+  "ltc:period": null,
+  "ltc:materials": "clay (ceramic)",
+  "dwc:locationID": "405478",
+  "dwc:continent": "North America",
+  "dwc:country": "México",
+  "dwc:stateProvince": null,
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2008",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "William S. Goldman"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4297",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "342710.7",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2002.12.3321",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "figurine",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "1 of 12 zoomorphic figurines in the form of a snake",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": null,
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "151896",
+  "dwc:occurrenceID": "40b583fd-b8b6-4831-9552-eddb17330a26",
+  "dwc:catalogNumber": "342705",
+  "h2i:culturalArtefactFunction": "Food Service Tool or Equipment",
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": null,
+  "ltc:period": null,
+  "ltc:materials": "wood",
+  "dwc:locationID": "405478",
+  "dwc:continent": "North America",
+  "dwc:country": "México",
+  "dwc:stateProvince": null,
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2008",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "William S. Goldman"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4297",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "342705.6",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2002.12.3315",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "utensil (miniature)",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "1 of 8 miniature wood spoons",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": null,
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "152504",
+  "dwc:occurrenceID": "41dd3a78-f540-475f-b075-32866cce7468",
+  "dwc:catalogNumber": "342710",
+  "h2i:culturalArtefactFunction": "Art",
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": null,
+  "ltc:period": null,
+  "ltc:materials": "clay (ceramic)",
+  "dwc:locationID": "405478",
+  "dwc:continent": "North America",
+  "dwc:country": "México",
+  "dwc:stateProvince": null,
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2008",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "William S. Goldman"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4297",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "342710.5",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2002.12.3321",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "figurine",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "1 of 12 zoomorphic figurines in the form of a snake",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": null,
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "152315",
+  "dwc:occurrenceID": "44bc1ef9-5157-4d44-a737-4812ffc1e5a7",
+  "dwc:catalogNumber": "342710",
+  "h2i:culturalArtefactFunction": "Art",
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": null,
+  "ltc:period": null,
+  "ltc:materials": "clay (ceramic)",
+  "dwc:locationID": "405478",
+  "dwc:continent": "North America",
+  "dwc:country": "México",
+  "dwc:stateProvince": null,
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2008",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "William S. Goldman"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4297",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "342710.3",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2002.12.3321",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "figurine",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   },
+   {
+    "h2i:culturalArtefactDescription": "1 of 12 zoomorphic figurines in the form of a snake",
+    "fmnh:culturalArtefactDescriptionType": "Full Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": null,
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ },
+ {
+  "dwc:recordNumber": "154226",
+  "dwc:occurrenceID": "2b8a8ec3-5274-404e-be05-ddd35011713d",
+  "dwc:catalogNumber": "342703",
+  "h2i:culturalArtefactFunction": "Food Service Tool or Equipment",
+  "h2i:culturalArtefactParts": null,
+  "ltc:culturalAffiliation": null,
+  "ltc:period": null,
+  "ltc:materials": "clay (ceramic)",
+  "dwc:locationID": "404761",
+  "dwc:continent": "North America",
+  "dwc:country": null,
+  "dwc:stateProvince": null,
+  "dwc:county": null,
+  "ltc:municipality": null,
+  "dwc:locality": null,
+  "dates": [
+   {
+    "ltc:temporalCoverageStartDate": "2008",
+    "ltc:temporalCoverageType": "accession year"
+   }
+  ],
+  "people": [
+   {
+    "dwc:recordedBy": "William S. Goldman"
+   }
+  ],
+  "identifiers": [
+   {
+    "ltc:identifier": "4297",
+    "ltc:identifierType": "accession number"
+   },
+   {
+    "ltc:identifier": "342703 nosub[1]",
+    "ltc:identifierType": "objectID"
+   },
+   {
+    "ltc:identifier": "T2002.12.6001",
+    "ltc:identifierType": "Tracking number"
+   }
+  ],
+  "descriptions": [
+   {
+    "h2i:culturalArtefactDescription": "plate",
+    "fmnh:culturalArtefactDescriptionType": "Basic Description"
+   }
+  ],
+  "measurements": [
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology original inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   },
+   {
+    "ltc:measurementValue": "1",
+    "ltc:measurementType": "anthropology current inventory count",
+    "ltc:measurementMethod": "FMNH Metric"
+   }
+  ],
+  "simplenames": null,
+  "resourcerelationship": null,
+  "references": null,
+  "exhibitlocation": null
+ }
+]

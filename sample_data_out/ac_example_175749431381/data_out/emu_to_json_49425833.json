@@ -1,0 +1,86 @@
+[
+ {
+  "dwc:recordNumber": "3808027",
+  "dwc:occurrenceID": "a3e1ffc0-3c29-4627-8be6-cb83f4257352",
+  "multimedia": null
+ },
+ {
+  "dwc:recordNumber": "3808034",
+  "dwc:occurrenceID": "d36d9d0c-f684-4308-8e18-34f5ac5cb01d",
+  "multimedia": null
+ },
+ {
+  "dwc:recordNumber": "3808032",
+  "dwc:occurrenceID": "f80828f0-6c10-4486-851d-ed8d9a1c260f",
+  "multimedia": null
+ },
+ {
+  "dwc:recordNumber": "3630556",
+  "dwc:occurrenceID": "29cf43da-7863-4f6a-af06-b88df84cfd24",
+  "multimedia": [
+   {
+    "dc:identifier": "aed844e7-f998-4d0d-87d7-d35a4cde098f",
+    "ac:accessURI": null,
+    "fmnh:citation": "Courtesy of: C. Pontone. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/aed844e7-f998-4d0d-87d7-d35a4cde098f (accessed on 11 Mar 2021)"
+   },
+   {
+    "dc:identifier": "fc7f8eb5-0253-497d-9e5e-f299bc54d0bf",
+    "ac:accessURI": null,
+    "fmnh:citation": "Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/fc7f8eb5-0253-497d-9e5e-f299bc54d0bf (accessed on 11 Mar 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "3763547",
+  "dwc:occurrenceID": "1bb1501d-9f14-4ce1-a2df-988f535fe81d",
+  "multimedia": [
+   {
+    "dc:identifier": "4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/805/047/129589CC.pdf",
+    "fmnh:citation": "Courtesy of: D. Weddle, E. E. McKenna. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/4d7a8e1e-05d8-4e07-8b2c-88acfe9ba3db (accessed on 04 Oct 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "153530",
+  "dwc:occurrenceID": "e48acf38-2db7-4c09-b24b-32bd5bf91770",
+  "multimedia": [
+   {
+    "dc:identifier": "c05fc80c-1f2d-4122-8c4b-ce6876bf3d67",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/2196/097/CL0000_342710_7_InMountAngle.JPG",
+    "fmnh:citation": "Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/c05fc80c-1f2d-4122-8c4b-ce6876bf3d67 (accessed on 29 Apr 2021)"
+   },
+   {
+    "dc:identifier": "636266aa-f908-459a-ac7c-b9b89280968a",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/2196/096/CL0000_342710_7_InMount.JPG",
+    "fmnh:citation": "Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/636266aa-f908-459a-ac7c-b9b89280968a (accessed on 29 Apr 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "151896",
+  "dwc:occurrenceID": "40b583fd-b8b6-4831-9552-eddb17330a26",
+  "multimedia": null
+ },
+ {
+  "dwc:recordNumber": "152504",
+  "dwc:occurrenceID": "41dd3a78-f540-475f-b075-32866cce7468",
+  "multimedia": [
+   {
+    "dc:identifier": "701edc73-6f7b-49b2-b0fc-bbbd6346430b",
+    "ac:accessURI": "http://fm-digital-assets.fieldmuseum.org/2195/815/CL0000_342710_5_InMount.JPG",
+    "fmnh:citation": "Courtesy of: C. J. Philipp. (c) Field Museum of Natural History. CC BY-NC 4.0. https://mm.fieldmuseum.org/701edc73-6f7b-49b2-b0fc-bbbd6346430b (accessed on 29 Apr 2021)"
+   }
+  ]
+ },
+ {
+  "dwc:recordNumber": "152315",
+  "dwc:occurrenceID": "44bc1ef9-5157-4d44-a737-4812ffc1e5a7",
+  "multimedia": null
+ },
+ {
+  "dwc:recordNumber": "154226",
+  "dwc:occurrenceID": "2b8a8ec3-5274-404e-be05-ddd35011713d",
+  "multimedia": null
+ }
+]
