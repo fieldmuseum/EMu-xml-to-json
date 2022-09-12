@@ -1,19 +1,15 @@
 # Convert EMu XML to JSON
 
 # import check_xml as chx
-import convert_xml as cvx
+import utils.convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
 import os, glob, re, sys
 import notify, out_zip
 
 
-def emu_to_json(xml_in, email=True):
-    log_date = str(date.today())
-    log_start = str(datetime.now())
-
-    logs = open(config('LOG_PATH') + 'xml_log_' + log_date + '.txt', 'a')
-    logs.write("\nStart time: " + log_start + "\n")
+def emu_to_json(xml_in, logs):
+    '''convert EMu xml to JSON'''
 
     # If xml_check is ok, convert XML to JSON:
     # Else output error/exception-log
@@ -37,10 +33,6 @@ def emu_to_json(xml_in, email=True):
         log_time = str(datetime.now())
         log_msg = "Finished at " + log_time + ' - File Input Error: ' + xml_in + ' : ' + str(e) + '\n'
 
-        # Output 'fixed' xml (but check log + fixed.xml manually)
-        # chx.fix_xml_encode(xml_in)
-        # cx.check_xml_encode(xml_in)
-        # cx.check_xml_form(xml_in)
         
     else:
         # Update logs
@@ -48,42 +40,58 @@ def emu_to_json(xml_in, email=True):
         log_msg = "Finished at " + log_time + ' - Error: ' + str(sys.exc_info()) + '\n'
 
 
+    print(log_msg)
     logs.write(log_msg)
-    logs.close()
+    # logs.close()
+
+
+def zip_output(log_date:str):
+    ''''''
 
     # Zip output & cleanup
     files_to_zip = glob.glob(config('OUT_PATH') + '/emu*')  + glob.glob(config('LOG_PATH') + '/xml_log_' + log_date + '.txt')
 
     if len(files_to_zip) > 0:
         
-        zip_output = config('OUT_PATH') + "xml_json_" + re.sub(".* |:|\.", "", str(datetime.now())) + ".zip"
-        out_zip.file_compress(files_to_zip, zip_output)
+        zipped_output = config('OUT_PATH') + "xml_json_" + re.sub(".* |:|\.", "", str(datetime.now())) + ".zip"
+        out_zip.file_compress(files_to_zip, zipped_output)
 
         for emu_file in files_to_zip:
             os.remove(emu_file)
 
     else:
-        zip_output = ""
+        zipped_output = ""
+
+    return zipped_output
 
 
-    # Send notification
-    if email == True:
-        subject = "EMu xml-to-json results - " + log_date
-        message = "Output from EMu-xml-to-json - Starter: " + log_start + " - log: \n" + log_msg
-        notify.send_output(message, subject, zip_output, config('TO_ADD1'))
-        # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
+def send_notification(log_msg:str, log_date:str, log_start:str, zipped_output:str):
+    '''Send log message as email-notification'''
+
+    # if email == True:
+    subject = "EMu xml-to-json results - " + log_date
+    message = "Output from EMu-xml-to-json - Starter: " + log_start + " - log: \n" + log_msg
+    notify.send_output(message, subject, zipped_output, config('TO_ADD1'))
+    # notify.send_output_gmail(log_date, log_time, log_msg, zip_output, to=config('TO_ADD'), fro=config('FROM_ADD'))
 
 
-# Run directly with:
-#   python3 emu_xml_to_json.py file1 file2 etc
-if __name__ == '__main__':
+
+def main():
+    '''main function'''
+
+    log_date = str(date.today())
+    log_start = str(datetime.now())
+
+    logs = open(config('LOG_PATH') + 'xml_log_' + log_date + '.txt', 'a')
+    logs.write("\nStart time: " + log_start + "\n")
 
     print(sys.argv[0])
-    if sys.argv[0] != "emu_xml_to_json.py":
+    # if sys.argv[0] != "emu_xml_to_json.py":
+    if len(sys.argv) > 1:
         for arg in sys.argv[1:]:
             for filename in glob.glob(arg):
-                print(filename + " : " + arg)
-                emu_to_json(arg)
+                print(filename)
+                emu_to_json(arg, logs)
     
     else:
 
@@ -112,4 +120,18 @@ if __name__ == '__main__':
         else: 
             xml_in = "no xml input in " + config('IN_PATH')
 
-        emu_to_json(xml_in)
+
+        emu_to_json(xml_in, logs)
+    
+    logs.close()
+    log_msg_final = str(logs)
+
+    zipped_output = zip_output(log_date)
+
+    send_notification(log_msg_final, log_date, log_start, zipped_output)
+
+
+# Run directly with:
+#   python3 emu_xml_to_json.py file1 file2 etc
+if __name__ == '__main__':
+    main()

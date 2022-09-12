@@ -6,6 +6,7 @@ import pandas as pd
 from lxml import etree
 from glob import glob
 from decouple import config
+from datetime import datetime
 import json, sys
 import prep_input as pi, prep_output as po
 import redact_input as ri
@@ -321,7 +322,9 @@ def xml_to_json(xml_input, emu_xml_out=False):
     # Output 
 
     # H2I-json
-    f = open(config('OUT_PATH') + 'emu_to_json.json', 'w', encoding='utf-8')
+    output_time = str(datetime.strftime(datetime.now(),'%H%m%s'))
+    
+    f = open(f"{config('OUT_PATH')}emu_to_json_{output_time}.json", 'w', encoding='utf-8')
     f.write(json.dumps(all_records, indent=True, ensure_ascii=False))
     f.close()
 
