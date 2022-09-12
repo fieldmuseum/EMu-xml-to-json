@@ -5,7 +5,7 @@ import utils.convert_xml as cvx
 from decouple import config
 from datetime import date, datetime
 import os, glob, re, sys
-import notify, out_zip
+import utils.notify as notify, utils.out_zip as out_zip
 
 
 def emu_to_json(xml_in, logs):
