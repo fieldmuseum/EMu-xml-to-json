@@ -53,7 +53,7 @@ We are currently testing it as a sustainable way to share data with partners fro
 ### EMu XML Export
 An XML file containing records exported from EMu as XML, with some or all EMu-fields listed in emu_fields.csv
 - [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/2021-8-15/sample2.xml) of well-formed input
-- [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/2021-08-08/sample_bad.xml) of input with a badly-encoded character
+- [example here](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/data_in/2021-8-8/sample_bad.xml) of input with a badly-encoded character
 
 ### emu_fields.csv ([example](https://github.com/fieldmuseum/EMu-xml-to-json/blob/main/mappings/h2i/emu_fields.csv))
 A 5-column CSV that maps EMu-column-names to corresponding standard-term names, using the following columns:
