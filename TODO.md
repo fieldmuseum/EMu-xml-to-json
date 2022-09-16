@@ -1,13 +1,14 @@
 # EMu XML-to-JSON converter
 
 ## TO DO
-1. Figure out more complex EMu/H2I mapping
+1. Tests
+2. Dynamically ref & load external schema (e.g. [LtC JSON schema](https://github.com/tdwg/cd/tree/review/standard/json-schema/))
+3. Figure out other more complex fields in EMu/H2I mapping
     - many:1 repeatable nested-table fields
-    - conditional logic
-    - static values
-
+    - other conditional logic
 
 ## DONE
+
 1. Tie in EMu exports 
     - Setup daily/weekly cron to run script; 
         - (if Export folder is not empty, get most recent export)
@@ -28,3 +29,7 @@
     - #4 in https://stackoverflow.com/questions/50695188/what-is-the-proper-way-to-actually-send-mail-from-python-code 
 
 6. Tested basic EMu/H2I mapping for 1:1 fields
+
+7. Figure out more complex fields in EMu/H2I mapping
+    - conditional logic
+    - conditional static values

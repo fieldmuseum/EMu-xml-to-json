@@ -28,6 +28,11 @@
         <DesKPreferred>Yes</DesKPreferred>
       </tuple>
       <tuple>
+        <DesKDescription />
+        <DesKType />
+        <DesKPreferred>No</DesKPreferred>
+      </tuple>
+      <tuple>
         <DesKDescription>Object Name: Small basket / cestinha / kaj-re
 Artist: Lindava Craxú Canela
 Description: Small basket made of buriti / crowa pàr palm fibers (Mauritia flexuosa L.)

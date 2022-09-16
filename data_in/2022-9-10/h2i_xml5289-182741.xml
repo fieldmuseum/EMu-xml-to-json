@@ -162,6 +162,11 @@
         <atom name="DesKPreferred">Yes</atom>
       </tuple>
       <tuple>
+        <atom name="DesKDescription">not a real osteology summary, but here to test-redact this value from output JSON</atom>
+        <atom name="DesKType">Osteology Summary</atom>
+        <atom name="DesKPreferred">No</atom>
+      </tuple>
+      <tuple>
         <atom name="DesKDescription">Object Name: Small basket / cestinha / kaj-re
 Artist: Lindava Craxú Canela
 Description: Small basket made of buriti / crowa pàr palm fibers (Mauritia flexuosa L.)
