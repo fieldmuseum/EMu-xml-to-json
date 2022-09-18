@@ -7,7 +7,7 @@ from lxml import etree
 from glob import glob
 from decouple import config
 import json, sys
-import utils.prep_input as pi, prep_output as po
+import utils.prep_input as pi, utils.prep_output as po
 import utils.redact_input as ri
 import cProfile  # , line_profiler
 from timeit import default_timer as timer
