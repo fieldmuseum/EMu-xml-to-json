@@ -48,13 +48,13 @@ def get_ltc_values(ltc_node: dict, soup: BeautifulSoup) -> dict:
     # NOTE - exclude for updates (vs inserts)
     # ltc = dato_fields.assign_model_block_item_type_info(ltc, "ltcion")
 
-    # Drupal URL
-    canonical_link = xml_parse.get_attrib_value_from_soup(soup, 'link[rel="canonical"]', 'href')
-    print(canonical_link)
-    if canonical_link is not None and canonical_link != "https://www.fieldmuseum.org/ltcions":
-        glom.assign(ltc, "attributes.drupal_url", canonical_link)
-    else:
-        print("Missing Canonical URL - " + ltc_node['Nid'])
+    # # Drupal URL
+    # canonical_link = xml_parse.get_attrib_value_from_soup(soup, 'link[rel="canonical"]', 'href')
+    # print(canonical_link)
+    # if canonical_link is not None and canonical_link != "https://www.fieldmuseum.org/ltcions":
+    #     glom.assign(ltc_record, "attributes.drupal_url", canonical_link)
+    # else:
+    #     print("Missing Canonical URL - " + ltc_node['Nid'])
 
 
     tag_list = []
@@ -81,34 +81,34 @@ def get_ltc_values(ltc_node: dict, soup: BeautifulSoup) -> dict:
             else:
                 print('No matching tags for Research Area: ' + area)
 
-    glom.assign(ltc, 'attributes.drupal_research_area', ' | '.join(research_area))
+    glom.assign(ltc_record, 'attributes.drupal_research_area', ' | '.join(research_area))
     
 
-    # Science Focus
-    sci_focus = ltc_node['ScienceFocus'] 
+    # # Science Focus
+    # sci_focus = ltc_node['ScienceFocus'] 
 
-    if sci_focus is not None and len(sci_focus) > 0:
+    # if sci_focus is not None and len(sci_focus) > 0:
 
-        # sci_focus_tag_list = []
+    #     # sci_focus_tag_list = []
 
-        # clean Drupal's 'First valueSecond value' bad export format to ['First value', 'Second value']
-        sci_focus = re.sub(r'([a-z]{1})([A-Z]{1})+', r'\1|\2', sci_focus)
-        sci_focus = sci_focus.split(sep = "|")   
+    #     # clean Drupal's 'First valueSecond value' bad export format to ['First value', 'Second value']
+    #     sci_focus = re.sub(r'([a-z]{1})([A-Z]{1})+', r'\1|\2', sci_focus)
+    #     sci_focus = sci_focus.split(sep = "|")   
 
-        for focus in sci_focus:
+    #     for focus in sci_focus:
 
-            sci_prepped = "" # datoapi.dato_api_get_record_by_field_value(
-            #     "tag", 
-            #     focus, # ltc_node['Science Focus'],
-            #     "tag"
-            # )
+    #         sci_prepped = "" # datoapi.dato_api_get_record_by_field_value(
+    #         #     "tag", 
+    #         #     focus, # ltc_node['Science Focus'],
+    #         #     "tag"
+    #         # )
 
-            if sci_prepped is not None and len(sci_prepped['data']) > 0:
-                tag_list.append(sci_prepped['data'][0]['id'])
-            else:
-                print('No matching tags for Science Focus: ' + focus)
+    #         if sci_prepped is not None and len(sci_prepped['data']) > 0:
+    #             tag_list.append(sci_prepped['data'][0]['id'])
+    #         else:
+    #             print('No matching tags for Science Focus: ' + focus)
 
-    glom.assign(ltc, 'attributes.drupal_science_focus', ' | '.join(sci_focus))
+    # glom.assign(ltc, 'attributes.drupal_science_focus', ' | '.join(sci_focus))
 
 
     # Topic
@@ -136,11 +136,11 @@ def get_ltc_values(ltc_node: dict, soup: BeautifulSoup) -> dict:
                 print('No matching tags for Topic: ' + topic)
 
     
-    glom.assign(ltc, 'attributes.drupal_topics', ' | '.join(topics))
+    glom.assign(ltc_record, 'attributes.drupal_topics', ' | '.join(topics))
 
 
     if len(tag_list) > 0:
-        glom.assign(ltc, "attributes.tags", tag_list)
+        glom.assign(ltc_record, "attributes.tags", tag_list)
 
 
     # Set up record with the basic attributes
