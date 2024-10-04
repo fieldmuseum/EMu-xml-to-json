@@ -7,18 +7,21 @@ We are currently testing it as a sustainable way to share data with partners fro
 ## How to setup & use
 
 ### In EMu:
-1. Export a set of records as XML.  
+1. Export a set of records as XML.
+    - See the list of exported EMu fields in the registry entries here: [H2I_emu_reports_eregistry.csv](data_in/H2I_emu_reports_eregistry.csv)
     - Catalog export of record data called: H2I_JSON_Export_DarwinCore
+      - *Corresponding Registry entry for report called 'H2I_DwC_Export_Report'*
     - Catalog export of associated Multimedia called: H2I_JSON_Export_AudubonCore
+      - *Corresponding Registry entry for report called 'H2I_AC_Export_Report'*
 
-2. When possible, check that the XML output is well-formed.
+3. When possible, check that the XML output is well-formed.
     - ['Scholarly XML' VSCode add-on](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml)
     - [xmllint](http://xmlsoft.org/xmllint.html#diagnostics) on Mac/Unix/Linux or [xsltproc](https://community.chocolatey.org/packages/xsltproc#individual) on Windows -- Try this in terminal/shell: 
         - `xmllint --noout file.xml && echo $?`
     - [Online XML validator](https://www.w3schools.com/xml/xml_validator.asp)
         Warning -  avoid online-validators for sensitive data.
 
-3. Set up these two CSV's following [instructions/examples from the 'Input' section](#input):
+4. Set up these two CSV's following [instructions/examples from the 'Input' section](#input):
     - **emu_fields.csv** - to map EMu-column-names to corresponding standard-term names. 
     - **emu_conditions.csv** - for EMu-fields and values that need conditional mapping or redaction.
 
